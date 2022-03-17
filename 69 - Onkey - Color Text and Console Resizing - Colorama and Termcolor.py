@@ -24,6 +24,18 @@ def on_click_input(prompt, key_in):
     return key
 
 
+def screen_init():
+    try:
+        x_, y_ = os.get_terminal_size()
+        set_mod(x_, y_)
+        print(f'Из модуля os берем размер консоли -> {x_} - ширина, {y_} - высота')
+        x1, y1 = map(int, input('Меняем размер окна на Ваш ☻: [ширина]⎵[высота] ⟶ ').split() or (106, 32))
+        set_mod(x1, y1)
+        return x1, y1
+    except OSError:
+        print('Похоже вы пытаетесь запустить скрипт из-под IDE...')
+
+
 def resize(prompt, key_in, x_, y_):
     full_scr = 0
     print(prompt)
@@ -59,12 +71,9 @@ def resize(prompt, key_in, x_, y_):
     return x, y
 
 
-x0, y0 = os.get_terminal_size()
-set_mod(x0, y0)
-
-x1, y1 = resize('Пробуем менять размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
-print(f'Судя по всему Вам понравилась Ширина {x1} и Высота {y1}')
-
+x0, y0 = screen_init()
+x2, y2 = resize('Пробуем менять размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
+print(f'Судя по всему Вам понравилась Ширина {x2} и Высота {y2}')
 init()  # из модуля colorama корректной работы цвета в консоли
 text = colored('Мы умеем так!', 'red', 'on_yellow', attrs=['bold'])
 print(text)
