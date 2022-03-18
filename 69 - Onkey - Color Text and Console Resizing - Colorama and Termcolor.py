@@ -1,6 +1,6 @@
-import keyboard
 import os
 
+import keyboard
 from colorama import init
 from termcolor import colored, cprint
 
