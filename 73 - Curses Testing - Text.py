@@ -1,4 +1,10 @@
 import curses as cur
+import os
+
+
+def set_mod(columns, lines):
+    cmd = 'mode ' + str(columns) + ',' + str(lines)
+    os.system(cmd)
 
 
 def styles_output():
@@ -40,6 +46,7 @@ cur.init_pair(19, cur.COLOR_BLACK, cur.COLOR_RED)
 cur.init_pair(20, cur.COLOR_MAGENTA, cur.COLOR_BLACK)
 cur.init_pair(21, cur.COLOR_WHITE, cur.COLOR_BLUE)
 try:
+    set_mod(106, 32)
     styles_output()
     for i in range(1, 22):
         screen.addstr("Red Alert!\n", cur.color_pair(i))
