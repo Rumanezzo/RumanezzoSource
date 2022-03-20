@@ -31,5 +31,9 @@ def draw_console(std_scr):
     curses.endwin()
 
 
-set_mod(106, 32)
-curses.wrapper(draw_console)
+# Исключение не срабатывает
+try:
+    set_mod(106, 32)
+    curses.wrapper(draw_console)
+except OSError:
+    print('Похоже вы пытаетесь запустить программу в IDE')

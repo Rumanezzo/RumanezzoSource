@@ -1,4 +1,10 @@
 import curses
+import os
+
+
+def set_mod(columns, lines):
+    cmd = 'mode ' + str(columns) + ',' + str(lines)
+    os.system(cmd)
 
 
 def draw_menu(std_scr):
@@ -20,7 +26,7 @@ def draw_menu(std_scr):
     curses.init_pair(6, curses.COLOR_GREEN, curses.COLOR_BLACK)
 
     # Loop where k is the last character pressed
-    while k != 265:  # 265 - код клавиши F1
+    while k != curses.KEY_F1:  # 265 - код клавиши F1
 
         # Initialization
         std_scr.clear()
@@ -88,7 +94,7 @@ def draw_menu(std_scr):
         std_scr.addstr(start_y + 1, start_x_subtitle, subtitle)
         std_scr.attroff(curses.color_pair(6))
         std_scr.attroff(curses.A_BOLD)
-        str_decor = '⋅' * 4 + '٭' * 4 + '☆' * 6 + '☓' * 4 + '╳'
+        str_decor = '⋅' * 4 + '٭' * 4 + '×' * 3 + '☆' * 6 + '☓' * 4 + '╳'
         str_decor += str_decor[::-1]
         std_scr.addstr(start_y + 3, (width // 2) - len(str_decor) // 2, str_decor)
         std_scr.addstr(start_y + 5, start_x_key_str, key_str)
@@ -102,6 +108,7 @@ def draw_menu(std_scr):
 
 
 def main():
+    set_mod(106, 32)
     curses.wrapper(draw_menu)
 
 
