@@ -55,6 +55,3 @@ try:
     screen.getch()
 except OSError:
     print('Вы пытаетесь запускать программу в IDE')
-
-
-
