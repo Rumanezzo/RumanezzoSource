@@ -1,8 +1,5 @@
 import os
-
 import keyboard
-from colorama import init
-from termcolor import colored, cprint
 
 
 def set_mod(columns, lines):
@@ -73,11 +70,3 @@ def resize(prompt, key_in, x_, y_):
 x0, y0 = screen_init()
 x2, y2 = resize('Пробуем менять размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
 print(f'Судя по всему Вам понравилась Ширина {x2} и Высота {y2}')
-init()  # из модуля colorama корректной работы цвета в консоли
-text = colored('Мы умеем так!', 'red', 'on_yellow', attrs=['bold'])
-print(text)
-cprint('А ещё можем так!', 'green', 'on_red', attrs=['dark'])
-
-on_click_input(colored('Нажмите какую-нибудь клавишу или shift для прекращения опроса', 'red'), 'shift')
-on_click_input(colored('Просто ещё одна проверка и тоже shift для прекращения опроса', 'green'), 'shift')
-on_click_input(colored('Последняя проверка, для завершения программы - также shift', 'yellow'), 'shift')
