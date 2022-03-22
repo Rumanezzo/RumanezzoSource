@@ -25,9 +25,8 @@ def screen_init():
         x_, y_ = os.get_terminal_size()
         set_mod(x_, y_)
         print(f'Из модуля os берем размер консоли -> {x_} - ширина, {y_} - высота')
-        x1, y1 = map(int, input('Меняем размер окна на Ваш ☻: [ширина]⎵[высота] ⟶ ').split() or (106, 32))
-        set_mod(x1, y1)
-        return x1, y1
+
+        return x_, y_
     except OSError:
         print('Похоже вы пытаетесь запустить скрипт из-под IDE...')
 
@@ -67,6 +66,24 @@ def resize(prompt, key_in, x_, y_):
     return x, y
 
 
-x0, y0 = screen_init()
-x2, y2 = resize('Пробуем менять размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
-print(f'Судя по всему Вам понравилась Ширина {x2} и Высота {y2}')
+try:
+    with open('screen.txt', 'r') as f_inst:
+        line = f_inst.readline()
+
+    line_list = line.split()
+    x0, y0 = map(int, line_list)
+    set_mod(x0, y0)
+    print('Прочитали из файла ->', line)
+
+
+except FileNotFoundError:
+    f_inst = open('screen.txt', 'w')
+    x0, y0 = screen_init()
+    x1, y1 = resize('Пробуем менять размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
+    print(f'Судя по всему Вам понравилась Ширина {x1} и Высота {y1}')
+    coord_for_writing = str(x1) + ' ' + str(y1)
+    f_inst.write(coord_for_writing)
+
+f_inst.close()
+
+on_click_input('Для завершения нажмите Shift!', 'shift')
