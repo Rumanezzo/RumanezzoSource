@@ -79,13 +79,14 @@ def init_screen():
 
     except FileNotFoundError:
         f_inst = open('screen.txt', 'w')
-        x0, y0 = get_screen()
-        x1, y1 = resize('Меняем размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
+        x1, y1 = get_screen()
+        x0, y0 = resize('Меняем размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x1, y1)
         print(f'Судя по всему Вам понравилась Ширина {x1} и Высота {y1}')
-        coord_for_writing = str(x1) + ' ' + str(y1)
+        coord_for_writing = str(x0) + ' ' + str(y0)
         f_inst.write(coord_for_writing)
 
     f_inst.close()
+    return x0, y0
 
 
 cursor.hide()
