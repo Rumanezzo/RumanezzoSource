@@ -1,4 +1,5 @@
 import random
+
 from Init_Screen import *
 
 emo1 = ['Учёная', 'Гигантская', 'Очаровательная', 'Гневная', 'Вялая', 'Раскисшая', 'Разъяренная', 'Целеустремленная',
@@ -33,7 +34,7 @@ x0, y0 = init_screen()
 
 print("☆-------------Программа, рассказывающая сказки, которые сама придумала-------------☆".center(x0, '▒'))
 print()
-
+cursor.hide()
 while True:
     print(random.choice(emo1), random.choice(woman), "встретила", random.choice(emo2), random.choice(man),
           random.choice(place))

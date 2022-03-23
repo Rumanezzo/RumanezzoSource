@@ -89,10 +89,11 @@ def init_screen():
     return x0, y0
 
 
-cursor.hide()
-init_screen()
-onclick_input('Для продолжения нажмите Shift!', 'shift')
+def main():
+    cursor.hide()
+    init_screen()
+    onclick_input('Для продолжения нажмите Shift!', 'shift')
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
