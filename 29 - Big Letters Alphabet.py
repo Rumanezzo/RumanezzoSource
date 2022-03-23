@@ -46,12 +46,6 @@ font2 = '''Модифицированный шрифт для выборки п�
 ⋅●●●⋅●●⋅⋅●●⋅⋅●⋅⋅●●●⋅⋅⋅⋅⋅⋅⋅●●●⋅⋅●●●⋅●●●⋅●⋅⋅⋅⋅⋅
 '''
 
-# try:
-#     fi = open('29 - Big Letters Alphabet.txt', 'r')
-# except FileNotFoundError:
-#     fi = open('29 - Big Letters Alphabet.txt', 'w')
-# fi.close()
-
 letter_strings1 = font1.split('\n')
 letter_strings2 = font2.split('\n')
 letter_strings = []

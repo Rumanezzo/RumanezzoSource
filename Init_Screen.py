@@ -1,5 +1,6 @@
 import os
 import keyboard
+import cursor
 
 
 def set_mod(columns, lines):
@@ -7,20 +8,20 @@ def set_mod(columns, lines):
     os.system(cmd)
 
 
-def on_click_input(prompt, key_in):
+def onclick_input(prompt, key_in1, key_in2='enter'):
     print(prompt)
 
     while True:
         event = keyboard.read_event()
         if event.event_type == keyboard.KEY_DOWN:
             key = event.name
-            if key == key_in:
+            if key == key_in1 or key == key_in2:
                 break
             print(f'Pressed: {key}')
     return key
 
 
-def screen_init():
+def get_screen():
     try:
         x_, y_ = os.get_terminal_size()
         set_mod(x_, y_)
@@ -66,24 +67,27 @@ def resize(prompt, key_in, x_, y_):
     return x, y
 
 
-try:
-    with open('screen.txt', 'r') as f_inst:
-        line = f_inst.readline()
+def init_screen():
+    try:
+        with open('screen.txt', 'r') as f_inst:
+            line = f_inst.readline()
 
-    line_list = line.split()
-    x0, y0 = map(int, line_list)
-    set_mod(x0, y0)
-    print('Прочитали из файла ->', line)
+        line_list = line.split()
+        x0, y0 = map(int, line_list)
+        set_mod(x0, y0)
+        # print('Прочитали из файла ->', line)
+
+    except FileNotFoundError:
+        f_inst = open('screen.txt', 'w')
+        x0, y0 = get_screen()
+        x1, y1 = resize('Меняем размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
+        print(f'Судя по всему Вам понравилась Ширина {x1} и Высота {y1}')
+        coord_for_writing = str(x1) + ' ' + str(y1)
+        f_inst.write(coord_for_writing)
+
+    f_inst.close()
 
 
-except FileNotFoundError:
-    f_inst = open('screen.txt', 'w')
-    x0, y0 = screen_init()
-    x1, y1 = resize('Пробуем менять размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x0, y0)
-    print(f'Судя по всему Вам понравилась Ширина {x1} и Высота {y1}')
-    coord_for_writing = str(x1) + ' ' + str(y1)
-    f_inst.write(coord_for_writing)
-
-f_inst.close()
-
-on_click_input('Для завершения нажмите Shift!', 'shift')
+cursor.hide()
+# init_screen()
+# onclick_input('Для продолжения нажмите Shift!', 'shift')
