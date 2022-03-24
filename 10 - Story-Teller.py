@@ -47,7 +47,7 @@ while True:
     prompt = "│ Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста│".center(x0, '▒')
     print()
     print("★----------------------------------------------------------------------------------★".center(x0, '▒'))
-    key = onclick_input(prompt, 'shift', 'enter')
+    key = key_pressed(prompt, 'shift', 'enter')
     print("☆----------------------------------------------------------------------------------☆".center(x0, '▒'))
     print()
     if key == 'shift':

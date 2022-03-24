@@ -8,7 +8,7 @@ def set_mod(columns, lines):
     os.system(cmd)
 
 
-def onclick_input(prompt, *key_in):
+def key_pressed(prompt, *key_in):
     print(prompt)
 
     while True:
@@ -92,7 +92,7 @@ def init_screen():
 def main():
     cursor.hide()
     init_screen()
-    onclick_input('Для продолжения нажмите Shift!', 'shift')
+    key_pressed('Для продолжения нажмите Shift!', 'shift')
 
 
 if __name__ == "__main__":
