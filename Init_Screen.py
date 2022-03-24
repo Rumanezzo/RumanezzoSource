@@ -8,14 +8,14 @@ def set_mod(columns, lines):
     os.system(cmd)
 
 
-def onclick_input(prompt, key_in1, key_in2='enter'):
+def onclick_input(prompt, *key_in):
     print(prompt)
 
     while True:
         event = keyboard.read_event()
         if event.event_type == keyboard.KEY_DOWN:
             key = event.name
-            if key == key_in1 or key == key_in2:
+            if key in key_in:
                 break
             print(f'Pressed: {key}')
     return key
