@@ -17,7 +17,7 @@ def key_pressed(prompt, *key_in):
             key = event.name
             if key in key_in:
                 break
-            print(f'Pressed: {key}')
+            # print(f'Pressed: {key}')
     return key
 
 
@@ -25,7 +25,7 @@ def get_screen():
     try:
         x_, y_ = os.get_terminal_size()
         set_mod(x_, y_)
-        print(f'Из модуля os берем размер консоли -> {x_} - ширина, {y_} - высота')
+        # print(f'Из модуля os берем размер консоли -> {x_} - ширина, {y_} - высота')
 
         return x_, y_
     except OSError:
@@ -63,7 +63,8 @@ def resize(prompt, key_in, x_, y_):
                     set_mod(x, y)
                     full_scr = 0
             else:
-                print(f'Pressed: {key}')
+                pass
+                # print(f'Pressed: {key}')
     return x, y
 
 

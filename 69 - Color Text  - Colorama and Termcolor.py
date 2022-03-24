@@ -2,13 +2,19 @@ from colorama import init
 from termcolor import colored, cprint
 from Init_Screen import *
 
-x0, y0 = init_screen()
+init_screen()
 
 init()  # из модуля colorama корректной работы цвета в консоли
-text = colored('Мы умеем так!', 'red', 'on_yellow', attrs=['bold'])
-print(text)
-cprint('А ещё можем так!', 'green', 'on_red', attrs=['dark'])
+cursor.hide()
 
-key_pressed(colored('Нажмите какую-нибудь клавишу или shift для прекращения опроса', 'red'), 'shift')
-key_pressed(colored('Просто ещё одна проверка и тоже shift для прекращения опроса', 'green'), 'shift')
+print(colored('Мы умеем так!', 'red', 'on_yellow', attrs=['bold']))
+print(colored('Мы умеем так!', 'green', 'on_magenta', attrs=['bold']))
+#
+cprint('А ещё можем так!', 'green', 'on_red', attrs=['dark'])
+cprint('А ещё можем так!', 'yellow', 'on_green', attrs=['dark'])
+
+key_pressed(colored('Проверка цвета - shift для продолжения', 'red'), 'shift')
+key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'green'), 'shift')
+key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'magenta'), 'shift')
+key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'red'), 'shift')
 key_pressed(colored('Последняя проверка, для завершения программы - также shift', 'yellow'), 'shift')
