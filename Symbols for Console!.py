@@ -2,10 +2,11 @@ from Init_Screen import *
 
 width, height = init_screen()
 
+
 def demo(symbol_list, width):
-     for symbol in symbol_list:
-         print(symbol * width)
-     key_pressed('Нажмите enter для продолжения', 'enter')
+    for symbol in symbol_list:
+        print(symbol * width)
+    key_pressed('Нажмите enter для продолжения', 'enter')
 
 
 s = (('⎵', '☻', '☺', 'ᛥ', 'ᛰ', 'ᚸ', 'ᛝ', 'ᛟ', '◊', '▧', '▨', '▩', '◌', '◇', '◈', 'ℵ', '⋇', '∃', '∀', '∞', '│', '∆'),
@@ -17,4 +18,4 @@ s = (('⎵', '☻', '☺', 'ᛥ', 'ᛰ', 'ᚸ', 'ᛝ', 'ᛟ', '◊', '▧', '▨
      ('♦', '♢', '⠀', '⠁', '⠂', '⠃', '⠄', '⠅', '⠆', '≻', '△', '▽', '≺', '⊠', '♧'))
 
 for symbol_list in s:
-     demo(symbol_list, width)
+    demo(symbol_list, width)
