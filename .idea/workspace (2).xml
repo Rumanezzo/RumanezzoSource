@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21f8941a-3ab5-41fa-b194-67e4d0cca79a" name="Changes" comment="Init_Screen.py - version 1.0!&#10;69 - Color....py - add demo features" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="26UGLiAUYj5vShxiKsSXFnp2Hdv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tkinter/Keycatcher.pyw" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager" selected="Python.Test.pyw">
+    <configuration name="10 - Story-Teller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RumanezzoSource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10 - Story-Teller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="29 - Big Letters Alphabet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RumanezzoSource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/29 - Big Letters Alphabet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="46 - Codes of Symbols" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RumanezzoSource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../YandexDisk/Coding/Python/Examples" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../YandexDisk/Coding/Python/Examples/46 - Codes of Symbols.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="72 - Curses Testing - Minor Experiments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RumanezzoSource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/72 - Curses Testing - Minor Experiments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test.pyw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="RumanezzoSource" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Tkinter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Tkinter/Test.pyw" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Test.pyw" />
+        <item itemvalue="Python.10 - Story-Teller" />
+        <item itemvalue="Python.72 - Curses Testing - Minor Experiments" />
+        <item itemvalue="Python.29 - Big Letters Alphabet" />
+        <item itemvalue="Python.46 - Codes of Symbols" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21f8941a-3ab5-41fa-b194-67e4d0cca79a" name="Changes" comment="" />
+      <created>1647470698063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647470698063</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1647470924309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647470924309</updated>
+    </task>
+    <task id="LOCAL-00002" summary="01 - Format Experiments.py added">
+      <created>1647471532713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647471532713</updated>
+    </task>
+    <task id="LOCAL-00003" summary="02 - All and Any Methods.py added">
+      <created>1647472076915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647472076915</updated>
+    </task>
+    <task id="LOCAL-00004" summary="03 - First-Script with System Data.py added">
+      <created>1647541411410</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647541411410</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Try - Exception Block Added">
+      <created>1647542432853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647542432853</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Some functions for working with console screen added">
+      <created>1647550461111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647550461111</updated>
+    </task>
+    <task id="LOCAL-00007" summary="69 - On_key - Color Text and Console Resizing - Colorama and Termcolor.py added">
+      <created>1647553549794</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647553549795</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Rename on_key -&gt; onkey, added functions of screen resizing and sizing">
+      <created>1647554789803</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647554789803</updated>
+    </task>
+    <task id="LOCAL-00009" summary="70 - Curses Simple Example.py added">
+      <created>1647556520767</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647556520767</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Optimize imports... may be">
+      <created>1647632071041</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647632071041</updated>
+    </task>
+    <task id="LOCAL-00011" summary="46 - Codes of Symbols.py added">
+      <created>1647632424055</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647632424055</updated>
+    </task>
+    <task id="LOCAL-00012" summary="68 - Symbols for Console and Change Console's Size!.py added">
+      <created>1647632660631</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647632660631</updated>
+    </task>
+    <task id="LOCAL-00013" summary="29 - Big Letters Alphabet.py added and adapted">
+      <created>1647712215336</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647712215336</updated>
+    </task>
+    <task id="LOCAL-00014" summary="71 - Curses Testing - Full Demo!.py,&#10;72 - Curses Testing - Minor Experiments.py,&#10;73 - Curses Testing - Text.py added">
+      <created>1647778130544</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647778130544</updated>
+    </task>
+    <task id="LOCAL-00015" summary="небольшие правки в 71, 72 и 73">
+      <created>1647780916255</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647780916255</updated>
+    </task>
+    <task id="LOCAL-00016" summary="set_mod added">
+      <created>1647781117559</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647781117559</updated>
+    </task>
+    <task id="LOCAL-00017" summary="minor correction (spaces)">
+      <created>1647781213573</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1647781213573</updated>
+    </task>
+    <task id="LOCAL-00018" summary="74 - Important!....py added&#10;69 - Onkey - Color...py - minor correction">
+      <created>1647906724898</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1647906724898</updated>
+    </task>
+    <task id="LOCAL-00019" summary="74 - Important!....py renamed by Init_Screen&#10;10 - Story-Teller.py added&#10;29 - Big Letters Alphabet - cosmetic corrections">
+      <created>1648042259852</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648042259852</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Init_Screen return modified&#10;10 - Story-Teller.py improving">
+      <created>1648045909007</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648045909007</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Init_Screen rebuild as module">
+      <created>1648054367359</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648054367359</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Init_Screen rebuild from module back">
+      <created>1648055228488</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648055228488</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Init_Screen.py, 10 - Story-Teller.py final correction">
+      <created>1648059213188</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648059213188</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Init_Screen.py function onclick_input... now with *args (*key_in) &#10;10 - Story-Teller.py corrected call of function onclick_input...">
+      <created>1648104463976</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648104463976</updated>
+    </task>
+    <task id="LOCAL-00025" summary=" in Init_Screen.py:&#10; renamed onclick_input function to key_pressed&#10; renamed 69 - Onkey....py to 69 - Colortext....py and make import Init_Screen&#10; 10 - Story-Teller.py: corrected call of function (now - key_pressed)">
+      <created>1648121076724</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648121076724</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Init_Screen.py - version 1.0!&#10;69 - Color....py - add demo features">
+      <created>1648123209328</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648123209328</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="01 - Format Experiments.py added" />
+    <MESSAGE value="02 - All and Any Methods.py added" />
+    <MESSAGE value="03 - First-Script with System Data.py added" />
+    <MESSAGE value="Try - Exception Block Added" />
+    <MESSAGE value="Some functions for working with console screen added" />
+    <MESSAGE value="69 - On_key - Color Text and Console Resizing - Colorama and Termcolor.py added" />
+    <MESSAGE value="Rename on_key -&gt; onkey, added functions of screen resizing and sizing" />
+    <MESSAGE value="70 - Curses Simple Example.py added" />
+    <MESSAGE value="Optimize imports... may be" />
+    <MESSAGE value="46 - Codes of Symbols.py added" />
+    <MESSAGE value="68 - Symbols for Console and Change Console's Size!.py added" />
+    <MESSAGE value="29 - Big Letters Alphabet.py added and adapted" />
+    <MESSAGE value="71 - Curses Testing - Full Demo!.py,&#10;72 - Curses Testing - Minor Experiments.py,&#10;73 - Curses Testing - Text.py added" />
+    <MESSAGE value="небольшие правки в 71, 72 и 73" />
+    <MESSAGE value="set_mod added" />
+    <MESSAGE value="minor correction (spaces)" />
+    <MESSAGE value="74 - Important!....py added&#10;69 - Onkey - Color...py - minor correction" />
+    <MESSAGE value="74 - Important!....py renamed by Init_Screen&#10;10 - Story-Teller.py added&#10;29 - Big Letters Alphabet - cosmetic corrections" />
+    <MESSAGE value="Init_Screen return modified&#10;10 - Story-Teller.py improving" />
+    <MESSAGE value="Init_Screen rebuild as module" />
+    <MESSAGE value="Init_Screen rebuild from module back" />
+    <MESSAGE value="Init_Screen.py, 10 - Story-Teller.py final correction" />
+    <MESSAGE value="Init_Screen.py function onclick_input... now with *args (*key_in) &#10;10 - Story-Teller.py corrected call of function onclick_input..." />
+    <MESSAGE value=" in Init_Screen.py:&#10; renamed onclick_input function to key_pressed&#10; renamed 69 - Onkey....py to 69 - Colortext....py and make import Init_Screen&#10; 10 - Story-Teller.py: corrected call of function (now - key_pressed)" />
+    <MESSAGE value="Init_Screen.py - version 1.0!&#10;69 - Color....py - add demo features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init_Screen.py - version 1.0!&#10;69 - Color....py - add demo features" />
+  </component>
+</project>

@@ -1,28 +1,52 @@
-from colorama import init
+import random
+
+from colorama import init  # для нормального вывода на консоль, иначе в windows - глюки
 from termcolor import colored, cprint
 from Init_Screen import *
 
-init_screen()
+width, height = init_screen()
 
 init()  # из модуля colorama корректной работы цвета в консоли
-cursor.hide()
-color_symbol = ('red', 'green', 'grey', 'yellow', 'magenta', 'cyan', 'blue', 'white')
-color_back = []
-for color in color_symbol:
-    color_back.append('on_' + color)
-print(color_back)
-print(colored('Мы умеем так! - 1', 'red', 'on_yellow', attrs=['reverse']))
-print(colored('Мы умеем так! - 2', 'green', 'on_magenta', attrs=['reverse']))
-print(colored('Мы умеем так! - 3', 'grey', 'on_red', attrs=['reverse']))
-print(colored('Мы умеем так! - 4', 'green', 'on_cyan', attrs=['reverse']))
-#
-cprint('А ещё можем так!', 'green', 'on_red', attrs=['reverse'])
-cprint('А ещё можем так!', 'red', 'on_green', attrs=['reverse'])
+cursor.hide()  # прячем курсор в окне консоли
+color_symbol_lst = ['red', 'green', 'grey', 'yellow', 'magenta', 'cyan', 'blue', 'white']
+color_back_lst = []
+for color in color_symbol_lst:
+    color_back_lst.append('on_' + color)
 
-key_pressed(colored('Проверка цвета - shift для продолжения', 'red'), 'shift')
-key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'green'), 'shift')
-key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'magenta'), 'shift')
-key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'cyan'), 'shift')
-key_pressed(colored('Просто ещё одна проверка и тоже shift для продолжения', 'grey','on_white'), 'shift')
+color_back = 'on_grey'
 
-key_pressed(colored('Последняя проверка, для завершения программы - также shift', 'yellow'), 'shift')
+print('Программа демонстрирует работу с цветом в консоли'.center(width, '▓'))
+
+print()
+
+for i, color in enumerate(color_symbol_lst):
+    out = f'{i}-й раз выводим {color}'
+    how_many = width // len(out)
+    width_word = width // how_many
+    color_back = 'on_white' if color == 'grey' else 'on_grey'
+    #  big = x if x < y else y
+    cprint(out.center(width_word, '▓') * how_many, color, color_back)
+    # можно обернуть строку в метод colored() и распечатывать её print
+
+print()
+
+for color_back in color_back_lst:
+    color = 'grey' if color_back == 'on_white' else 'white'
+    print(colored('ᛝ' * width, color, color_back))
+
+random.shuffle(color_symbol_lst)
+random.shuffle(color_back_lst)
+
+color_pairs = list(zip(color_symbol_lst, color_back_lst))
+
+print()
+
+for color_pair in color_pairs:
+    if color_pair[0] != color_pair[1][3:]:
+        out = f'█{color_pair[0]} - цвет символов, {color_pair[1][3:]} - цвет фона█' * 2
+        cprint(out.center(width, '▓'), color_pair[0], color_pair[1])
+
+print('\n')
+
+key_pressed(colored('Демонстрация завершена - для завершения программы нажмите shift',
+                    random.choice(color_symbol_lst)).center(width), 'shift')
