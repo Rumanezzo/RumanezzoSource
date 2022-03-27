@@ -19,12 +19,17 @@ inv = 1000
 
 for year in range(1, 11):
     os.system('cls')
-    choice = random.randint(1, 10)
+    choice = random.randint(0, 9)
     print(f'Вложение Капитала, год {year}')
     print()
     print(f'Капитал в начале года равен {inv}')
-    print('Состояние рынка:')
-    print(data_inv[choice])
+    print(f'Состояние рынка на {year} год:')
+    print('    Ⅰ      Ⅱ      Ⅲ')
+    for i, index in enumerate(data_inv[choice]):
+        for j in index:
+            print(f'{j: 7.3f}', end='')
+        print('\n') if i == 0 else print()
+    print()
     key = key_pressed('для продолжения нажмите Enter', 'enter')
 
 key_pressed('Мы закончили. Нажмите Enter', 'enter')
