@@ -15,6 +15,7 @@ game = (((0.478, 0.337, 0.185), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.2, +
 
 names = (' ', 'X', 'Y', 'Z')
 # Здесь 10 платежных матриц, как tuple 10 tuples of 4 tuples of 3 elements
+init_screen()
 cursor.hide()
 w = 1000
 n = 2
