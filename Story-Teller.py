@@ -33,7 +33,6 @@ worldSaid = ['"что за чепуха!"', '"сыр нынче снова в м
 x0, y0 = init_screen()
 
 print("☆-------------Программа, рассказывающая сказки, которые сама придумала-------------☆".center(x0, '▒'))
-print()
 cursor.hide()
 while True:
     print(random.choice(emo1), random.choice(woman), "встретила", random.choice(emo2), random.choice(man),
@@ -44,11 +43,10 @@ while True:
     print("Он ответил:", random.choice(mSays))
     print("В итоге -", random.choice(consequence))
     print("Таинственный голос произнёс:", random.choice(worldSaid))
-    prompt = "│ Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста│".center(x0, '▒')
     print()
+    prompt = "▌Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста ▐".center(x0, '▒')
     print("★----------------------------------------------------------------------------------★".center(x0, '▒'))
     key = key_pressed(prompt, 'shift', 'enter')
     print("☆----------------------------------------------------------------------------------☆".center(x0, '▒'))
-    print()
     if key == 'shift':
         break

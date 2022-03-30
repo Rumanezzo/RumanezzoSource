@@ -3,9 +3,9 @@ from Init_Screen import *
 width, height = init_screen()
 
 
-def demo(symbol_list, width):
+def demo(symbol_list, width_):
     for symbol in symbol_list:
-        print(symbol * width)
+        print(symbol * width_)
     key_pressed('Нажмите enter для продолжения', 'enter')
 
 
@@ -22,6 +22,6 @@ s = (('⎵', '☻', '☺', 'ᛥ', 'ᛰ', 'ᚸ', 'ᛝ', 'ᛟ', '◊', '▧', '▨
 
 
 cursor.hide()
-for symbol_list in s:
-    demo(symbol_list, width)
+for symbol_list_ in s:
+    demo(symbol_list_, width)
     os.system('cls')
