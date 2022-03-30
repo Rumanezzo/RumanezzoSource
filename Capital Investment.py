@@ -19,7 +19,7 @@ init_screen()
 cursor.hide()
 w = 1000
 n = 2
-
+x, y = 0.33 * w, 0.33 * w
 for year in range(1, n + 1):
     os.system('cls')
     choice = random.randint(0, 9)
@@ -32,7 +32,6 @@ for year in range(1, n + 1):
     for i, index in enumerate(game[choice]):
         print(names[i], end=' ')
         for j, index_ in enumerate(index):
-
             print(f'{index_: 7.3f}', end='')
         print('\n') if i == 0 else print()
     print()
@@ -58,7 +57,7 @@ for year in range(1, n + 1):
     if q < game[choice][0][0]:
         r = 0
     print('Состояние рынка', r)
-    w +=game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
+    w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
     print(f'Ваш капитал теперь равен {w}')
 
