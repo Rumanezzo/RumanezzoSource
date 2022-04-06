@@ -1,11 +1,6 @@
 # Не запускать в IDE!
 import curses
-import os
-
-
-def set_mod(columns, lines):
-    cmd = 'mode ' + str(columns) + ',' + str(lines)
-    os.system(cmd)
+from Init_Screen import *
 
 
 def main_loop(std_scr):
@@ -26,7 +21,7 @@ def main_loop(std_scr):
     curses.init_pair(6, curses.COLOR_GREEN, curses.COLOR_BLACK)
 
     # Основной цикл
-    while key != curses.KEY_CANCEL:  # 265 - код клавиши F1
+    while key != curses.KEY_F1:  # 265 - код клавиши F1, 27 - код клавиши ESC
 
         # Инициализация
         std_scr.clear()
@@ -87,7 +82,7 @@ def main_loop(std_scr):
 
 
 def main():
-    set_mod(106, 32)
+    init_screen()
     curses.wrapper(main_loop)
 
 
