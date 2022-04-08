@@ -1,7 +1,7 @@
 import random
 
 from Init_Screen import *
-
+# Здесь 10 платежных матриц, как tuple 10 tuples of 4 tuples of 3 elements
 game = (((0.478, 0.337, 0.185), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.2, +0.1, -0.5)),
         ((0.106, 0.530, 0.364), (-0.5, -0.3, +0.7), (+0.5, -0.5, +0.7), (+0.3, +0.5, -0.7)),
         ((0.415, 0.347, 0.237), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.4, +0.0, -0.5)),
@@ -13,20 +13,21 @@ game = (((0.478, 0.337, 0.185), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.2, +
         ((0.222, 0.413, 0.365), (+0.4, -0.4, +0.3), (-0.2, +0.1, +0.1), (-0.1, +0.4, -0.3)),
         ((0.093, 0.463, 0.444), (+0.0, -0.6, +0.7), (-0.6, +0.0, +0.2), (+0.2, +0.8, -0.8)))
 
+greek = ('Ⅰ', 'Ⅱ', 'Ⅲ')
 names = (' ', 'X', 'Y', 'Z')
-# Здесь 10 платежных матриц, как tuple 10 tuples of 4 tuples of 3 elements
+start_year = 1900
 init_screen()
 cursor.hide()
 w = 1000
 n = 2
 x, y = 0.33 * w, 0.33 * w
-for year in range(1, n + 1):
+for year in range(start_year, n + start_year):
     os.system('cls')
     choice = random.randint(0, 9)
     print(f'Вложение Капитала, год {year}')
     print()
     print(f'Капитал в начале года равен {w}$')
-    print(f'Состояние рынка на {year} год:')
+    print(f'Возможные состояния рынка на {year} год:')
     print()
     print('      Ⅰ      Ⅱ      Ⅲ')
     for i, index in enumerate(game[choice]):
@@ -56,7 +57,7 @@ for year in range(1, n + 1):
         r = 1
     if q < game[choice][0][0]:
         r = 0
-    print('Состояние рынка', r)
+    print('Состояние рынка', greek[r])
     w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
     print(f'Ваш капитал теперь равен {w}')
