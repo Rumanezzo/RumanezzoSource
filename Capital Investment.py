@@ -14,7 +14,7 @@ game = (((0.478, 0.337, 0.185), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.2, +
         ((0.093, 0.463, 0.444), (+0.0, -0.6, +0.7), (-0.6, +0.0, +0.2), (+0.2, +0.8, -0.8)))
 
 greek = ('Ⅰ', 'Ⅱ', 'Ⅲ')
-names = (' ', 'X', 'Y', 'Z')
+names = ('♦', '☱', '☲', '☴')
 start_year = 1900
 init_screen()
 cursor.hide()
@@ -38,19 +38,19 @@ for year in range(start_year, n + start_year):
     print()
 
     try:
-        x = input('Сколько хотите вложить в предприятие X? -> ')
+        x = input('Сколько хотите вложить в предприятие ☱? -> ')
         x = int(x)
     except TypeError:
 
         print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}')
     try:
-        y = input('Сколько хотите вложить в предприятие Y? -> ')
+        y = input('Сколько хотите вложить в предприятие ☲? -> ')
         y = int(y)
     except TypeError:
         print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}')
 
     z = w - x - y
-    print(f'Остаток {z}, вкладываю в Z')
+    print(f'Остаток {z}, вкладываю в ☴')
     q = random.random()
     r = 2
     if q < game[choice][0][0] + game[choice][0][1]:
@@ -61,6 +61,7 @@ for year in range(start_year, n + start_year):
     w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
     print(f'Ваш капитал теперь равен {w}')
+    print(f'Детализация: {game[choice][1][r]}⋅{x} + {game[choice][2][r]}⋅{y} + {game[choice][3][r]}⋅{z} = {w}')
 
     key = key_pressed('для продолжения нажмите Shift', 'shift')
 
