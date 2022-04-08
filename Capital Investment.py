@@ -19,7 +19,8 @@ start_year = 1900
 init_screen()
 cursor.hide()
 w = 1000
-n = 2
+n = int(input('Сколько лет хотите играть? -⟶ '))
+success = 0
 x, y = 0.33 * w, 0.33 * w
 for year in range(start_year, n + start_year):
     os.system('cls')
@@ -38,13 +39,13 @@ for year in range(start_year, n + start_year):
     print()
 
     try:
-        x = input('Сколько хотите вложить в предприятие ☱? -> ')
+        x = input('Сколько хотите вложить в предприятие ☱? -⟶ ')
         x = int(x)
     except TypeError:
 
         print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}')
     try:
-        y = input('Сколько хотите вложить в предприятие ☲? -> ')
+        y = input('Сколько хотите вложить в предприятие ☲? -⟶ ')
         y = int(y)
     except TypeError:
         print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}')
@@ -58,9 +59,13 @@ for year in range(start_year, n + start_year):
     if q < game[choice][0][0]:
         r = 0
     print('Состояние рынка', greek[r])
+    w0 = w
     w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
     print(f'Ваш капитал теперь равен {w}')
+    if (w - w0) > 0:
+        success += 1
+
     print(f'Детализация: {game[choice][1][r]} • {x} + {game[choice][2][r]} • {y} + {game[choice][3][r]} • {z} = {w}')
 
     key = key_pressed('для продолжения нажмите Shift', 'shift')
@@ -75,5 +80,5 @@ elif w > 1000:
     print('Неплохо... Ещё немного поднажать, и Вы - в тройке лидеров!')
 else:
     print('Нет оснований для уныния. Ведь в другой раз наверняка повезет!')
-
+print(f'Вы провели {success} удачных сделок из {n}')
 key_pressed('Мы закончили. Нажмите Enter', 'enter')
