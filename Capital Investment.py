@@ -61,7 +61,7 @@ for year in range(start_year, n + start_year):
     w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
     print(f'Ваш капитал теперь равен {w}')
-    print(f'Детализация: {game[choice][1][r]}⋅{x} + {game[choice][2][r]}⋅{y} + {game[choice][3][r]}⋅{z} = {w}')
+    print(f'Детализация: {game[choice][1][r]} • {x} + {game[choice][2][r]} • {y} + {game[choice][3][r]} • {z} = {w}')
 
     key = key_pressed('для продолжения нажмите Shift', 'shift')
 
