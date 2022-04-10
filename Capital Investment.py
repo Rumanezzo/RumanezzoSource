@@ -14,8 +14,8 @@ game = (((0.478, 0.337, 0.185), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.2, +
         ((0.093, 0.463, 0.444), (+0.0, -0.6, +0.7), (-0.6, +0.0, +0.2), (+0.2, +0.8, -0.8)))
 
 greek = ('Ⅰ', 'Ⅱ', 'Ⅲ')
-names = ('♦', '☱', '☲', '☴')
-start_year = 1900
+names = ('P⃝', '♦ ', '♥ ', '♣ ')
+start_year = 1901
 init_screen()
 cursor.hide()
 w = 1000
@@ -32,33 +32,33 @@ for year in range(start_year, n + start_year):
     print()
     print('      Ⅰ      Ⅱ      Ⅲ')
     for i, index in enumerate(game[choice]):
-        print(names[i], end=' ')
+        print(names[i], end='')
         for j, index_ in enumerate(index):
             print(f'{index_: 7.3f}', end='')
-        print('\n') if i == 0 else print()
+        print('\n' + '─' * 23) if i == 0 else print()
     print()
 
     try:
-        x = input('Сколько хотите вложить в предприятие ☱? -⟶ ')
+        x = input(f'Сколько хотите вложить в предприятие {names[1].strip()}? -⟶ ')
         x = int(x)
     except TypeError:
 
-        print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}')
+        print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}$')
     try:
-        y = input('Сколько хотите вложить в предприятие ☲? -⟶ ')
+        y = input(f'Сколько хотите вложить в предприятие {names[2].strip()}? -⟶ ')
         y = int(y)
     except TypeError:
         print(f'Ввели какую-то фигню, так что вложила за Вас 33%, то есть {0.33 * w}')
 
     z = w - x - y
-    print(f'Остаток {z}, вкладываю в ☴')
+    print(f'Остаток {z}, вкладываю в {names[3]}')
     q = random.random()
     r = 2
     if q < game[choice][0][0] + game[choice][0][1]:
         r = 1
     if q < game[choice][0][0]:
         r = 0
-    print('Состояние рынка', greek[r])
+    print('\nСостояние рынка', greek[r], end='⟶')
     w0 = w
     w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
@@ -66,7 +66,7 @@ for year in range(start_year, n + start_year):
     if (w - w0) > 0:
         success += 1
 
-    print(f'Детализация: {game[choice][1][r]} • {x} + {game[choice][2][r]} • {y} + {game[choice][3][r]} • {z} = {w}')
+    print(f'Детализация: {game[choice][1][r]} • {x} + {game[choice][2][r]} • {y} + {game[choice][3][r]} • {z} = {w}\n')
 
     key = key_pressed('для продолжения нажмите Shift', 'shift')
 
@@ -80,5 +80,7 @@ elif w > 1000:
     print('Неплохо... Ещё немного поднажать, и Вы - в тройке лидеров!')
 else:
     print('Нет оснований для уныния. Ведь в другой раз наверняка повезет!')
-print(f'Вы провели {success} удачных сделок из {n}')
-key_pressed('Мы закончили. Нажмите Enter', 'enter')
+
+ratio = success * 100 // n
+print(f'Вы провели удачных сделок: {success} из {n}, то есть {ratio}%')
+key_pressed('\nМы закончили. Нажмите Enter', 'enter')
