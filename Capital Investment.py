@@ -1,7 +1,8 @@
 import random
 
 from Init_Screen import *
-# Здесь 10 платежных матриц, как tuple 10 tuples of 4 tuples of 3 elements
+
+# Здесь 10 платежных матриц, как tuple of 10 tuples of 4 tuples of 3 elements
 game = (((0.478, 0.337, 0.185), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.2, +0.1, -0.5)),
         ((0.106, 0.530, 0.364), (-0.5, -0.3, +0.7), (+0.5, -0.5, +0.7), (+0.3, +0.5, -0.7)),
         ((0.415, 0.347, 0.237), (+0.3, -0.7, +0.7), (-0.3, +0.7, -0.3), (+0.4, +0.0, -0.5)),
@@ -58,7 +59,7 @@ for year in range(start_year, n + start_year):
         r = 1
     if q < game[choice][0][0]:
         r = 0
-    print('\nСостояние рынка', greek[r], end='⟶')
+    print('\nСостояние рынка', greek[r] + chr(8413), end='⟶ ')  # 8413 - 8415, 8418, 8419 - код рамочки
     w0 = w
     w += game[choice][1][r] * x + game[choice][2][r] * y + game[choice][3][r] * z
     w = int(w + 0.5)
