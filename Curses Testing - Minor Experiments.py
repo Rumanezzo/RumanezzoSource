@@ -1,18 +1,11 @@
 import curses
-import os
-
-
-def set_mod(columns, lines):
-    cmd = 'mode ' + str(columns) + ',' + str(lines)
-    os.system(cmd)
-    print(cmd)
+from Init_Screen import *
 
 
 def draw_console(std_scr):
     screen = curses.initscr()
     height, width = std_scr.getmaxyx()
     curses.curs_set(0)
-    # Update the buffer, adding text at different locations
 
     for i in range(1, height - 20):
         fstr1 = f"This string gets printed at position ({i}, {i})"
@@ -31,9 +24,5 @@ def draw_console(std_scr):
     curses.endwin()
 
 
-# Исключение не срабатывает
-try:
-    set_mod(106, 32)
-    curses.wrapper(draw_console)
-except OSError:
-    print('Похоже вы пытаетесь запустить программу в IDE')
+init_screen()
+curses.wrapper(draw_console)

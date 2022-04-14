@@ -1,14 +1,18 @@
 # Не запускать в IDE!
 import curses
+from math import log
+from random import random
+
 from Init_Screen import *
 
 
-def main_loop(std_scr):
-    key = 0
+def game(std_scr):
+    screen = curses.initscr()
+    height, width = std_scr.getmaxyx()
 
     # Очистка и обновление экрана, сокрытие курсора
-    std_scr.clear()
-    std_scr.refresh()
+    screen.clear()
+    screen.refresh()
     curses.curs_set(0)
 
     # Инициализируем цветовые пары для модуля curses
@@ -20,70 +24,183 @@ def main_loop(std_scr):
     curses.init_pair(5, curses.COLOR_BLUE, curses.COLOR_GREEN)
     curses.init_pair(6, curses.COLOR_GREEN, curses.COLOR_BLACK)
 
-    # Основной цикл
-    while key != curses.KEY_F1:  # 265 - код клавиши F1, 27 - код клавиши ESC
+    # Строки с текстом - подготовка
+    title = "Модный Магазин - модель Теории Массового обслуживания"[:width - 1]
+    subtitle = "по мотивам программы из книги Коснёвски"[:width - 1]
 
-        # Инициализация
-        std_scr.clear()
-        height, width = std_scr.getmaxyx()
+    status_bar_str = f"│Нажми клавишу для продолжения! │◊◊◊Игровая Модель - Модный Магазин◊◊◊│ Резервное место        │"
+    status_bar_str = status_bar_str.center(width - 1, ' ')
 
-        # Строки с текстом - подготовка
-        title = "Модный Магазин - модель Теории Массового обслуживания"[:width - 1]
-        subtitle = "по мотивам программы из книги Коснёвски"[:width - 1]
+    # Вычисления по центровке текста
+    start_x_title = int((width // 2) - (len(title) // 2) - len(title) % 2)
+    start_x_subtitle = int((width // 2) - (len(subtitle) // 2) - len(subtitle) % 2)
+    start_y = int((height // 2) - 2)
 
-        key_str = f"Код нажатой клавиши: {key}"
-        status_bar_str = f"Нажмите F1 для выхода! | ♦Игровая Модель - Модный Магазин♦ | Нажата клавиша с кодом {key}"
-        status_bar_str = status_bar_str.center(width - 1, ' ')
+    # Выводим статусную строку
+    screen.attron(curses.color_pair(3))
+    screen.addstr(height - 1, (width - len(status_bar_str)) // 2, status_bar_str)
+    screen.attroff(curses.color_pair(3))
 
-        if key == 0:
-            key_str = "Пока ничего не нажато..."[:width - 1]
+    # Активируем атрибуты заголовка
+    screen.attron(curses.color_pair(2))
+    screen.attron(curses.A_BOLD)
 
-        # Вычисления по центровке текста
-        start_x_title = int((width // 2) - (len(title) // 2) - len(title) % 2)
-        start_x_subtitle = int((width // 2) - (len(subtitle) // 2) - len(subtitle) % 2)
-        start_x_key_str = int((width // 2) - (len(key_str) // 2) - len(key_str) % 2)
-        start_y = int((height // 2) - 2)
+    # Выводим заголовок
+    screen.addstr(start_y, start_x_title, title)
 
-        # Выводим текст сверху
-        param_str = f"Ширина: {width}, Высота: {height} - вывели размеры экрана, определенным цветом, да еще и по " \
-                    f"центру!".center(width, ' ')
-        std_scr.addstr(1, 0, param_str, curses.color_pair(1))
+    # Деактивируем атрибуты заголовка
+    screen.attroff(curses.color_pair(2))
+    screen.attroff(curses.A_BOLD)
 
-        # Выводим статусную строку
-        std_scr.attron(curses.color_pair(3))
-        std_scr.addstr(height - 1, (width - len(status_bar_str)) // 2, status_bar_str)
-        std_scr.attroff(curses.color_pair(3))
+    # Распечатываем на экране подготовленный текст
+    screen.attron(curses.color_pair(6))
+    screen.attron(curses.A_BOLD)
+    screen.addstr(start_y + 1, start_x_subtitle, subtitle)
+    screen.attroff(curses.color_pair(6))
+    screen.attroff(curses.A_BOLD)
 
-        # Активируем атрибуты заголовка
-        std_scr.attron(curses.color_pair(2))
-        std_scr.attron(curses.A_BOLD)
+    # Обновление экрана
+    screen.refresh()
 
-        # Выводим заголовок
-        std_scr.addstr(start_y, start_x_title, title)
+    # Ждем нажатия на клавишу
+    screen.getch()
 
-        # Деактивируем атрибуты заголовка
-        std_scr.attroff(curses.color_pair(2))
-        std_scr.attroff(curses.A_BOLD)
+    # Начальная установка - начало дня - начало текста оригинальной игры "Модный Магазин"
+    assist = []
+    profit_week = [0, 0, 0, 0, 0, 0]  # Прибыль по дням
+    client_arrive_speed = 0.1  # Скорость поступления клиентов
+    client_service_speed = 0.15  # Скорость обслуживания клиентов
 
-        # Распечатываем на экране подготовленный текст
-        std_scr.attron(curses.color_pair(6))
-        std_scr.attron(curses.A_BOLD)
-        std_scr.addstr(start_y + 1, start_x_subtitle, subtitle)
-        std_scr.attroff(curses.color_pair(6))
-        std_scr.attroff(curses.A_BOLD)
+    profit_total = 0  # Прибыль за неделю, накопленная
+    queue = 0  # Длина очереди
+    current_time = 0  # Время в минутах
+    lost_clients = 0
 
-        std_scr.addstr(start_y + 5, start_x_key_str, key_str)
+    def client_arriving_moment():
+        """Вычисляем момент появления следующего клиента"""
+        nonlocal current_time, time_arriving, queue, max_queue, lost_clients, client_arrive_speed
 
-        # Обновление экрана
-        std_scr.refresh()
+        queue += 1
+        time_arriving = current_time - log(random() / client_arrive_speed)
 
-        # Ждем нажатия на клавишу
-        key = std_scr.getch()
+        if queue < max_queue:
+            return
+
+        queue = max_queue
+        lost_clients += 1
+        screen.addstr(16, 5, f'Длинная очередь... {lost_clients}-й клиент потерян!')
+
+        client_arrive_speed = 0.1 + (client_arrive_speed - 0.1) * 0.9
+    for day in range(3):
+        total_revenue = 0  # Общая выручка за день
+        working_time = 6  # Длина рабочего дня
+        lost_clients = 0  # Потерянные за день клиенты
+        client_arrive_speed = 0.1  # Скорость поступления клиентов
+        time_arriving = 0  # Время прибытия следующего клиента
+        current_time = 0  # Время в минутах
+
+        screen.clear()
+        screen.addstr(1, 5, 'Модный Магазин')
+        screen.addstr(2, 5, f'День {day + 1}-й')
+        screen.addstr(3, 5, f'Базовая скорость поступления клиентов = {int(600 * client_arrive_speed / 10)} чел. в час')
+        screen.addstr(4, 5, f'100$ на рекламу? Нажмите Y⃣- да или N⃣- нет')
+        key = screen.getkey()
+
+        advert = 0
+
+        if key == 'y' or key == 'Y':
+            client_arrive_speed += 0.1
+            advert = 1
+
+        screen.addstr(6, 5, f'Новая скорость поступления = {int(600 * client_arrive_speed / 10)} чел. в час')
+        discount = 1
+        screen.addstr(7, 5, f'Скидка 10%? Нажмите Y⃣- да или N⃣- нет')
+        key = screen.getkey()
+
+        if key == 'y' or key == 'Y':
+            discount = 0.9
+            client_arrive_speed += 0.1
+
+        screen.addstr(6, 5, f'Новая скорость поступления = {int(600 * client_arrive_speed / 10)} чел. в час')
+
+        screen.addstr(9, 5, 'Скорость обслуживания - 9 чел. в час')
+        screen.addstr(10, 5, 'Число продавцов по 200$? 1 - 9')
+        key = screen.getkey()
+        screen.addstr(11, 5, f'Нанятых продавцов - {key} чел.')
+
+        employees = int(key)
+        max_queue = 2 + employees // 4
+        screen.addstr(13, 5, f'Максимальная длина очереди - {max_queue}')
+        for _ in range(employees):
+            assist.append(0)
+
+        screen.addstr(height - 1, 5, 'Для продолжения нажмите на любую клавишу')
+        screen.getch()
+
+        # События за день
+        screen.clear()
+
+        screen.addstr(1, 5, 'Модный магазин')
+        screen.addstr(2, 5, f'День {day + 1}. Открыто 10.00-{10 + working_time}.00')
+        screen.addstr(3, 5, f'Продавцов: {employees}')
+
+        client_arriving_moment()
+
+        #  Моделирование с шагом в 1 минуту
+        for current_time in range(working_time * 60):
+            if current_time > time_arriving:
+                client_arriving_moment()
+            ts = 0
+            for _ in range(employees):
+                if (queue > 0) and (assist[_] <= current_time):
+                    queue -= 1
+                    service_time = log(random()) // client_service_speed
+                    assist[_] = current_time - service_time
+                    total_revenue -= int(service_time * (1 + random()) * discount)
+                if assist[_] > time_arriving:
+                    ts += 1
+
+            screen.addstr(4, 5, f'Время: {1000 + current_time + 40 * int(current_time / 60)}')
+            screen.addstr(5, 5, f'Скорость поступления: {int(600 * client_arrive_speed) / 10}')
+            screen.addstr(6, 5, f'Ждущих клиентов: {queue}')
+            screen.addstr(7, 5, f'Обслуживающих продавцов: {ts}')
+            screen.addstr(9, 5, f'Потеряно клиентов: {lost_clients}')
+            screen.addstr(11, 5, f'Выручка: {total_revenue}')
+            curses.napms(100)
+            screen.refresh()
+
+        profit_week[day] = int(total_revenue - 200 * employees - 100 * advert + 0.5)
+        profit_total += profit_week[day]
+        lost_clients += lost_clients + queue
+        assist.clear()
+
+        screen.clear()
+        screen.addstr(1, 5, 'Модный Магазин')
+        screen.addstr(3, 5, f'Итог за {day + 1}-й день')
+        screen.addstr(5, 5, f'Скорость поступления: {int(600 * client_arrive_speed) / 10}')
+        screen.addstr(7, 5, f'Скорость обслуживания - 9 клиентов в час')
+        screen.addstr(9, 5, f'Продавцов: {employees}')
+        screen.addstr(11, 5, f'Потеряно клиентов: {lost_clients}')
+        screen.addstr(12, 5, f'Выручка: {total_revenue}')
+        screen.addstr(14, 5, f'Прибыль: {profit_week[day]}')
+        screen.addstr(height - 1, 5, 'Для продолжения нажмите любую клавишу')
+        screen.getch()
+
+    screen.clear()
+    screen.addstr(1, 5, 'Модный Магазин')
+    screen.addstr(3, 5, 'Итог за неделю')
+    screen.addstr(5, 5, 'День   Прибыль')
+    for i in range(6):
+        screen.addstr(2 * i + 7, 5, f'   {i + 1}    {profit_week[i]}')
+    screen.addstr(19, 5, f'Итого: {profit_total}')
+
+    screen.addstr(height - 1, 5, 'Для продолжения нажмите любую клавишу')
+    screen.getch()
 
 
 def main():
     init_screen()
-    curses.wrapper(main_loop)
+    curses.wrapper(game)
 
 
 if __name__ == "__main__":
