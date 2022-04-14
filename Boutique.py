@@ -88,7 +88,7 @@ def game(std_scr):
 
         queue = max_queue
         lost_clients += 1
-        screen.addstr(height - 1, 5, f'Длинная очередь... {lost_clients}-й клиент потерян!')
+        screen.addstr(height - 2, 5, f'Длинная очередь... {lost_clients}-й клиент потерян!')
 
         client_arrive_speed = 0.1 + (client_arrive_speed - 0.1) * 0.9
     for day in range(3):
@@ -134,7 +134,7 @@ def game(std_scr):
         for _ in range(employees):
             employee_work.append(0)
 
-        screen.addstr(height - 1, 5, 'Для продолжения нажмите на любую клавишу')
+        screen.addstr(height - 2, 5, 'Для продолжения нажмите на любую клавишу')
         screen.getch()
 
         # События за день
@@ -183,7 +183,7 @@ def game(std_scr):
         screen.addstr(11, 5, f'Потеряно клиентов: {lost_clients}')
         screen.addstr(12, 5, f'Выручка: {total_revenue}')
         screen.addstr(14, 5, f'Прибыль: {profit_week[day]}')
-        screen.addstr(height - 1, 5, 'Для продолжения нажмите любую клавишу')
+        screen.addstr(height - 2, 5, 'Для продолжения нажмите любую клавишу')
         screen.getch()
 
     screen.clear()
@@ -194,7 +194,7 @@ def game(std_scr):
         screen.addstr(2 * i + 7, 5, f'   {i + 1}    {profit_week[i]}')
     screen.addstr(19, 5, f'Итого: {profit_total}')
 
-    screen.addstr(height - 1, 5, 'Для продолжения нажмите любую клавишу')
+    screen.addstr(height - 2, 5, 'Для продолжения нажмите любую клавишу')
     screen.getch()
 
 
