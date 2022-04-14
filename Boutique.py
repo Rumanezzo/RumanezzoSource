@@ -66,7 +66,7 @@ def game(std_scr):
     screen.getch()
 
     # Начальная установка - начало дня - начало текста оригинальной игры "Модный Магазин"
-    assist = []
+    employee_work = []
     profit_week = [0, 0, 0, 0, 0, 0]  # Прибыль по дням
     client_arrive_speed = 0.1  # Скорость поступления клиентов
     client_service_speed = 0.15  # Скорость обслуживания клиентов
@@ -88,7 +88,7 @@ def game(std_scr):
 
         queue = max_queue
         lost_clients += 1
-        screen.addstr(16, 5, f'Длинная очередь... {lost_clients}-й клиент потерян!')
+        screen.addstr(height - 1, 5, f'Длинная очередь... {lost_clients}-й клиент потерян!')
 
         client_arrive_speed = 0.1 + (client_arrive_speed - 0.1) * 0.9
     for day in range(3):
@@ -132,7 +132,7 @@ def game(std_scr):
         max_queue = 2 + employees // 4
         screen.addstr(13, 5, f'Максимальная длина очереди - {max_queue}')
         for _ in range(employees):
-            assist.append(0)
+            employee_work.append(0)
 
         screen.addstr(height - 1, 5, 'Для продолжения нажмите на любую клавишу')
         screen.getch()
@@ -150,20 +150,20 @@ def game(std_scr):
         for current_time in range(working_time * 60):
             if current_time > time_arriving:
                 client_arriving_moment()
-            ts = 0
+            busy_employees = 0
             for _ in range(employees):
-                if (queue > 0) and (assist[_] <= current_time):
+                if (queue > 0) and (employee_work[_] <= current_time):
                     queue -= 1
                     service_time = log(random()) // client_service_speed
-                    assist[_] = current_time - service_time
+                    employee_work[_] = current_time - service_time
                     total_revenue -= int(service_time * (1 + random()) * discount)
-                if assist[_] > time_arriving:
-                    ts += 1
+                if employee_work[_] > time_arriving:
+                    busy_employees += 1
 
             screen.addstr(4, 5, f'Время: {1000 + current_time + 40 * int(current_time / 60)}')
             screen.addstr(5, 5, f'Скорость поступления: {int(600 * client_arrive_speed) / 10}')
             screen.addstr(6, 5, f'Ждущих клиентов: {queue}')
-            screen.addstr(7, 5, f'Обслуживающих продавцов: {ts}')
+            screen.addstr(7, 5, f'Обслуживающих продавцов: {busy_employees}')
             screen.addstr(9, 5, f'Потеряно клиентов: {lost_clients}')
             screen.addstr(11, 5, f'Выручка: {total_revenue}')
             curses.napms(100)
@@ -172,7 +172,7 @@ def game(std_scr):
         profit_week[day] = int(total_revenue - 200 * employees - 100 * advert + 0.5)
         profit_total += profit_week[day]
         lost_clients += lost_clients + queue
-        assist.clear()
+        employee_work.clear()
 
         screen.clear()
         screen.addstr(1, 5, 'Модный Магазин')
