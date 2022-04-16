@@ -1,11 +1,13 @@
-import os
+from os import system, get_terminal_size
+from time import sleep
+
 import keyboard
 import cursor
 
 
 def set_mod(columns, lines):
     cmd = 'mode ' + str(columns) + ',' + str(lines)
-    os.system(cmd)
+    system(cmd)
 
 
 def key_pressed(prompt, *key_in):
@@ -17,17 +19,14 @@ def key_pressed(prompt, *key_in):
             key = event.name
             if key in key_in:
                 break
-            # print(f'Pressed: {key}')
     return key
 
 
 def get_screen():
     try:
-        x_, y_ = os.get_terminal_size()
-        set_mod(x_, y_)
-        # print(f'Из модуля os берем размер консоли -> {x_} - ширина, {y_} - высота')
-
-        return x_, y_
+        x, y = get_terminal_size()
+        set_mod(x, y)
+        return x, y
     except OSError:
         print('Похоже вы пытаетесь запустить скрипт из-под IDE...')
 
@@ -55,7 +54,7 @@ def resize(prompt, key_in, x_, y_):
             elif key == 'left':
                 x -= 1
                 set_mod(x, y)
-            elif key == 'f11':
+            elif key == 'f11' or 'alt+enter':
                 if full_scr == 0:
                     print('Внимание! Вы вышли в полноэкранный режим!')
                     full_scr = 1
@@ -64,7 +63,7 @@ def resize(prompt, key_in, x_, y_):
                     full_scr = 0
             else:
                 pass
-                # print(f'Pressed: {key}')
+
     return x, y
 
 
@@ -76,7 +75,6 @@ def init_screen():
         line_list = line.split()
         x0, y0 = map(int, line_list)
         set_mod(x0, y0)
-        # print('Прочитали из файла ->', line)
 
     except FileNotFoundError:
         f_inst = open('screen.txt', 'w')
@@ -97,4 +95,13 @@ def main():
 
 
 if __name__ == "__main__":
+    set_mod(106, 20)
+    system('title Вы запустили модуль Init_Screen... Зачем вы это сделали?!... Вы об этом пожалеете!')
+    print('Вы точно уверены, что вам надо было запускать этот модуль???')
+    key_out = key_pressed('Для продолжения нажмите <shift>, для отказа нажмите <ctrl>', 'shift', 'ctrl')
+
+    if key_out == 'ctrl':
+        exit()
+    print('Начнем через 5 сек!')
+    sleep(5)
     main()
