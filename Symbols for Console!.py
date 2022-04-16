@@ -25,4 +25,4 @@ s = (('⎵', '☻', '☺', 'ᛥ', 'ᛰ', 'ᚸ', 'ᛝ', 'ᛟ', '◊', '▧', '▨
 cursor.hide()
 for symbol_list_ in s:
     demo(symbol_list_, width)
-    os.system('cls')
+    system('cls')

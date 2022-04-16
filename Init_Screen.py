@@ -98,7 +98,7 @@ if __name__ == "__main__":
     set_mod(106, 20)
     system('title Вы запустили модуль Init_Screen... Зачем вы это сделали?!... Вы об этом пожалеете!')
     print('Вы точно уверены, что вам надо было запускать этот модуль???')
-    key_out = key_pressed('Для продолжения нажмите <shift>, для отказа нажмите <ctrl>', 'shift', 'ctrl')
+    key_out = key_pressed('Для продолжения нажмите ♦Shift♦, для отказа нажмите ♦Ctrl♦', 'shift', 'ctrl')
 
     if key_out == 'ctrl':
         exit()
