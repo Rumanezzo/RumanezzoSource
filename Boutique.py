@@ -2,8 +2,9 @@
 import curses
 from math import log
 from random import random
-
 from Init_Screen import *
+
+os.system('title Модный Магазин')
 
 
 def game(std_scr):
