@@ -1,4 +1,5 @@
 import random
+from rich import print
 
 from Init_Screen import *
 system('title Составитель историй...')
@@ -7,7 +8,7 @@ emo1 = ['Учёная', 'Гигантская', 'Очаровательная', 
         'Расслабленная', 'Мрачная', 'Воодушевленная']
 woman = ['бабушка', 'леди', 'королева', 'амазонка', 'авантюристка', 'прохиндейка', 'Мариниха', 'Маруська', 'Янулечка',
          'баба Яга', 'ваша соседка по психушке']
-emo2 = ['великого', 'дряхлого', 'лохматого', 'злобного', 'гнусного', 'растрепанного', 'истерзанного', 'доброго', 
+emo2 = ['великого', 'дряхлого', 'лохматого', 'злобного', 'гнусного', 'растрепанного', 'истерзанного', 'доброго',
         'раздобревшего', 'размокшего', 'подозрительного', 'восхитительного']
 man = ['офицера полиции', 'актёра', 'дедушку', 'робота-убийцу', 'крокодила', 'мизантропа', 'идиота', 'сатира',
        'почтальона', 'оглоеда']
@@ -33,7 +34,7 @@ worldSaid = ['"что за чепуха!"', '"сыр нынче снова в м
 
 x0, y0 = init_screen()
 
-print("".center(x0, '◌'))
+print("".center(x0 - 1, '◌'))
 cursor.hide()
 while True:
     print(random.choice(emo1), random.choice(woman), "встретила", random.choice(emo2), random.choice(man),
@@ -42,11 +43,11 @@ while True:
     print("На нём же -", random.choice(heWore))
     print("Она сказала:", random.choice(wSays))
     print("Он ответил:", random.choice(mSays))
-    print("В итоге -", random.choice(consequence))
+    print("[red bold]В итоге -", random.choice(consequence))
     print("Таинственный голос произнёс:", random.choice(worldSaid))
     prompt = "Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста!!!".center(x0, ' ')
-    print(''.center(x0, '◌'))
+    print(''.center(x0 - 1, '◌'))
     key = key_pressed(prompt, 'shift', 'enter')
-    print(''.center(x0, '◌'))
+    print(''.center(x0 - 1, '◌'))
     if key == 'shift':
         break
