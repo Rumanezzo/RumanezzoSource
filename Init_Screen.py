@@ -80,7 +80,7 @@ def init_screen():
         f_inst = open('screen.txt', 'w')
         x1, y1 = get_screen()
         x0, y0 = resize('Меняем размер экрана. Просто нажимайте стрелки, а когда надоест - shift', 'shift', x1, y1)
-        print(f'Судя по всему Вам понравилась Ширина {x1} и Высота {y1}')
+        print(f'Судя по всему Вам понравилась Ширина {x0} и Высота {y0}')
         coord_for_writing = str(x0) + ' ' + str(y0)
         f_inst.write(coord_for_writing)
 
