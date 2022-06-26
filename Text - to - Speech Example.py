@@ -2,6 +2,7 @@ import pyttsx3
 import speech_recognition as sr
 from random import choice
 
+
 engine = pyttsx3.init()
 r = sr.Recognizer()
 
@@ -23,7 +24,7 @@ def listen():
         try:
             text = r.recognize_google(audio, language='ru-Ru')
         except sr.UnknownValueError:
-            pass
+            text = 'Не расслышала...'
 
         print(text)
         return text
@@ -36,7 +37,7 @@ while True:
     st = st.lower()
 
     if st in ('привет', 'здравствуй', 'приветик', 'hello', 'хай'):
-        talk(choice(('И тебе не хворать!', 'Привет, привет...!', 'День добрый, коль не шутишь!')))
+        talk(choice(('И тебе не хворать!', 'Привет, привет...!', 'День добрый!')))
 
     if st in ('как тебя зовут', 'как твоё имя', 'кто ты'):
         talk('Меня зовут Марина-киборг, а как Ваше имя?')
