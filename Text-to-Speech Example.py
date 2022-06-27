@@ -1,7 +1,9 @@
 import pyttsx3
 import speech_recognition as sr
 from random import choice
+from Init_Screen import *
 
+flag = 0  # 0 - Запускаем из-под IDE, 1 - Запускаем сам файл!
 
 engine = pyttsx3.init()
 r = sr.Recognizer()
@@ -31,6 +33,9 @@ def listen():
 
 
 user_name = ''
+
+if flag:
+    init_screen()
 
 while True:
     st = listen()

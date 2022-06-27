@@ -92,6 +92,7 @@ def game(std_scr):
         screen.addstr(height - 2, 5, f'Длинная очередь... {lost_clients}-й клиент потерян!')
 
         client_arrive_speed = 0.1 + (client_arrive_speed - 0.1) * 0.9
+
     for day in range(3):
         total_revenue = 0  # Общая выручка за день
         working_time = 6  # Длина рабочего дня
