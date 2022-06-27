@@ -8,6 +8,8 @@ import cursor
 def set_mod(columns, lines):
     cmd = 'mode ' + str(columns) + ',' + str(lines)
     system(cmd)
+    cmd = 'title Запускаемся с использованием Init_Screen!'
+    system(cmd)
 
 
 def key_pressed(prompt, *key_in):
