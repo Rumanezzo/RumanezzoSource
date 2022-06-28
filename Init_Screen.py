@@ -1,5 +1,4 @@
 from os import system, get_terminal_size
-from time import sleep
 
 import keyboard
 import cursor
@@ -104,6 +103,5 @@ if __name__ == "__main__":
 
     if key_out == 'ctrl':
         exit()
-    print('Начнем через 5 сек!')
-    sleep(5)
+
     main()

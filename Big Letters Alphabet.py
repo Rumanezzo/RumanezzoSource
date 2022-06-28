@@ -14,6 +14,7 @@ height = 7  # Высота Символа
 def set_mod(columns, lines):
     cmd = 'mode ' + str(columns) + ',' + str(lines)
     os.system(cmd)
+    cmd = 'title Выводим в Консоли Текст'
 
 
 def screen_init():
