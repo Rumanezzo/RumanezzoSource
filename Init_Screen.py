@@ -1,7 +1,7 @@
 from os import system, get_terminal_size
 
-import keyboard
-import cursor
+from keyboard import read_event, KEY_DOWN
+from cursor import hide
 
 
 def set_mod(columns, lines):
@@ -15,8 +15,8 @@ def key_pressed(prompt, *key_in):
     print(prompt)
 
     while True:
-        event = keyboard.read_event()
-        if event.event_type == keyboard.KEY_DOWN:
+        event = read_event()
+        if event.event_type == KEY_DOWN:
             key = event.name
             if key in key_in:
                 break
@@ -27,18 +27,18 @@ def get_screen():
     try:
         x, y = get_terminal_size()
         set_mod(x, y)
-        return x, y
+
     except OSError:
         print('Похоже вы пытаетесь запустить скрипт из-под IDE...')
+        x, y = 106, 32
+    return x, y
 
 
-def resize(prompt, key_in, x_, y_):
-    full_scr = 0
-    print(prompt)
-    x, y = x_, y_
+def resize(prompt, key_in, x, y):
+    system('title ' + prompt)
     while True:
-        event = keyboard.read_event()
-        if event.event_type == keyboard.KEY_DOWN:
+        event = read_event()
+        if event.event_type == KEY_DOWN:
             key = event.name
 
             if key == key_in:
@@ -55,15 +55,6 @@ def resize(prompt, key_in, x_, y_):
             elif key == 'left':
                 x -= 1
                 set_mod(x, y)
-            elif key == 'f11' or 'alt+enter':
-                if full_scr == 0:
-                    print('Внимание! Вы вышли в полноэкранный режим!')
-                    full_scr = 1
-                else:
-                    set_mod(x, y)
-                    full_scr = 0
-            else:
-                pass
 
     return x, y
 
@@ -90,7 +81,7 @@ def init_screen():
 
 
 def main():
-    cursor.hide()
+    hide()
     init_screen()
     key_pressed('Для продолжения нажмите Shift!', 'shift')
 
