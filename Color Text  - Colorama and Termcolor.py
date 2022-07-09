@@ -2,12 +2,12 @@ import random
 
 from colorama import init  # для нормального вывода на консоль, иначе в windows - глюки
 from termcolor import colored, cprint
-from Init_Screen import *
+from Init_Screen import hide, init_screen, key_pressed
 
 width, height = init_screen()
 
 init()  # из модуля colorama корректной работы цвета в консоли
-cursor.hide()  # прячем курсор в окне консоли
+hide()  # прячем курсор в окне консоли
 color_symbol_lst = ['red', 'green', 'grey', 'yellow', 'magenta', 'cyan', 'blue', 'white']
 color_back_lst = []
 for color in color_symbol_lst:
@@ -24,7 +24,7 @@ for i, color in enumerate(color_symbol_lst):
     how_many = width // len(out)
     width_word = width // how_many
     color_back = 'on_white' if color == 'grey' else 'on_grey'
-    #  big = x if x < y else y
+
     cprint(out.center(width_word, '▓') * how_many, color, color_back)
     # можно обернуть строку в метод colored() и распечатывать её print
 

@@ -1,5 +1,5 @@
 import curses
-from Init_Screen import *
+from Init_Screen import init_screen
 
 init_screen()
 screen = curses.initscr()

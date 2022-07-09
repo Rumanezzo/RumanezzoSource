@@ -1,7 +1,7 @@
 import random
 from rich import print
+from Init_Screen import system, init_screen, hide, key_pressed
 
-from Init_Screen import *
 system('title Составитель историй...')
 
 emo1 = ['Учёная', 'Гигантская', 'Очаровательная', 'Гневная', 'Вялая', 'Раскисшая', 'Разъяренная', 'Целеустремленная',
@@ -35,7 +35,8 @@ worldSaid = ['"что за чепуха!"', '"сыр нынче снова в м
 x0, y0 = init_screen()
 
 print("".center(x0 - 1, '◌'))
-cursor.hide()
+hide()
+
 while True:
     print(random.choice(emo1), random.choice(woman), "встретила", random.choice(emo2), random.choice(man),
           random.choice(place))
