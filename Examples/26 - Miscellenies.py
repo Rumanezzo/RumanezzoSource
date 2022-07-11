@@ -1,19 +1,26 @@
-import time
+from Init_Screen import system, hide
+from time import time
 
-print("+╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼+")
-print("⎥ Пока Вы здесь страдаете фигнёй            ⎥")
-print("⎥ Я очень важным делом занимаюсь            ⎥")
-print("⎥ Хоть в праве Вас считать большой Свиньей  ⎥")
-print("⎥ Зачем-то Вам понравиться пытаюсь...       ⎥")
-print("∔╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼∔")
+system('cls')
+system('title Все внимание - Заголовок окна')
+hide()
 
+
+print("◊╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼◊")
+print("  Пока Вы здесь страдаете фигнёй           ")
+print("  Я очень важным делом занимаюсь           ")
+print("  Хоть в праве Вас считать большой Свиньей ")
+print("  Зачем-то Вам понравиться пытаюсь...      ")
+print("◊╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼╼◊")
+
+print()
 
 for _ in range(1000000, 2000000, 100000):
-    print(f"2**{_} содержит...", end=' ')
-    time_start = time.time()
-    print(len(str(2 ** _)), "цифр", end=' -> ')
-    time_finish = time.time()
-    time_delta = time_finish - time_start
-    print(f'На вычисления мне понадобилось {round(time_delta, 2)} с')
+    time_start = time()
+    x = len(str(2 ** _))
+    time_finish = time()
+    t = round(time_finish - time_start, 2)
 
-input("\nНажмите на Enter для завершения -> ")
+    system(f" title {_}-я степень двойки содержит ⟶ {x} цифр, на вычисления ушло ⟶ {t} сек")
+
+input("\nНажмите на Enter для завершения ⟶ ")

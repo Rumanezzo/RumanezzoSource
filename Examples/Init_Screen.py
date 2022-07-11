@@ -1,7 +1,7 @@
 from os import system, get_terminal_size, environ
 
 from keyboard import read_event, KEY_DOWN
-from cursor import hide
+from cursor import hide, show
 
 
 def non_start_in_ide():
@@ -89,6 +89,7 @@ def init_screen():
 def main():
     hide()
     init_screen()
+    show()
     key_pressed('Для продолжения нажмите Shift!', 'shift')
 
 

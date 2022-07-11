@@ -1,5 +1,5 @@
 from Init_Screen import init_screen, non_start_in_ide
-from os import getcwd, environ
+from os import getcwd
 from math import pi, e, factorial
 from sys import getwindowsversion, version_info, platform
 
