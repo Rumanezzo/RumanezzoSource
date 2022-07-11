@@ -1,0 +1,1789 @@
+﻿    167     A7   §   Section Sign
+    169     A9   ©   Copyright Sign
+    171     AB   «   Left-Pointing Double Angle Quotation Mark
+    172     AC   ¬   Not Sign
+    174     AE   ®   Registered Sign
+    176     B0   °   Degree Sign
+    177     B1   ±   Plus-Minus Sign
+    178     B2   ²   Superscript Two
+    179     B3   ³   Superscript Three
+    181     B5   µ   Micro Sign    
+    183     B7   ·   Middle Dot    
+    185     B9   ¹   Superscript One  
+    187     BB   »   Right-Pointing Double Angle Quotation Mark
+    188     BC   ¼   Vulgar Fraction One Quarter
+    189     BD   ½   Vulgar Fraction One Half
+    190     BE   ¾   Vulgar Fraction Three Quarters    
+    
+    741    2E5   ˥   Modifier Letter Extra-High Tone Bar
+    742    2E6   ˦   Modifier Letter High Tone Bar
+    743    2E7   ˧   Modifier Letter Mid Tone Bar
+    744    2E8   ˨   Modifier Letter Low Tone Bar
+    745    2E9   ˩   Modifier Letter Extra-Low Tone Bar
+    746    2EA   ˪   Modifier Letter Yin Departing Tone Mark
+    747    2EB   ˫   Modifier Letter Yang Departing Tone Mark
+   
+   8240   2030   ‰   Per Mille Sign
+   8241   2031   ‱   Per Ten Thousand Sign
+   8242   2032   ′   Prime
+   8243   2033   ″   Double Prime
+   8244   2034   ‴   Triple Prime
+   8245   2035   ‵   Reversed Prime
+   8246   2036   ‶   Reversed Double Prime
+   8247   2037   ‷   Reversed Triple Prime
+   8248   2038   ‸   Caret
+   8249   2039   ‹   Single Left-Pointing Angle Quotation Mark
+   8250   203A   ›   Single Right-Pointing Angle Quotation Mark
+   8251   203B   ※   Reference Mark
+   8252   203C   ‼   Double Exclamation Mark
+   8253   203D   ‽   Interrobang
+   8254   203E   ‾   Overline
+   8255   203F   ‿   Undertie
+   8256   2040   ⁀   Character Tie
+   8257   2041   ⁁   Caret Insertion Point
+   8258   2042   ⁂   Asterism
+   8259   2043   ⁃   Hyphen Bullet
+   8260   2044   ⁄   Fraction Slash
+   8261   2045   ⁅   Left Square Bracket With Quill
+   8262   2046   ⁆   Right Square Bracket With Quill
+   8263   2047   ⁇   Double Question Mark
+   8264   2048   ⁈   Question Exclamation Mark
+   8265   2049   ⁉   Exclamation Question Mark
+   8266   204A   ⁊   Tironian Sign Et
+   8267   204B   ⁋   Reversed Pilcrow Sign
+   8268   204C   ⁌   Black Leftwards Bullet
+   8269   204D   ⁍   Black Rightwards Bullet
+   8270   204E   ⁎   Low Asterisk
+   8271   204F   ⁏   Reversed Semicolon
+   8272   2050   ⁐   Close Up
+   8273   2051   ⁑   Two Asterisks Aligned Vertically
+   8274   2052   ⁒   Commercial Minus Sign
+   8275   2053   ⁓   Swung Dash
+   8276   2054   ⁔   Inverted Undertie
+   8277   2055   ⁕   Flower Punctuation Mark
+   8278   2056   ⁖   Three Dot Punctuation
+   8279   2057   ⁗   Quadruple Prime
+   8280   2058   ⁘   Four Dot Punctuation
+   8281   2059   ⁙   Five Dot Punctuation
+   8282   205A   ⁚   Two Dot Punctuation
+   8283   205B   ⁛   Four Dot Mark
+   8284   205C   ⁜   Dotted Cross
+   8285   205D   ⁝   Tricolon
+   8286   205E   ⁞   Vertical Four Dots
+   8304   2070   ⁰   Superscript Zero
+   8308   2074   ⁴   Superscript Four
+   8309   2075   ⁵   Superscript Five
+   8310   2076   ⁶   Superscript Six
+   8311   2077   ⁷   Superscript Seven
+   8312   2078   ⁸   Superscript Eight
+   8313   2079   ⁹   Superscript Nine
+   8319   207F   ⁿ   Superscript Latin Small Letter N
+   8320   2080   ₀   Subscript Zero
+   8321   2081   ₁   Subscript One
+   8322   2082   ₂   Subscript Two
+   8323   2083   ₃   Subscript Three
+   8324   2084   ₄   Subscript Four
+   8325   2085   ₅   Subscript Five
+   8326   2086   ₆   Subscript Six
+   8327   2087   ₇   Subscript Seven
+   8328   2088   ₈   Subscript Eight
+   8329   2089   ₉   Subscript Nine
+   8406   20D6   ⃖   Combining Left Arrow Above
+   8407   20D7   ⃗   Combining Right Arrow Above
+   8448   2100   ℀   Account Of
+   8449   2101   ℁   Addressed To The Subject
+   8450   2102   ℂ   Double-Struck Capital C
+   8451   2103   ℃   Degree Celsius
+   8452   2104   ℄   Centre Line Symbol
+   8453   2105   ℅   Care Of
+   8454   2106   ℆   Cada Una
+   8455   2107   ℇ   Euler Constant
+   8456   2108   ℈   Scruple
+   8457   2109   ℉   Degree Fahrenheit
+   8461   210D   ℍ   Double-Struck Capital H
+   8462   210E   ℎ   Planck Constant
+   8463   210F   ℏ   Planck Constant Over Two Pi
+   8464   2110   ℐ   Script Capital I
+   8465   2111   ℑ   Black-Letter Capital I
+   8466   2112   ℒ   Script Capital L
+   8467   2113   ℓ   Script Small L
+   8468   2114   ℔   L B Bar Symbol
+   8469   2115   ℕ   Double-Struck Capital N
+   8470   2116   №   Numero Sign
+   8471   2117   ℗   Sound Recording Copyright
+   8472   2118   ℘   Script Capital P
+   8473   2119   ℙ   Double-Struck Capital P
+   8474   211A   ℚ   Double-Struck Capital Q
+   8476   211C   ℜ   Black-Letter Capital R
+   8477   211D   ℝ   Double-Struck Capital R
+   8478   211E   ℞   Prescription Take
+   8480   2120   ℠   Service Mark
+   8481   2121   ℡   Telephone Sign
+   8482   2122   ™   Trade Mark Sign
+   8484   2124   ℤ   Double-Struck Capital Z
+   8486   2126   Ω   Ohm Sign
+   8501   2135   ℵ   Alef Symbol
+   8502   2136   ℶ   Bet Symbol
+   8503   2137   ℷ   Gimel Symbol
+   8504   2138   ℸ   Dalet Symbol
+   8505   2139   ℹ   Information Source
+   8531   2153   ⅓   Vulgar Fraction One Third
+   8532   2154   ⅔   Vulgar Fraction Two Thirds
+   8533   2155   ⅕   Vulgar Fraction One Fifth
+   8534   2156   ⅖   Vulgar Fraction Two Fifths
+   8535   2157   ⅗   Vulgar Fraction Three Fifths
+   8536   2158   ⅘   Vulgar Fraction Four Fifths
+   8537   2159   ⅙   Vulgar Fraction One Sixth
+   8538   215A   ⅚   Vulgar Fraction Five Sixths
+   8539   215B   ⅛   Vulgar Fraction One Eighth
+   8540   215C   ⅜   Vulgar Fraction Three Eighths
+   8541   215D   ⅝   Vulgar Fraction Five Eighths
+   8542   215E   ⅞   Vulgar Fraction Seven Eighths
+   8544   2160   Ⅰ   Roman Numeral One
+   8545   2161   Ⅱ   Roman Numeral Two
+   8546   2162   Ⅲ   Roman Numeral Three
+   8547   2163   Ⅳ   Roman Numeral Four
+   8548   2164   Ⅴ   Roman Numeral Five
+   8549   2165   Ⅵ   Roman Numeral Six
+   8550   2166   Ⅶ   Roman Numeral Seven
+   8551   2167   Ⅷ   Roman Numeral Eight
+   8552   2168   Ⅸ   Roman Numeral Nine
+   8553   2169   Ⅹ   Roman Numeral Ten
+   8554   216A   Ⅺ   Roman Numeral Eleven
+   8555   216B   Ⅻ   Roman Numeral Twelve
+   8556   216C   Ⅼ   Roman Numeral Fifty
+   8557   216D   Ⅽ   Roman Numeral One Hundred
+   8558   216E   Ⅾ   Roman Numeral Five Hundred
+   8559   216F   Ⅿ   Roman Numeral One Thousand
+   8560   2170   ⅰ   Small Roman Numeral One
+   8561   2171   ⅱ   Small Roman Numeral Two
+   8562   2172   ⅲ   Small Roman Numeral Three
+   8563   2173   ⅳ   Small Roman Numeral Four
+   8564   2174   ⅴ   Small Roman Numeral Five
+   8565   2175   ⅵ   Small Roman Numeral Six
+   8566   2176   ⅶ   Small Roman Numeral Seven
+   8567   2177   ⅷ   Small Roman Numeral Eight
+   8568   2178   ⅸ   Small Roman Numeral Nine
+   8569   2179   ⅹ   Small Roman Numeral Ten
+   8570   217A   ⅺ   Small Roman Numeral Eleven
+   8571   217B   ⅻ   Small Roman Numeral Twelve
+   8572   217C   ⅼ   Small Roman Numeral Fifty
+   8573   217D   ⅽ   Small Roman Numeral One Hundred
+   8574   217E   ⅾ   Small Roman Numeral Five Hundred
+   8575   217F   ⅿ   Small Roman Numeral One Thousand
+   8592   2190   ←   Leftwards Arrow
+   8593   2191   ↑   Upwards Arrow
+   8594   2192   →   Rightwards Arrow
+   8595   2193   ↓   Downwards Arrow
+   8596   2194   ↔   Left Right Arrow
+   8597   2195   ↕   Up Down Arrow
+   8598   2196   ↖   North West Arrow
+   8599   2197   ↗   North East Arrow
+   8600   2198   ↘   South East Arrow
+   8601   2199   ↙   South West Arrow
+   8602   219A   ↚   Leftwards Arrow With Stroke
+   8603   219B   ↛   Rightwards Arrow With Stroke
+   8604   219C   ↜   Leftwards Wave Arrow
+   8605   219D   ↝   Rightwards Wave Arrow
+   8606   219E   ↞   Leftwards Two Headed Arrow
+   8607   219F   ↟   Upwards Two Headed Arrow
+   8608   21A0   ↠   Rightwards Two Headed Arrow
+   8609   21A1   ↡   Downwards Two Headed Arrow
+   8610   21A2   ↢   Leftwards Arrow With Tail
+   8611   21A3   ↣   Rightwards Arrow With Tail
+   8612   21A4   ↤   Leftwards Arrow From Bar
+   8613   21A5   ↥   Upwards Arrow From Bar
+   8614   21A6   ↦   Rightwards Arrow From Bar
+   8615   21A7   ↧   Downwards Arrow From Bar
+   8616   21A8   ↨   Up Down Arrow With Base
+   8617   21A9   ↩   Leftwards Arrow With Hook
+   8618   21AA   ↪   Rightwards Arrow With Hook
+   8619   21AB   ↫   Leftwards Arrow With Loop
+   8620   21AC   ↬   Rightwards Arrow With Loop
+   8621   21AD   ↭   Left Right Wave Arrow
+   8622   21AE   ↮   Left Right Arrow With Stroke
+   8623   21AF   ↯   Downwards Zigzag Arrow
+   8624   21B0   ↰   Upwards Arrow With Tip Leftwards
+   8625   21B1   ↱   Upwards Arrow With Tip Rightwards
+   8626   21B2   ↲   Downwards Arrow With Tip Leftwards
+   8627   21B3   ↳   Downwards Arrow With Tip Rightwards
+   8628   21B4   ↴   Rightwards Arrow With Corner Downwards
+   8629   21B5   ↵   Downwards Arrow With Corner Leftwards
+   8630   21B6   ↶   Anticlockwise Top Semicircle Arrow
+   8631   21B7   ↷   Clockwise Top Semicircle Arrow
+   8632   21B8   ↸   North West Arrow To Long Bar
+   8633   21B9   ↹   Leftwards Arrow To Bar Over Rightwards Arrow To Bar
+   8634   21BA   ↺   Anticlockwise Open Circle Arrow
+   8635   21BB   ↻   Clockwise Open Circle Arrow
+   8636   21BC   ↼   Leftwards Harpoon With Barb Upwards
+   8637   21BD   ↽   Leftwards Harpoon With Barb Downwards
+   8638   21BE   ↾   Upwards Harpoon With Barb Rightwards
+   8639   21BF   ↿   Upwards Harpoon With Barb Leftwards
+   8640   21C0   ⇀   Rightwards Harpoon With Barb Upwards
+   8641   21C1   ⇁   Rightwards Harpoon With Barb Downwards
+   8642   21C2   ⇂   Downwards Harpoon With Barb Rightwards
+   8643   21C3   ⇃   Downwards Harpoon With Barb Leftwards
+   8644   21C4   ⇄   Rightwards Arrow Over Leftwards Arrow
+   8645   21C5   ⇅   Upwards Arrow Leftwards Of Downwards Arrow
+   8646   21C6   ⇆   Leftwards Arrow Over Rightwards Arrow
+   8647   21C7   ⇇   Leftwards Paired Arrows
+   8648   21C8   ⇈   Upwards Paired Arrows
+   8649   21C9   ⇉   Rightwards Paired Arrows
+   8650   21CA   ⇊   Downwards Paired Arrows
+   8651   21CB   ⇋   Leftwards Harpoon Over Rightwards Harpoon
+   8652   21CC   ⇌   Rightwards Harpoon Over Leftwards Harpoon
+   8653   21CD   ⇍   Leftwards Double Arrow With Stroke
+   8654   21CE   ⇎   Left Right Double Arrow With Stroke
+   8655   21CF   ⇏   Rightwards Double Arrow With Stroke
+   8656   21D0   ⇐   Leftwards Double Arrow
+   8657   21D1   ⇑   Upwards Double Arrow
+   8658   21D2   ⇒   Rightwards Double Arrow
+   8659   21D3   ⇓   Downwards Double Arrow
+   8660   21D4   ⇔   Left Right Double Arrow
+   8661   21D5   ⇕   Up Down Double Arrow
+   8668   21DC   ⇜   Leftwards Squiggle Arrow
+   8669   21DD   ⇝   Rightwards Squiggle Arrow
+   8678   21E6   ⇦   Leftwards White Arrow
+   8679   21E7   ⇧   Upwards White Arrow
+   8680   21E8   ⇨   Rightwards White Arrow
+   8681   21E9   ⇩   Downwards White Arrow
+   8691   21F3   ⇳   Up Down White Arrow
+   8704   2200   ∀   For All
+   8705   2201   ∁   Complement
+   8706   2202   ∂   Partial Differential
+   8707   2203   ∃   There Exists
+   8708   2204   ∄   There Does Not Exist
+   8709   2205   ∅   Empty Set
+   8710   2206   ∆   Increment
+   8711   2207   ∇   Nabla
+   8712   2208   ∈   Element Of
+   8713   2209   ∉   Not An Element Of
+   8714   220A   ∊   Small Element Of
+   8715   220B   ∋   Contains As Member
+   8716   220C   ∌   Does Not Contain As Member
+   8717   220D   ∍   Small Contains As Member
+   8718   220E   ∎   End Of Proof
+   8719   220F   ∏   N-Ary Product
+   8720   2210   ∐   N-Ary Coproduct
+   8721   2211   ∑   N-Ary Summation   
+   8723   2213   ∓   Minus-Or-Plus Sign
+   8724   2214   ∔   Dot Plus   
+   8727   2217   ∗   Asterisk Operator
+   8728   2218   ∘   Ring Operator
+   8729   2219   ∙   Bullet Operator
+   8730   221A   √   Square Root
+   8731   221B   ∛   Cube Root
+   8732   221C   ∜   Fourth Root
+   8733   221D   ∝   Proportional To
+   8734   221E   ∞   Infinity
+   8735   221F   ∟   Right Angle
+   8736   2220   ∠   Angle
+   8737   2221   ∡   Measured Angle
+   8738   2222   ∢   Spherical Angle
+   8739   2223   ∣   Divides
+   8740   2224   ∤   Does Not Divide
+   8741   2225   ∥   Parallel To
+   8742   2226   ∦   Not Parallel To
+   8743   2227   ∧   Logical And
+   8744   2228   ∨   Logical Or
+   8745   2229   ∩   Intersection
+   8746   222A   ∪   Union
+   8747   222B   ∫   Integral
+   8748   222C   ∬   Double Integral
+   8749   222D   ∭   Triple Integral
+   8750   222E   ∮   Contour Integral
+   8751   222F   ∯   Surface Integral
+   8752   2230   ∰   Volume Integral
+   8753   2231   ∱   Clockwise Integral
+   8754   2232   ∲   Clockwise Contour Integral
+   8755   2233   ∳   Anticlockwise Contour Integral
+   8756   2234   ∴   Therefore
+   8757   2235   ∵   Because
+   8758   2236   ∶   Ratio
+   8759   2237   ∷   Proportion
+   8760   2238   ∸   Dot Minus
+   8761   2239   ∹   Excess
+   8762   223A   ∺   Geometric Proportion
+   8763   223B   ∻   Homothetic
+   8764   223C   ∼   Tilde Operator
+   8765   223D   ∽   Reversed Tilde
+   8766   223E   ∾   Inverted Lazy S
+   8767   223F   ∿   Sine Wave
+   8768   2240   ≀   Wreath Product
+   8769   2241   ≁   Not Tilde
+   8770   2242   ≂   Minus Tilde
+   8771   2243   ≃   Asymptotically Equal To
+   8772   2244   ≄   Not Asymptotically Equal To
+   8773   2245   ≅   Approximately Equal To
+   8774   2246   ≆   Approximately But Not Actually Equal To
+   8775   2247   ≇   Neither Approximately Nor Actually Equal To
+   8776   2248   ≈   Almost Equal To
+   8777   2249   ≉   Not Almost Equal To
+   8778   224A   ≊   Almost Equal Or Equal To
+   8779   224B   ≋   Triple Tilde
+   8780   224C   ≌   All Equal To
+   8781   224D   ≍   Equivalent To
+   8782   224E   ≎   Geometrically Equivalent To
+   8783   224F   ≏   Difference Between
+   8784   2250   ≐   Approaches The Limit
+   8785   2251   ≑   Geometrically Equal To
+   8786   2252   ≒   Approximately Equal To Or The Image Of
+   8787   2253   ≓   Image Of Or Approximately Equal To
+   8788   2254   ≔   Colon Equals
+   8789   2255   ≕   Equals Colon
+   8790   2256   ≖   Ring In Equal To
+   8791   2257   ≗   Ring Equal To
+   8792   2258   ≘   Corresponds To
+   8793   2259   ≙   Estimates
+   8794   225A   ≚   Equiangular To
+   8795   225B   ≛   Star Equals
+   8796   225C   ≜   Delta Equal To
+   8797   225D   ≝   Equal To By Definition
+   8798   225E   ≞   Measured By
+   8799   225F   ≟   Questioned Equal To
+   8800   2260   ≠   Not Equal To
+   8801   2261   ≡   Identical To
+   8802   2262   ≢   Not Identical To
+   8803   2263   ≣   Strictly Equivalent To
+   8804   2264   ≤   Less-Than Or Equal To
+   8805   2265   ≥   Greater-Than Or Equal To
+   8806   2266   ≦   Less-Than Over Equal To
+   8807   2267   ≧   Greater-Than Over Equal To
+   8808   2268   ≨   Less-Than But Not Equal To
+   8809   2269   ≩   Greater-Than But Not Equal To
+   8810   226A   ≪   Much Less-Than
+   8811   226B   ≫   Much Greater-Than
+   8812   226C   ≬   Between
+   8813   226D   ≭   Not Equivalent To
+   8814   226E   ≮   Not Less-Than
+   8815   226F   ≯   Not Greater-Than
+   8816   2270   ≰   Neither Less-Than Nor Equal To
+   8817   2271   ≱   Neither Greater-Than Nor Equal To
+   8818   2272   ≲   Less-Than Or Equivalent To
+   8819   2273   ≳   Greater-Than Or Equivalent To
+   8820   2274   ≴   Neither Less-Than Nor Equivalent To
+   8821   2275   ≵   Neither Greater-Than Nor Equivalent To
+   8822   2276   ≶   Less-Than Or Greater-Than
+   8823   2277   ≷   Greater-Than Or Less-Than
+   8824   2278   ≸   Neither Less-Than Nor Greater-Than
+   8825   2279   ≹   Neither Greater-Than Nor Less-Than
+   8826   227A   ≺   Precedes
+   8827   227B   ≻   Succeeds
+   8828   227C   ≼   Precedes Or Equal To
+   8829   227D   ≽   Succeeds Or Equal To
+   8830   227E   ≾   Precedes Or Equivalent To
+   8831   227F   ≿   Succeeds Or Equivalent To
+   8832   2280   ⊀   Does Not Precede
+   8833   2281   ⊁   Does Not Succeed
+   8834   2282   ⊂   Subset Of
+   8835   2283   ⊃   Superset Of
+   8836   2284   ⊄   Not A Subset Of
+   8837   2285   ⊅   Not A Superset Of
+   8838   2286   ⊆   Subset Of Or Equal To
+   8839   2287   ⊇   Superset Of Or Equal To
+   8840   2288   ⊈   Neither A Subset Of Nor Equal To
+   8841   2289   ⊉   Neither A Superset Of Nor Equal To
+   8842   228A   ⊊   Subset Of With Not Equal To
+   8843   228B   ⊋   Superset Of With Not Equal To
+   8844   228C   ⊌   Multiset
+   8845   228D   ⊍   Multiset Multiplication
+   8846   228E   ⊎   Multiset Union
+   8847   228F   ⊏   Square Image Of
+   8848   2290   ⊐   Square Original Of
+   8849   2291   ⊑   Square Image Of Or Equal To
+   8850   2292   ⊒   Square Original Of Or Equal To
+   8851   2293   ⊓   Square Cap
+   8852   2294   ⊔   Square Cup
+   8853   2295   ⊕   Circled Plus
+   8854   2296   ⊖   Circled Minus
+   8855   2297   ⊗   Circled Times
+   8856   2298   ⊘   Circled Division Slash
+   8857   2299   ⊙   Circled Dot Operator
+   8858   229A   ⊚   Circled Ring Operator
+   8859   229B   ⊛   Circled Asterisk Operator
+   8860   229C   ⊜   Circled Equals
+   8861   229D   ⊝   Circled Dash
+   8862   229E   ⊞   Squared Plus
+   8863   229F   ⊟   Squared Minus
+   8864   22A0   ⊠   Squared Times
+   8865   22A1   ⊡   Squared Dot Operator
+   8866   22A2   ⊢   Right Tack
+   8867   22A3   ⊣   Left Tack
+   8868   22A4   ⊤   Down Tack
+   8869   22A5   ⊥   Up Tack
+   8870   22A6   ⊦   Assertion
+   8871   22A7   ⊧   Models
+   8872   22A8   ⊨   True
+   8873   22A9   ⊩   Forces
+   8874   22AA   ⊪   Triple Vertical Bar Right Turnstile
+   8875   22AB   ⊫   Double Vertical Bar Double Right Turnstile
+   8876   22AC   ⊬   Does Not Prove
+   8877   22AD   ⊭   Not True
+   8878   22AE   ⊮   Does Not Force
+   8879   22AF   ⊯   Negated Double Vertical Bar Double Right Turnstile
+   8880   22B0   ⊰   Precedes Under Relation
+   8881   22B1   ⊱   Succeeds Under Relation
+   8882   22B2   ⊲   Normal Subgroup Of
+   8883   22B3   ⊳   Contains As Normal Subgroup
+   8884   22B4   ⊴   Normal Subgroup Of Or Equal To
+   8885   22B5   ⊵   Contains As Normal Subgroup Or Equal To
+   8886   22B6   ⊶   Original Of
+   8887   22B7   ⊷   Image Of
+   8888   22B8   ⊸   Multimap
+   8889   22B9   ⊹   Hermitian Conjugate Matrix
+   8890   22BA   ⊺   Intercalate
+   8891   22BB   ⊻   Xor
+   8892   22BC   ⊼   Nand
+   8893   22BD   ⊽   Nor
+   8894   22BE   ⊾   Right Angle With Arc
+   8895   22BF   ⊿   Right Triangle
+   8896   22C0   ⋀   N-Ary Logical And
+   8897   22C1   ⋁   N-Ary Logical Or
+   8898   22C2   ⋂   N-Ary Intersection
+   8899   22C3   ⋃   N-Ary Union
+   8900   22C4   ⋄   Diamond Operator
+   8901   22C5   ⋅   Dot Operator
+   8902   22C6   ⋆   Star Operator
+   8903   22C7   ⋇   Division Times
+   8904   22C8   ⋈   Bowtie
+   8905   22C9   ⋉   Left Normal Factor Semidirect Product
+   8906   22CA   ⋊   Right Normal Factor Semidirect Product
+   8907   22CB   ⋋   Left Semidirect Product
+   8908   22CC   ⋌   Right Semidirect Product
+   8909   22CD   ⋍   Reversed Tilde Equals
+   8910   22CE   ⋎   Curly Logical Or
+   8911   22CF   ⋏   Curly Logical And
+   8912   22D0   ⋐   Double Subset
+   8913   22D1   ⋑   Double Superset
+   8914   22D2   ⋒   Double Intersection
+   8915   22D3   ⋓   Double Union
+   8916   22D4   ⋔   Pitchfork
+   8917   22D5   ⋕   Equal And Parallel To
+   8918   22D6   ⋖   Less-Than With Dot
+   8919   22D7   ⋗   Greater-Than With Dot
+   8920   22D8   ⋘   Very Much Less-Than
+   8921   22D9   ⋙   Very Much Greater-Than
+   8922   22DA   ⋚   Less-Than Equal To Or Greater-Than
+   8923   22DB   ⋛   Greater-Than Equal To Or Less-Than
+   8924   22DC   ⋜   Equal To Or Less-Than
+   8925   22DD   ⋝   Equal To Or Greater-Than
+   8926   22DE   ⋞   Equal To Or Precedes
+   8927   22DF   ⋟   Equal To Or Succeeds
+   8928   22E0   ⋠   Does Not Precede Or Equal
+   8929   22E1   ⋡   Does Not Succeed Or Equal
+   8930   22E2   ⋢   Not Square Image Of Or Equal To
+   8931   22E3   ⋣   Not Square Original Of Or Equal To
+   8932   22E4   ⋤   Square Image Of Or Not Equal To
+   8933   22E5   ⋥   Square Original Of Or Not Equal To
+   8934   22E6   ⋦   Less-Than But Not Equivalent To
+   8935   22E7   ⋧   Greater-Than But Not Equivalent To
+   8936   22E8   ⋨   Precedes But Not Equivalent To
+   8937   22E9   ⋩   Succeeds But Not Equivalent To
+   8938   22EA   ⋪   Not Normal Subgroup Of
+   8939   22EB   ⋫   Does Not Contain As Normal Subgroup
+   8940   22EC   ⋬   Not Normal Subgroup Of Or Equal To
+   8941   22ED   ⋭   Does Not Contain As Normal Subgroup Or Equal
+   8942   22EE   ⋮   Vertical Ellipsis
+   8943   22EF   ⋯   Midline Horizontal Ellipsis
+   8944   22F0   ⋰   Up Right Diagonal Ellipsis
+   8945   22F1   ⋱   Down Right Diagonal Ellipsis
+   8960   2300   ⌀   Diameter Sign
+   8962   2302   ⌂   House
+   8963   2303   ⌃   Up Arrowhead
+   8964   2304   ⌄   Down Arrowhead
+   8965   2305   ⌅   Projective
+   8966   2306   ⌆   Perspective
+   8968   2308   ⌈   Left Ceiling
+   8969   2309   ⌉   Right Ceiling
+   8970   230A   ⌊   Left Floor
+   8971   230B   ⌋   Right Floor
+   8972   230C   ⌌   Bottom Right Crop
+   8973   230D   ⌍   Bottom Left Crop
+   8974   230E   ⌎   Top Right Crop
+   8975   230F   ⌏   Top Left Crop
+   8976   2310   ⌐   Reversed Not Sign
+   8978   2312   ⌒   Arc
+   8980   2314   ⌔   Sector
+   8981   2315   ⌕   Telephone Recorder
+   8984   2318   ⌘   Place Of Interest Sign
+   8985   2319   ⌙   Turned Not Sign
+   8988   231C   ⌜   Top Left Corner
+   8989   231D   ⌝   Top Right Corner
+   8990   231E   ⌞   Bottom Left Corner
+   8991   231F   ⌟   Bottom Right Corner
+   8992   2320   ⌠   Top Half Integral
+   8993   2321   ⌡   Bottom Half Integral
+   8994   2322   ⌢   Frown
+   8995   2323   ⌣   Smile
+   8996   2324   ⌤   Up Arrowhead Between Two Horizontal Bars
+   8997   2325   ⌥   Option Key
+   8998   2326   ⌦   Erase To The Right
+   8999   2327   ⌧   X In A Rectangle Box
+   9001   2329   〈   Left-Pointing Angle Bracket
+   9002   232A   〉   Right-Pointing Angle Bracket
+   9003   232B   ⌫   Erase To The Left
+   9004   232C   ⌬   Benzene Ring
+   9014   2336   ⌶   Apl Functional Symbol I-Beam
+   9015   2337   ⌷   Apl Functional Symbol Squish Quad
+   9016   2338   ⌸   Apl Functional Symbol Quad Equal
+   9017   2339   ⌹   Apl Functional Symbol Quad Divide
+   9018   233A   ⌺   Apl Functional Symbol Quad Diamond
+   9019   233B   ⌻   Apl Functional Symbol Quad Jot
+   9020   233C   ⌼   Apl Functional Symbol Quad Circle
+   9021   233D   ⌽   Apl Functional Symbol Circle Stile
+   9022   233E   ⌾   Apl Functional Symbol Circle Jot
+   9023   233F   ⌿   Apl Functional Symbol Slash Bar
+   9024   2340   ⍀   Apl Functional Symbol Backslash Bar
+   9025   2341   ⍁   Apl Functional Symbol Quad Slash
+   9026   2342   ⍂   Apl Functional Symbol Quad Backslash
+   9027   2343   ⍃   Apl Functional Symbol Quad Less-Than
+   9028   2344   ⍄   Apl Functional Symbol Quad Greater-Than
+   9029   2345   ⍅   Apl Functional Symbol Leftwards Vane
+   9030   2346   ⍆   Apl Functional Symbol Rightwards Vane
+   9031   2347   ⍇   Apl Functional Symbol Quad Leftwards Arrow
+   9032   2348   ⍈   Apl Functional Symbol Quad Rightwards Arrow
+   9033   2349   ⍉   Apl Functional Symbol Circle Backslash
+   9034   234A   ⍊   Apl Functional Symbol Down Tack Underbar
+   9035   234B   ⍋   Apl Functional Symbol Delta Stile
+   9036   234C   ⍌   Apl Functional Symbol Quad Down Caret
+   9037   234D   ⍍   Apl Functional Symbol Quad Delta
+   9038   234E   ⍎   Apl Functional Symbol Down Tack Jot
+   9039   234F   ⍏   Apl Functional Symbol Upwards Vane
+   9040   2350   ⍐   Apl Functional Symbol Quad Upwards Arrow
+   9041   2351   ⍑   Apl Functional Symbol Up Tack Overbar
+   9042   2352   ⍒   Apl Functional Symbol Del Stile
+   9043   2353   ⍓   Apl Functional Symbol Quad Up Caret
+   9044   2354   ⍔   Apl Functional Symbol Quad Del
+   9045   2355   ⍕   Apl Functional Symbol Up Tack Jot
+   9046   2356   ⍖   Apl Functional Symbol Downwards Vane
+   9047   2357   ⍗   Apl Functional Symbol Quad Downwards Arrow
+   9048   2358   ⍘   Apl Functional Symbol Quote Underbar
+   9049   2359   ⍙   Apl Functional Symbol Delta Underbar
+   9050   235A   ⍚   Apl Functional Symbol Diamond Underbar
+   9051   235B   ⍛   Apl Functional Symbol Jot Underbar
+   9052   235C   ⍜   Apl Functional Symbol Circle Underbar
+   9053   235D   ⍝   Apl Functional Symbol Up Shoe Jot
+   9054   235E   ⍞   Apl Functional Symbol Quote Quad
+   9055   235F   ⍟   Apl Functional Symbol Circle Star
+   9056   2360   ⍠   Apl Functional Symbol Quad Colon
+   9057   2361   ⍡   Apl Functional Symbol Up Tack Diaeresis
+   9058   2362   ⍢   Apl Functional Symbol Del Diaeresis
+   9059   2363   ⍣   Apl Functional Symbol Star Diaeresis
+   9060   2364   ⍤   Apl Functional Symbol Jot Diaeresis
+   9061   2365   ⍥   Apl Functional Symbol Circle Diaeresis
+   9062   2366   ⍦   Apl Functional Symbol Down Shoe Stile
+   9063   2367   ⍧   Apl Functional Symbol Left Shoe Stile
+   9064   2368   ⍨   Apl Functional Symbol Tilde Diaeresis
+   9065   2369   ⍩   Apl Functional Symbol Greater-Than Diaeresis
+   9066   236A   ⍪   Apl Functional Symbol Comma Bar
+   9067   236B   ⍫   Apl Functional Symbol Del Tilde
+   9068   236C   ⍬   Apl Functional Symbol Zilde
+   9069   236D   ⍭   Apl Functional Symbol Stile Tilde
+   9070   236E   ⍮   Apl Functional Symbol Semicolon Underbar
+   9071   236F   ⍯   Apl Functional Symbol Quad Not Equal
+   9073   2371   ⍱   Apl Functional Symbol Down Caret Tilde
+   9074   2372   ⍲   Apl Functional Symbol Up Caret Tilde
+   9075   2373   ⍳   Apl Functional Symbol Iota
+   9076   2374   ⍴   Apl Functional Symbol Rho
+   9077   2375   ⍵   Apl Functional Symbol Omega
+   9078   2376   ⍶   Apl Functional Symbol Alpha Underbar
+   9079   2377   ⍷   Apl Functional Symbol Epsilon Underbar
+   9080   2378   ⍸   Apl Functional Symbol Iota Underbar
+   9081   2379   ⍹   Apl Functional Symbol Omega Underbar
+   9082   237A   ⍺   Apl Functional Symbol Alpha
+   9084   237C   ⍼   Right Angle With Downwards Zigzag Arrow
+   9085   237D   ⍽   Shouldered Open Box
+   9086   237E   ⍾   Bell Symbol
+   9087   237F   ⍿   Vertical Line With Middle Dot
+   9088   2380   ⎀   Insertion Symbol
+   9089   2381   ⎁   Continuous Underline Symbol
+   9090   2382   ⎂   Discontinuous Underline Symbol
+   9091   2383   ⎃   Emphasis Symbol
+   9092   2384   ⎄   Composition Symbol
+   9093   2385   ⎅   White Square With Centre Vertical Line
+   9094   2386   ⎆   Enter Symbol
+   9095   2387   ⎇   Alternative Key Symbol
+   9096   2388   ⎈   Helm Symbol
+   9097   2389   ⎉   Circled Horizontal Bar With Notch
+   9098   238A   ⎊   Circled Triangle Down
+   9099   238B   ⎋   Broken Circle With Northwest Arrow
+   9100   238C   ⎌   Undo Symbol
+   9101   238D   ⎍   Monostable Symbol
+   9102   238E   ⎎   Hysteresis Symbol
+   9103   238F   ⎏   Open-Circuit-Output H-Type Symbol
+   9104   2390   ⎐   Open-Circuit-Output L-Type Symbol
+   9105   2391   ⎑   Passive-Pull-Down-Output Symbol
+   9106   2392   ⎒   Passive-Pull-Up-Output Symbol
+   9107   2393   ⎓   Direct Current Symbol Form Two
+   9108   2394   ⎔   Software-Function Symbol
+   9109   2395   ⎕   Apl Functional Symbol Quad
+   9110   2396   ⎖   Decimal Separator Key Symbol
+   9111   2397   ⎗   Previous Page
+   9112   2398   ⎘   Next Page
+   9113   2399   ⎙   Print Screen Symbol
+   9114   239A   ⎚   Clear Screen Symbol
+   9115   239B   ⎛   Left Parenthesis Upper Hook
+   9116   239C   ⎜   Left Parenthesis Extension
+   9117   239D   ⎝   Left Parenthesis Lower Hook
+   9118   239E   ⎞   Right Parenthesis Upper Hook
+   9119   239F   ⎟   Right Parenthesis Extension
+   9120   23A0   ⎠   Right Parenthesis Lower Hook
+   9121   23A1   ⎡   Left Square Bracket Upper Corner
+   9122   23A2   ⎢   Left Square Bracket Extension
+   9123   23A3   ⎣   Left Square Bracket Lower Corner
+   9124   23A4   ⎤   Right Square Bracket Upper Corner
+   9125   23A5   ⎥   Right Square Bracket Extension
+   9126   23A6   ⎦   Right Square Bracket Lower Corner
+   9127   23A7   ⎧   Left Curly Bracket Upper Hook
+   9128   23A8   ⎨   Left Curly Bracket Middle Piece
+   9129   23A9   ⎩   Left Curly Bracket Lower Hook
+   9130   23AA   ⎪   Curly Bracket Extension
+   9131   23AB   ⎫   Right Curly Bracket Upper Hook
+   9132   23AC   ⎬   Right Curly Bracket Middle Piece
+   9133   23AD   ⎭   Right Curly Bracket Lower Hook
+   9134   23AE   ⎮   Integral Extension
+   9135   23AF   ⎯   Horizontal Line Extension
+   9136   23B0   ⎰   Upper Left Or Lower Right Curly Bracket Section
+   9137   23B1   ⎱   Upper Right Or Lower Left Curly Bracket Section
+   9138   23B2   ⎲   Summation Top
+   9139   23B3   ⎳   Summation Bottom
+   9140   23B4   ⎴   Top Square Bracket
+   9141   23B5   ⎵   Bottom Square Bracket
+   9142   23B6   ⎶   Bottom Square Bracket Over Top Square Bracket
+   9143   23B7   ⎷   Radical Symbol Bottom
+   9146   23BA   ⎺   Horizontal Scan Line-1
+   9147   23BB   ⎻   Horizontal Scan Line-3
+   9148   23BC   ⎼   Horizontal Scan Line-7
+   9149   23BD   ⎽   Horizontal Scan Line-9
+   9150   23BE   ⎾   Dentistry Symbol Light Vertical And Top Right
+   9151   23BF   ⎿   Dentistry Symbol Light Vertical And Bottom Right
+   9152   23C0   ⏀   Dentistry Symbol Light Vertical With Circle
+   9153   23C1   ⏁   Dentistry Symbol Light Down And Horizontal With Circle
+   9154   23C2   ⏂   Dentistry Symbol Light Up And Horizontal With Circle
+   9155   23C3   ⏃   Dentistry Symbol Light Vertical With Triangle
+   9156   23C4   ⏄   Dentistry Symbol Light Down And Horizontal With Triangle
+   9157   23C5   ⏅   Dentistry Symbol Light Up And Horizontal With Triangle
+   9158   23C6   ⏆   Dentistry Symbol Light Vertical And Wave
+   9159   23C7   ⏇   Dentistry Symbol Light Down And Horizontal With Wave
+   9160   23C8   ⏈   Dentistry Symbol Light Up And Horizontal With Wave
+   9161   23C9   ⏉   Dentistry Symbol Light Down And Horizontal
+   9162   23CA   ⏊   Dentistry Symbol Light Up And Horizontal
+   9163   23CB   ⏋   Dentistry Symbol Light Vertical And Top Left
+   9164   23CC   ⏌   Dentistry Symbol Light Vertical And Bottom Left
+   9165   23CD   ⏍   Square Foot
+   9166   23CE   ⏎   Return Symbol
+   9167   23CF   ⏏   Eject Symbol
+   9178   23DA   ⏚   Earth Ground
+   9179   23DB   ⏛   Fuse
+   9182   23DE   ⏞   Top Curly Bracket
+   9183   23DF   ⏟   Bottom Curly Bracket
+   9186   23E2   ⏢   White Trapezium
+   9187   23E3   ⏣   Benzene Ring With Circle
+   9188   23E4   ⏤   Straightness
+   9189   23E5   ⏥   Flatness
+   9190   23E6   ⏦   Ac Current
+   9216   2400   ␀   Symbol For Null
+   9217   2401   ␁   Symbol For Start Of Heading
+   9218   2402   ␂   Symbol For Start Of Text
+   9219   2403   ␃   Symbol For End Of Text
+   9220   2404   ␄   Symbol For End Of Transmission
+   9221   2405   ␅   Symbol For Enquiry
+   9222   2406   ␆   Symbol For Acknowledge
+   9223   2407   ␇   Symbol For Bell
+   9224   2408   ␈   Symbol For Backspace
+   9225   2409   ␉   Symbol For Horizontal Tabulation
+   9226   240A   ␊   Symbol For Line Feed
+   9227   240B   ␋   Symbol For Vertical Tabulation
+   9228   240C   ␌   Symbol For Form Feed
+   9229   240D   ␍   Symbol For Carriage Return
+   9230   240E   ␎   Symbol For Shift Out
+   9231   240F   ␏   Symbol For Shift In
+   9232   2410   ␐   Symbol For Data Link Escape
+   9233   2411   ␑   Symbol For Device Control One
+   9234   2412   ␒   Symbol For Device Control Two
+   9235   2413   ␓   Symbol For Device Control Three
+   9236   2414   ␔   Symbol For Device Control Four
+   9237   2415   ␕   Symbol For Negative Acknowledge
+   9238   2416   ␖   Symbol For Synchronous Idle
+   9239   2417   ␗   Symbol For End Of Transmission Block
+   9240   2418   ␘   Symbol For Cancel
+   9241   2419   ␙   Symbol For End Of Medium
+   9242   241A   ␚   Symbol For Substitute
+   9243   241B   ␛   Symbol For Escape
+   9244   241C   ␜   Symbol For File Separator
+   9245   241D   ␝   Symbol For Group Separator
+   9246   241E   ␞   Symbol For Record Separator
+   9247   241F   ␟   Symbol For Unit Separator
+   9248   2420   ␠   Symbol For Space
+   9249   2421   ␡   Symbol For Delete
+   9250   2422   ␢   Blank Symbol
+   9251   2423   ␣   Open Box
+   9252   2424   ␤   Symbol For Newline
+   9253   2425   ␥   Symbol For Delete Form Two
+   9254   2426   ␦   Symbol For Substitute Form Two
+   9280   2440   ⑀   Ocr Hook
+   9281   2441   ⑁   Ocr Chair
+   9282   2442   ⑂   Ocr Fork
+   9283   2443   ⑃   Ocr Inverted Fork
+   9284   2444   ⑄   Ocr Belt Buckle
+   9285   2445   ⑅   Ocr Bow Tie
+   9286   2446   ⑆   Ocr Branch Bank Identification
+   9287   2447   ⑇   Ocr Amount Of Check
+   9288   2448   ⑈   Ocr Dash
+   9289   2449   ⑉   Ocr Customer Account Number
+   9290   244A   ⑊   Ocr Double Backslash
+   9312   2460   ①   Circled Digit One
+   9313   2461   ②   Circled Digit Two
+   9314   2462   ③   Circled Digit Three
+   9315   2463   ④   Circled Digit Four
+   9316   2464   ⑤   Circled Digit Five
+   9317   2465   ⑥   Circled Digit Six
+   9318   2466   ⑦   Circled Digit Seven
+   9319   2467   ⑧   Circled Digit Eight
+   9320   2468   ⑨   Circled Digit Nine
+   9321   2469   ⑩   Circled Number Ten
+   9472   2500   ─   Box Drawings Light Horizontal
+   9473   2501   ━   Box Drawings Heavy Horizontal
+   9474   2502   │   Box Drawings Light Vertical
+   9475   2503   ┃   Box Drawings Heavy Vertical
+   9476   2504   ┄   Box Drawings Light Triple Dash Horizontal
+   9477   2505   ┅   Box Drawings Heavy Triple Dash Horizontal
+   9478   2506   ┆   Box Drawings Light Triple Dash Vertical
+   9479   2507   ┇   Box Drawings Heavy Triple Dash Vertical
+   9480   2508   ┈   Box Drawings Light Quadruple Dash Horizontal
+   9481   2509   ┉   Box Drawings Heavy Quadruple Dash Horizontal
+   9482   250A   ┊   Box Drawings Light Quadruple Dash Vertical
+   9483   250B   ┋   Box Drawings Heavy Quadruple Dash Vertical
+   9484   250C   ┌   Box Drawings Light Down And Right
+   9485   250D   ┍   Box Drawings Down Light And Right Heavy
+   9486   250E   ┎   Box Drawings Down Heavy And Right Light
+   9487   250F   ┏   Box Drawings Heavy Down And Right
+   9488   2510   ┐   Box Drawings Light Down And Left
+   9489   2511   ┑   Box Drawings Down Light And Left Heavy
+   9490   2512   ┒   Box Drawings Down Heavy And Left Light
+   9491   2513   ┓   Box Drawings Heavy Down And Left
+   9492   2514   └   Box Drawings Light Up And Right
+   9493   2515   ┕   Box Drawings Up Light And Right Heavy
+   9494   2516   ┖   Box Drawings Up Heavy And Right Light
+   9495   2517   ┗   Box Drawings Heavy Up And Right
+   9496   2518   ┘   Box Drawings Light Up And Left
+   9497   2519   ┙   Box Drawings Up Light And Left Heavy
+   9498   251A   ┚   Box Drawings Up Heavy And Left Light
+   9499   251B   ┛   Box Drawings Heavy Up And Left
+   9500   251C   ├   Box Drawings Light Vertical And Right
+   9501   251D   ┝   Box Drawings Vertical Light And Right Heavy
+   9502   251E   ┞   Box Drawings Up Heavy And Right Down Light
+   9503   251F   ┟   Box Drawings Down Heavy And Right Up Light
+   9504   2520   ┠   Box Drawings Vertical Heavy And Right Light
+   9505   2521   ┡   Box Drawings Down Light And Right Up Heavy
+   9506   2522   ┢   Box Drawings Up Light And Right Down Heavy
+   9507   2523   ┣   Box Drawings Heavy Vertical And Right
+   9508   2524   ┤   Box Drawings Light Vertical And Left
+   9509   2525   ┥   Box Drawings Vertical Light And Left Heavy
+   9510   2526   ┦   Box Drawings Up Heavy And Left Down Light
+   9511   2527   ┧   Box Drawings Down Heavy And Left Up Light
+   9512   2528   ┨   Box Drawings Vertical Heavy And Left Light
+   9513   2529   ┩   Box Drawings Down Light And Left Up Heavy
+   9514   252A   ┪   Box Drawings Up Light And Left Down Heavy
+   9515   252B   ┫   Box Drawings Heavy Vertical And Left
+   9516   252C   ┬   Box Drawings Light Down And Horizontal
+   9517   252D   ┭   Box Drawings Left Heavy And Right Down Light
+   9518   252E   ┮   Box Drawings Right Heavy And Left Down Light
+   9519   252F   ┯   Box Drawings Down Light And Horizontal Heavy
+   9520   2530   ┰   Box Drawings Down Heavy And Horizontal Light
+   9521   2531   ┱   Box Drawings Right Light And Left Down Heavy
+   9522   2532   ┲   Box Drawings Left Light And Right Down Heavy
+   9523   2533   ┳   Box Drawings Heavy Down And Horizontal
+   9524   2534   ┴   Box Drawings Light Up And Horizontal
+   9525   2535   ┵   Box Drawings Left Heavy And Right Up Light
+   9526   2536   ┶   Box Drawings Right Heavy And Left Up Light
+   9527   2537   ┷   Box Drawings Up Light And Horizontal Heavy
+   9528   2538   ┸   Box Drawings Up Heavy And Horizontal Light
+   9529   2539   ┹   Box Drawings Right Light And Left Up Heavy
+   9530   253A   ┺   Box Drawings Left Light And Right Up Heavy
+   9531   253B   ┻   Box Drawings Heavy Up And Horizontal
+   9532   253C   ┼   Box Drawings Light Vertical And Horizontal
+   9533   253D   ┽   Box Drawings Left Heavy And Right Vertical Light
+   9534   253E   ┾   Box Drawings Right Heavy And Left Vertical Light
+   9535   253F   ┿   Box Drawings Vertical Light And Horizontal Heavy
+   9536   2540   ╀   Box Drawings Up Heavy And Down Horizontal Light
+   9537   2541   ╁   Box Drawings Down Heavy And Up Horizontal Light
+   9538   2542   ╂   Box Drawings Vertical Heavy And Horizontal Light
+   9539   2543   ╃   Box Drawings Left Up Heavy And Right Down Light
+   9540   2544   ╄   Box Drawings Right Up Heavy And Left Down Light
+   9541   2545   ╅   Box Drawings Left Down Heavy And Right Up Light
+   9542   2546   ╆   Box Drawings Right Down Heavy And Left Up Light
+   9543   2547   ╇   Box Drawings Down Light And Up Horizontal Heavy
+   9544   2548   ╈   Box Drawings Up Light And Down Horizontal Heavy
+   9545   2549   ╉   Box Drawings Right Light And Left Vertical Heavy
+   9546   254A   ╊   Box Drawings Left Light And Right Vertical Heavy
+   9547   254B   ╋   Box Drawings Heavy Vertical And Horizontal
+   9548   254C   ╌   Box Drawings Light Double Dash Horizontal
+   9549   254D   ╍   Box Drawings Heavy Double Dash Horizontal
+   9550   254E   ╎   Box Drawings Light Double Dash Vertical
+   9551   254F   ╏   Box Drawings Heavy Double Dash Vertical
+   9552   2550   ═   Box Drawings Double Horizontal
+   9553   2551   ║   Box Drawings Double Vertical
+   9554   2552   ╒   Box Drawings Down Single And Right Double
+   9555   2553   ╓   Box Drawings Down Double And Right Single
+   9556   2554   ╔   Box Drawings Double Down And Right
+   9557   2555   ╕   Box Drawings Down Single And Left Double
+   9558   2556   ╖   Box Drawings Down Double And Left Single
+   9559   2557   ╗   Box Drawings Double Down And Left
+   9560   2558   ╘   Box Drawings Up Single And Right Double
+   9561   2559   ╙   Box Drawings Up Double And Right Single
+   9562   255A   ╚   Box Drawings Double Up And Right
+   9563   255B   ╛   Box Drawings Up Single And Left Double
+   9564   255C   ╜   Box Drawings Up Double And Left Single
+   9565   255D   ╝   Box Drawings Double Up And Left
+   9566   255E   ╞   Box Drawings Vertical Single And Right Double
+   9567   255F   ╟   Box Drawings Vertical Double And Right Single
+   9568   2560   ╠   Box Drawings Double Vertical And Right
+   9569   2561   ╡   Box Drawings Vertical Single And Left Double
+   9570   2562   ╢   Box Drawings Vertical Double And Left Single
+   9571   2563   ╣   Box Drawings Double Vertical And Left
+   9572   2564   ╤   Box Drawings Down Single And Horizontal Double
+   9573   2565   ╥   Box Drawings Down Double And Horizontal Single
+   9574   2566   ╦   Box Drawings Double Down And Horizontal
+   9575   2567   ╧   Box Drawings Up Single And Horizontal Double
+   9576   2568   ╨   Box Drawings Up Double And Horizontal Single
+   9577   2569   ╩   Box Drawings Double Up And Horizontal
+   9578   256A   ╪   Box Drawings Vertical Single And Horizontal Double
+   9579   256B   ╫   Box Drawings Vertical Double And Horizontal Single
+   9580   256C   ╬   Box Drawings Double Vertical And Horizontal
+   9581   256D   ╭   Box Drawings Light Arc Down And Right
+   9582   256E   ╮   Box Drawings Light Arc Down And Left
+   9583   256F   ╯   Box Drawings Light Arc Up And Left
+   9584   2570   ╰   Box Drawings Light Arc Up And Right
+   9585   2571   ╱   Box Drawings Light Diagonal Upper Right To Lower Left
+   9586   2572   ╲   Box Drawings Light Diagonal Upper Left To Lower Right
+   9587   2573   ╳   Box Drawings Light Diagonal Cross
+   9588   2574   ╴   Box Drawings Light Left
+   9589   2575   ╵   Box Drawings Light Up
+   9590   2576   ╶   Box Drawings Light Right
+   9591   2577   ╷   Box Drawings Light Down
+   9592   2578   ╸   Box Drawings Heavy Left
+   9593   2579   ╹   Box Drawings Heavy Up
+   9594   257A   ╺   Box Drawings Heavy Right
+   9595   257B   ╻   Box Drawings Heavy Down
+   9596   257C   ╼   Box Drawings Light Left And Heavy Right
+   9597   257D   ╽   Box Drawings Light Up And Heavy Down
+   9598   257E   ╾   Box Drawings Heavy Left And Light Right
+   9599   257F   ╿   Box Drawings Heavy Up And Light Down
+   9600   2580   ▀   Upper Half Block
+   9601   2581   ▁   Lower One Eighth Block
+   9602   2582   ▂   Lower One Quarter Block
+   9603   2583   ▃   Lower Three Eighths Block
+   9604   2584   ▄   Lower Half Block
+   9605   2585   ▅   Lower Five Eighths Block
+   9606   2586   ▆   Lower Three Quarters Block
+   9607   2587   ▇   Lower Seven Eighths Block
+   9608   2588   █   Full Block
+   9609   2589   ▉   Left Seven Eighths Block
+   9610   258A   ▊   Left Three Quarters Block
+   9611   258B   ▋   Left Five Eighths Block
+   9612   258C   ▌   Left Half Block
+   9613   258D   ▍   Left Three Eighths Block
+   9614   258E   ▎   Left One Quarter Block
+   9615   258F   ▏   Left One Eighth Block
+   9616   2590   ▐   Right Half Block
+   9617   2591   ░   Light Shade
+   9618   2592   ▒   Medium Shade
+   9619   2593   ▓   Dark Shade
+   9620   2594   ▔   Upper One Eighth Block
+   9621   2595   ▕   Right One Eighth Block
+   9622   2596   ▖   Quadrant Lower Left
+   9623   2597   ▗   Quadrant Lower Right
+   9624   2598   ▘   Quadrant Upper Left
+   9625   2599   ▙   Quadrant Upper Left And Lower Left And Lower Right
+   9626   259A   ▚   Quadrant Upper Left And Lower Right
+   9627   259B   ▛   Quadrant Upper Left And Upper Right And Lower Left
+   9628   259C   ▜   Quadrant Upper Left And Upper Right And Lower Right
+   9629   259D   ▝   Quadrant Upper Right
+   9630   259E   ▞   Quadrant Upper Right And Lower Left
+   9631   259F   ▟   Quadrant Upper Right And Lower Left And Lower Right
+   9632   25A0   ■   Black Square
+   9633   25A1   □   White Square
+   9634   25A2   ▢   White Square With Rounded Corners
+   9635   25A3   ▣   White Square Containing Black Small Square
+   9636   25A4   ▤   Square With Horizontal Fill
+   9637   25A5   ▥   Square With Vertical Fill
+   9638   25A6   ▦   Square With Orthogonal Crosshatch Fill
+   9639   25A7   ▧   Square With Upper Left To Lower Right Fill
+   9640   25A8   ▨   Square With Upper Right To Lower Left Fill
+   9641   25A9   ▩   Square With Diagonal Crosshatch Fill
+   9642   25AA   ▪   Black Small Square
+   9643   25AB   ▫   White Small Square
+   9644   25AC   ▬   Black Rectangle
+   9645   25AD   ▭   White Rectangle
+   9646   25AE   ▮   Black Vertical Rectangle
+   9647   25AF   ▯   White Vertical Rectangle
+   9648   25B0   ▰   Black Parallelogram
+   9649   25B1   ▱   White Parallelogram
+   9650   25B2   ▲   Black Up-Pointing Triangle
+   9651   25B3   △   White Up-Pointing Triangle
+   9652   25B4   ▴   Black Up-Pointing Small Triangle
+   9653   25B5   ▵   White Up-Pointing Small Triangle
+   9654   25B6   ▶   Black Right-Pointing Triangle
+   9655   25B7   ▷   White Right-Pointing Triangle
+   9656   25B8   ▸   Black Right-Pointing Small Triangle
+   9657   25B9   ▹   White Right-Pointing Small Triangle
+   9658   25BA   ►   Black Right-Pointing Pointer
+   9659   25BB   ▻   White Right-Pointing Pointer
+   9660   25BC   ▼   Black Down-Pointing Triangle
+   9661   25BD   ▽   White Down-Pointing Triangle
+   9662   25BE   ▾   Black Down-Pointing Small Triangle
+   9663   25BF   ▿   White Down-Pointing Small Triangle
+   9664   25C0   ◀   Black Left-Pointing Triangle
+   9665   25C1   ◁   White Left-Pointing Triangle
+   9666   25C2   ◂   Black Left-Pointing Small Triangle
+   9667   25C3   ◃   White Left-Pointing Small Triangle
+   9668   25C4   ◄   Black Left-Pointing Pointer
+   9669   25C5   ◅   White Left-Pointing Pointer
+   9670   25C6   ◆   Black Diamond
+   9671   25C7   ◇   White Diamond
+   9672   25C8   ◈   White Diamond Containing Black Small Diamond
+   9673   25C9   ◉   Fisheye
+   9674   25CA   ◊   Lozenge
+   9675   25CB   ○   White Circle
+   9676   25CC   ◌   Dotted Circle
+   9677   25CD   ◍   Circle With Vertical Fill
+   9678   25CE   ◎   Bullseye
+   9679   25CF   ●   Black Circle
+   9680   25D0   ◐   Circle With Left Half Black
+   9681   25D1   ◑   Circle With Right Half Black
+   9682   25D2   ◒   Circle With Lower Half Black
+   9683   25D3   ◓   Circle With Upper Half Black
+   9684   25D4   ◔   Circle With Upper Right Quadrant Black
+   9685   25D5   ◕   Circle With All But Upper Left Quadrant Black
+   9686   25D6   ◖   Left Half Black Circle
+   9687   25D7   ◗   Right Half Black Circle
+   9688   25D8   ◘   Inverse Bullet
+   9689   25D9   ◙   Inverse White Circle
+   9690   25DA   ◚   Upper Half Inverse White Circle
+   9691   25DB   ◛   Lower Half Inverse White Circle
+   9692   25DC   ◜   Upper Left Quadrant Circular Arc
+   9693   25DD   ◝   Upper Right Quadrant Circular Arc
+   9694   25DE   ◞   Lower Right Quadrant Circular Arc
+   9695   25DF   ◟   Lower Left Quadrant Circular Arc
+   9696   25E0   ◠   Upper Half Circle
+   9697   25E1   ◡   Lower Half Circle
+   9698   25E2   ◢   Black Lower Right Triangle
+   9699   25E3   ◣   Black Lower Left Triangle
+   9700   25E4   ◤   Black Upper Left Triangle
+   9701   25E5   ◥   Black Upper Right Triangle
+   9702   25E6   ◦   White Bullet
+   9703   25E7   ◧   Square With Left Half Black
+   9704   25E8   ◨   Square With Right Half Black
+   9705   25E9   ◩   Square With Upper Left Diagonal Half Black
+   9706   25EA   ◪   Square With Lower Right Diagonal Half Black
+   9707   25EB   ◫   White Square With Vertical Bisecting Line
+   9708   25EC   ◬   White Up-Pointing Triangle With Dot
+   9709   25ED   ◭   Up-Pointing Triangle With Left Half Black
+   9710   25EE   ◮   Up-Pointing Triangle With Right Half Black
+   9711   25EF   ◯   Large Circle
+   9712   25F0   ◰   White Square With Upper Left Quadrant
+   9713   25F1   ◱   White Square With Lower Left Quadrant
+   9714   25F2   ◲   White Square With Lower Right Quadrant
+   9715   25F3   ◳   White Square With Upper Right Quadrant
+   9716   25F4   ◴   White Circle With Upper Left Quadrant
+   9717   25F5   ◵   White Circle With Lower Left Quadrant
+   9718   25F6   ◶   White Circle With Lower Right Quadrant
+   9719   25F7   ◷   White Circle With Upper Right Quadrant
+   9720   25F8   ◸   Upper Left Triangle
+   9721   25F9   ◹   Upper Right Triangle
+   9722   25FA   ◺   Lower Left Triangle
+   9723   25FB   ◻   White Medium Square
+   9724   25FC   ◼   Black Medium Square
+   9725   25FD   ◽   White Medium Small Square
+   9726   25FE   ◾   Black Medium Small Square
+   9727   25FF   ◿   Lower Right Triangle
+   9728   2600   ☀   Black Sun With Rays
+   9729   2601   ☁   Cloud
+   9730   2602   ☂   Umbrella
+   9731   2603   ☃   Snowman
+   9732   2604   ☄   Comet
+   9733   2605   ★   Black Star
+   9734   2606   ☆   White Star
+   9735   2607   ☇   Lightning
+   9736   2608   ☈   Thunderstorm
+   9737   2609   ☉   Sun
+   9738   260A   ☊   Ascending Node
+   9739   260B   ☋   Descending Node
+   9740   260C   ☌   Conjunction
+   9741   260D   ☍   Opposition
+   9742   260E   ☎   Black Telephone
+   9743   260F   ☏   White Telephone
+   9744   2610   ☐   Ballot Box
+   9745   2611   ☑   Ballot Box With Check
+   9746   2612   ☒   Ballot Box With X
+   9747   2613   ☓   Saltire
+   9748   2614   ☔   Umbrella With Rain Drops
+   9754   261A   ☚   Black Left Pointing Index
+   9755   261B   ☛   Black Right Pointing Index
+   9756   261C   ☜   White Left Pointing Index
+   9757   261D   ☝   White Up Pointing Index
+   9758   261E   ☞   White Right Pointing Index
+   9759   261F   ☟   White Down Pointing Index
+   9760   2620   ☠   Skull And Crossbones
+   9761   2621   ☡   Caution Sign
+   9762   2622   ☢   Radioactive Sign
+   9763   2623   ☣   Biohazard Sign
+   9764   2624   ☤   Caduceus
+   9765   2625   ☥   Ankh
+   9766   2626   ☦   Orthodox Cross
+   9767   2627   ☧   Chi Rho
+   9768   2628   ☨   Cross Of Lorraine
+   9769   2629   ☩   Cross Of Jerusalem
+   9770   262A   ☪   Star And Crescent
+   9771   262B   ☫   Farsi Symbol
+   9772   262C   ☬   Adi Shakti
+   9773   262D   ☭   Hammer And Sickle
+   9774   262E   ☮   Peace Symbol
+   9775   262F   ☯   Yin Yang
+   9776   2630   ☰   Trigram For Heaven
+   9777   2631   ☱   Trigram For Lake
+   9778   2632   ☲   Trigram For Fire
+   9779   2633   ☳   Trigram For Thunder
+   9780   2634   ☴   Trigram For Wind
+   9781   2635   ☵   Trigram For Water
+   9782   2636   ☶   Trigram For Mountain
+   9783   2637   ☷   Trigram For Earth
+   9784   2638   ☸   Wheel Of Dharma
+   9785   2639   ☹   White Frowning Face
+   9786   263A   ☺   White Smiling Face
+   9787   263B   ☻   Black Smiling Face
+   9788   263C   ☼   White Sun With Rays
+   9789   263D   ☽   First Quarter Moon
+   9790   263E   ☾   Last Quarter Moon
+   9791   263F   ☿   Mercury
+   9792   2640   ♀   Female Sign
+   9793   2641   ♁   Earth
+   9794   2642   ♂   Male Sign
+   9795   2643   ♃   Jupiter
+   9796   2644   ♄   Saturn
+   9797   2645   ♅   Uranus
+   9798   2646   ♆   Neptune
+   9799   2647   ♇   Pluto
+   9800   2648   ♈   Aries
+   9801   2649   ♉   Taurus
+   9802   264A   ♊   Gemini
+   9803   264B   ♋   Cancer
+   9804   264C   ♌   Leo
+   9805   264D   ♍   Virgo
+   9806   264E   ♎   Libra
+   9807   264F   ♏   Scorpius
+   9808   2650   ♐   Sagittarius
+   9809   2651   ♑   Capricorn
+   9810   2652   ♒   Aquarius
+   9811   2653   ♓   Pisces
+   9812   2654   ♔   White Chess King
+   9813   2655   ♕   White Chess Queen
+   9814   2656   ♖   White Chess Rook
+   9815   2657   ♗   White Chess Bishop
+   9816   2658   ♘   White Chess Knight
+   9817   2659   ♙   White Chess Pawn
+   9818   265A   ♚   Black Chess King
+   9819   265B   ♛   Black Chess Queen
+   9820   265C   ♜   Black Chess Rook
+   9821   265D   ♝   Black Chess Bishop
+   9822   265E   ♞   Black Chess Knight
+   9823   265F   ♟   Black Chess Pawn
+   9824   2660   ♠   Black Spade Suit
+   9825   2661   ♡   White Heart Suit
+   9826   2662   ♢   White Diamond Suit
+   9827   2663   ♣   Black Club Suit
+   9828   2664   ♤   White Spade Suit
+   9829   2665   ♥   Black Heart Suit
+   9830   2666   ♦   Black Diamond Suit
+   9831   2667   ♧   White Club Suit
+   9832   2668   ♨   Hot Springs
+   9833   2669   ♩   Quarter Note
+   9834   266A   ♪   Eighth Note
+   9835   266B   ♫   Beamed Eighth Notes
+   9836   266C   ♬   Beamed Sixteenth Notes
+   9837   266D   ♭   Music Flat Sign
+   9838   266E   ♮   Music Natural Sign
+   9839   266F   ♯   Music Sharp Sign
+   9856   2680   ⚀   Die Face-1
+   9857   2681   ⚁   Die Face-2
+   9858   2682   ⚂   Die Face-3
+   9859   2683   ⚃   Die Face-4
+   9860   2684   ⚄   Die Face-5
+   9861   2685   ⚅   Die Face-6
+   9985   2701   ✁   Upper Blade Scissors
+   9986   2702   ✂   Black Scissors
+   9987   2703   ✃   Lower Blade Scissors
+   9988   2704   ✄   White Scissors
+   9990   2706   ✆   Telephone Location Sign
+   9991   2707   ✇   Tape Drive
+   9992   2708   ✈   Airplane
+   9993   2709   ✉   Envelope
+   9996   270C   ✌   Victory Hand
+   9997   270D   ✍   Writing Hand
+   9998   270E   ✎   Lower Right Pencil
+   9999   270F   ✏   Pencil
+  10000   2710   ✐   Upper Right Pencil
+  10001   2711   ✑   White Nib
+  10002   2712   ✒   Black Nib
+  10003   2713   ✓   Check Mark
+  10004   2714   ✔   Heavy Check Mark
+  10005   2715   ✕   Multiplication X
+  10006   2716   ✖   Heavy Multiplication X
+  10007   2717   ✗   Ballot X
+  10008   2718   ✘   Heavy Ballot X
+  10009   2719   ✙   Outlined Greek Cross
+  10010   271A   ✚   Heavy Greek Cross
+  10011   271B   ✛   Open Centre Cross
+  10012   271C   ✜   Heavy Open Centre Cross
+  10013   271D   ✝   Latin Cross
+  10014   271E   ✞   Shadowed White Latin Cross
+  10015   271F   ✟   Outlined Latin Cross
+  10016   2720   ✠   Maltese Cross
+  10017   2721   ✡   Star Of David
+  10018   2722   ✢   Four Teardrop-Spoked Asterisk
+  10019   2723   ✣   Four Balloon-Spoked Asterisk
+  10020   2724   ✤   Heavy Four Balloon-Spoked Asterisk
+  10021   2725   ✥   Four Club-Spoked Asterisk
+  10022   2726   ✦   Black Four Pointed Star
+  10023   2727   ✧   White Four Pointed Star
+  10025   2729   ✩   Stress Outlined White Star
+  10026   272A   ✪   Circled White Star
+  10027   272B   ✫   Open Centre Black Star
+  10028   272C   ✬   Black Centre White Star
+  10029   272D   ✭   Outlined Black Star
+  10030   272E   ✮   Heavy Outlined Black Star
+  10031   272F   ✯   Pinwheel Star
+  10032   2730   ✰   Shadowed White Star
+  10033   2731   ✱   Heavy Asterisk
+  10034   2732   ✲   Open Centre Asterisk
+  10035   2733   ✳   Eight Spoked Asterisk
+  10036   2734   ✴   Eight Pointed Black Star
+  10037   2735   ✵   Eight Pointed Pinwheel Star
+  10038   2736   ✶   Six Pointed Black Star
+  10039   2737   ✷   Eight Pointed Rectilinear Black Star
+  10040   2738   ✸   Heavy Eight Pointed Rectilinear Black Star
+  10041   2739   ✹   Twelve Pointed Black Star
+  10042   273A   ✺   Sixteen Pointed Asterisk
+  10043   273B   ✻   Teardrop-Spoked Asterisk
+  10044   273C   ✼   Open Centre Teardrop-Spoked Asterisk
+  10045   273D   ✽   Heavy Teardrop-Spoked Asterisk
+  10046   273E   ✾   Six Petalled Black And White Florette
+  10047   273F   ✿   Black Florette
+  10048   2740   ❀   White Florette
+  10049   2741   ❁   Eight Petalled Outlined Black Florette
+  10050   2742   ❂   Circled Open Centre Eight Pointed Star
+  10051   2743   ❃   Heavy Teardrop-Spoked Pinwheel Asterisk
+  10052   2744   ❄   Snowflake
+  10053   2745   ❅   Tight Trifoliate Snowflake
+  10054   2746   ❆   Heavy Chevron Snowflake
+  10055   2747   ❇   Sparkle
+  10056   2748   ❈   Heavy Sparkle
+  10057   2749   ❉   Balloon-Spoked Asterisk
+  10058   274A   ❊   Eight Teardrop-Spoked Propeller Asterisk
+  10059   274B   ❋   Heavy Eight Teardrop-Spoked Propeller Asterisk
+  10061   274D   ❍   Shadowed White Circle
+  10063   274F   ❏   Lower Right Drop-Shadowed White Square
+  10064   2750   ❐   Upper Right Drop-Shadowed White Square
+  10065   2751   ❑   Lower Right Shadowed White Square
+  10066   2752   ❒   Upper Right Shadowed White Square
+  10070   2756   ❖   Black Diamond Minus White X
+  10072   2758   ❘   Light Vertical Bar
+  10073   2759   ❙   Medium Vertical Bar
+  10074   275A   ❚   Heavy Vertical Bar
+  10081   2761   ❡   Curved Stem Paragraph Sign Ornament
+  10084   2764   ❤   Heavy Black Heart
+  10085   2765   ❥   Rotated Heavy Black Heart Bullet
+  10086   2766   ❦   Floral Heart
+  10087   2767   ❧   Rotated Floral Heart Bullet
+  10102   2776   ❶   Dingbat Negative Circled Digit One
+  10103   2777   ❷   Dingbat Negative Circled Digit Two
+  10104   2778   ❸   Dingbat Negative Circled Digit Three
+  10105   2779   ❹   Dingbat Negative Circled Digit Four
+  10106   277A   ❺   Dingbat Negative Circled Digit Five
+  10107   277B   ❻   Dingbat Negative Circled Digit Six
+  10108   277C   ❼   Dingbat Negative Circled Digit Seven
+  10109   277D   ❽   Dingbat Negative Circled Digit Eight
+  10110   277E   ❾   Dingbat Negative Circled Digit Nine
+  10111   277F   ❿   Dingbat Negative Circled Number Ten
+  10112   2780   ➀   Dingbat Circled Sans-Serif Digit One
+  10113   2781   ➁   Dingbat Circled Sans-Serif Digit Two
+  10114   2782   ➂   Dingbat Circled Sans-Serif Digit Three
+  10115   2783   ➃   Dingbat Circled Sans-Serif Digit Four
+  10116   2784   ➄   Dingbat Circled Sans-Serif Digit Five
+  10117   2785   ➅   Dingbat Circled Sans-Serif Digit Six
+  10118   2786   ➆   Dingbat Circled Sans-Serif Digit Seven
+  10119   2787   ➇   Dingbat Circled Sans-Serif Digit Eight
+  10120   2788   ➈   Dingbat Circled Sans-Serif Digit Nine
+  10121   2789   ➉   Dingbat Circled Sans-Serif Number Ten
+  10122   278A   ➊   Dingbat Negative Circled Sans-Serif Digit One
+  10123   278B   ➋   Dingbat Negative Circled Sans-Serif Digit Two
+  10124   278C   ➌   Dingbat Negative Circled Sans-Serif Digit Three
+  10125   278D   ➍   Dingbat Negative Circled Sans-Serif Digit Four
+  10126   278E   ➎   Dingbat Negative Circled Sans-Serif Digit Five
+  10127   278F   ➏   Dingbat Negative Circled Sans-Serif Digit Six
+  10128   2790   ➐   Dingbat Negative Circled Sans-Serif Digit Seven
+  10129   2791   ➑   Dingbat Negative Circled Sans-Serif Digit Eight
+  10130   2792   ➒   Dingbat Negative Circled Sans-Serif Digit Nine
+  10131   2793   ➓   Dingbat Negative Circled Sans-Serif Number Ten
+  10132   2794   ➔   Heavy Wide-Headed Rightwards Arrow
+  10136   2798   ➘   Heavy South East Arrow
+  10137   2799   ➙   Heavy Rightwards Arrow
+  10138   279A   ➚   Heavy North East Arrow
+  10139   279B   ➛   Drafting Point Rightwards Arrow
+  10140   279C   ➜   Heavy Round-Tipped Rightwards Arrow
+  10141   279D   ➝   Triangle-Headed Rightwards Arrow
+  10142   279E   ➞   Heavy Triangle-Headed Rightwards Arrow
+  10143   279F   ➟   Dashed Triangle-Headed Rightwards Arrow
+  10144   27A0   ➠   Heavy Dashed Triangle-Headed Rightwards Arrow
+  10145   27A1   ➡   Black Rightwards Arrow
+  10146   27A2   ➢   Three-D Top-Lighted Rightwards Arrowhead
+  10147   27A3   ➣   Three-D Bottom-Lighted Rightwards Arrowhead
+  10148   27A4   ➤   Black Rightwards Arrowhead
+  10149   27A5   ➥   Heavy Black Curved Downwards And Rightwards Arrow
+  10150   27A6   ➦   Heavy Black Curved Upwards And Rightwards Arrow
+  10151   27A7   ➧   Squat Black Rightwards Arrow
+  10152   27A8   ➨   Heavy Concave-Pointed Black Rightwards Arrow
+  10153   27A9   ➩   Right-Shaded White Rightwards Arrow
+  10154   27AA   ➪   Left-Shaded White Rightwards Arrow
+  10155   27AB   ➫   Back-Tilted Shadowed White Rightwards Arrow
+  10156   27AC   ➬   Front-Tilted Shadowed White Rightwards Arrow
+  10157   27AD   ➭   Heavy Lower Right-Shadowed White Rightwards Arrow
+  10158   27AE   ➮   Heavy Upper Right-Shadowed White Rightwards Arrow
+  10159   27AF   ➯   Notched Lower Right-Shadowed White Rightwards Arrow
+  10161   27B1   ➱   Notched Upper Right-Shadowed White Rightwards Arrow
+  10162   27B2   ➲   Circled Heavy White Rightwards Arrow
+  10163   27B3   ➳   White-Feathered Rightwards Arrow
+  10164   27B4   ➴   Black-Feathered South East Arrow
+  10165   27B5   ➵   Black-Feathered Rightwards Arrow
+  10166   27B6   ➶   Black-Feathered North East Arrow
+  10167   27B7   ➷   Heavy Black-Feathered South East Arrow
+  10168   27B8   ➸   Heavy Black-Feathered Rightwards Arrow
+  10169   27B9   ➹   Heavy Black-Feathered North East Arrow
+  10170   27BA   ➺   Teardrop-Barbed Rightwards Arrow
+  10171   27BB   ➻   Heavy Teardrop-Shanked Rightwards Arrow
+  10172   27BC   ➼   Wedge-Tailed Rightwards Arrow
+  10173   27BD   ➽   Heavy Wedge-Tailed Rightwards Arrow
+  10174   27BE   ➾   Open-Outlined Rightwards Arrow
+  10176   27C0   ⟀   Three Dimensional Angle
+  10177   27C1   ⟁   White Triangle Containing Small White Triangle
+  10178   27C2   ⟂   Perpendicular
+  10179   27C3   ⟃   Open Subset
+  10180   27C4   ⟄   Open Superset
+  10181   27C5   ⟅   Left S-Shaped Bag Delimiter
+  10182   27C6   ⟆   Right S-Shaped Bag Delimiter
+  10183   27C7   ⟇   Or With Dot Inside
+  10184   27C8   ⟈   Reverse Solidus Preceding Subset
+  10185   27C9   ⟉   Superset Preceding Solidus
+  10186   27CA   ⟊   Vertical Bar With Horizontal Stroke
+  10188   27CC   ⟌   Long Division
+  10192   27D0   ⟐   White Diamond With Centred Dot
+  10193   27D1   ⟑   And With Dot
+  10194   27D2   ⟒   Element Of Opening Upwards
+  10195   27D3   ⟓   Lower Right Corner With Dot
+  10196   27D4   ⟔   Upper Left Corner With Dot
+  10197   27D5   ⟕   Left Outer Join
+  10198   27D6   ⟖   Right Outer Join
+  10199   27D7   ⟗   Full Outer Join
+  10212   27E4   ⟤   White Square With Leftwards Tick
+  10213   27E5   ⟥   White Square With Rightwards Tick
+  10214   27E6   ⟦   Mathematical Left White Square Bracket
+  10215   27E7   ⟧   Mathematical Right White Square Bracket
+  10216   27E8   ⟨   Mathematical Left Angle Bracket
+  10217   27E9   ⟩   Mathematical Right Angle Bracket
+  10218   27EA   ⟪   Mathematical Left Double Angle Bracket
+  10219   27EB   ⟫   Mathematical Right Double Angle Bracket
+  10226   27F2   ⟲   Anticlockwise Gapped Circle Arrow
+  10227   27F3   ⟳   Clockwise Gapped Circle Arrow
+  10229   27F5   ⟵   Long Leftwards Arrow
+  10230   27F6   ⟶   Long Rightwards Arrow
+  10231   27F7   ⟷   Long Left Right Arrow
+  10232   27F8   ⟸   Long Leftwards Double Arrow
+  10233   27F9   ⟹   Long Rightwards Double Arrow
+  10234   27FA   ⟺   Long Left Right Double Arrow
+  10235   27FB   ⟻   Long Leftwards Arrow From Bar
+  10236   27FC   ⟼   Long Rightwards Arrow From Bar
+  10240   2800   ⠀   Braille Pattern Blank
+  10241   2801   ⠁   Braille Pattern Dots-1
+  10242   2802   ⠂   Braille Pattern Dots-2
+  10243   2803   ⠃   Braille Pattern Dots-12
+  10244   2804   ⠄   Braille Pattern Dots-3
+  10245   2805   ⠅   Braille Pattern Dots-13
+  10246   2806   ⠆   Braille Pattern Dots-23
+  10247   2807   ⠇   Braille Pattern Dots-123
+  10248   2808   ⠈   Braille Pattern Dots-4
+  10249   2809   ⠉   Braille Pattern Dots-14
+  10250   280A   ⠊   Braille Pattern Dots-24
+  10251   280B   ⠋   Braille Pattern Dots-124
+  10252   280C   ⠌   Braille Pattern Dots-34
+  10253   280D   ⠍   Braille Pattern Dots-134
+  10254   280E   ⠎   Braille Pattern Dots-234
+  10255   280F   ⠏   Braille Pattern Dots-1234
+  10256   2810   ⠐   Braille Pattern Dots-5
+  10257   2811   ⠑   Braille Pattern Dots-15
+  10258   2812   ⠒   Braille Pattern Dots-25
+  10259   2813   ⠓   Braille Pattern Dots-125
+  10260   2814   ⠔   Braille Pattern Dots-35
+  10261   2815   ⠕   Braille Pattern Dots-135
+  10262   2816   ⠖   Braille Pattern Dots-235
+  10263   2817   ⠗   Braille Pattern Dots-1235
+  10264   2818   ⠘   Braille Pattern Dots-45
+  10265   2819   ⠙   Braille Pattern Dots-145
+  10266   281A   ⠚   Braille Pattern Dots-245
+  10267   281B   ⠛   Braille Pattern Dots-1245
+  10268   281C   ⠜   Braille Pattern Dots-345
+  10269   281D   ⠝   Braille Pattern Dots-1345
+  10270   281E   ⠞   Braille Pattern Dots-2345
+  10271   281F   ⠟   Braille Pattern Dots-12345
+  10272   2820   ⠠   Braille Pattern Dots-6
+  10273   2821   ⠡   Braille Pattern Dots-16
+  10274   2822   ⠢   Braille Pattern Dots-26
+  10275   2823   ⠣   Braille Pattern Dots-126
+  10276   2824   ⠤   Braille Pattern Dots-36
+  10277   2825   ⠥   Braille Pattern Dots-136
+  10278   2826   ⠦   Braille Pattern Dots-236
+  10279   2827   ⠧   Braille Pattern Dots-1236
+  10280   2828   ⠨   Braille Pattern Dots-46
+  10281   2829   ⠩   Braille Pattern Dots-146
+  10282   282A   ⠪   Braille Pattern Dots-246
+  10283   282B   ⠫   Braille Pattern Dots-1246
+  10284   282C   ⠬   Braille Pattern Dots-346
+  10285   282D   ⠭   Braille Pattern Dots-1346
+  10286   282E   ⠮   Braille Pattern Dots-2346
+  10287   282F   ⠯   Braille Pattern Dots-12346
+  10288   2830   ⠰   Braille Pattern Dots-56
+  10289   2831   ⠱   Braille Pattern Dots-156
+  10290   2832   ⠲   Braille Pattern Dots-256
+  10291   2833   ⠳   Braille Pattern Dots-1256
+  10292   2834   ⠴   Braille Pattern Dots-356
+  10293   2835   ⠵   Braille Pattern Dots-1356
+  10294   2836   ⠶   Braille Pattern Dots-2356
+  10295   2837   ⠷   Braille Pattern Dots-12356
+  10296   2838   ⠸   Braille Pattern Dots-456
+  10297   2839   ⠹   Braille Pattern Dots-1456
+  10298   283A   ⠺   Braille Pattern Dots-2456
+  10299   283B   ⠻   Braille Pattern Dots-12456
+  10300   283C   ⠼   Braille Pattern Dots-3456
+  10301   283D   ⠽   Braille Pattern Dots-13456
+  10302   283E   ⠾   Braille Pattern Dots-23456
+  10303   283F   ⠿   Braille Pattern Dots-123456
+  10304   2840   ⡀   Braille Pattern Dots-7
+  10305   2841   ⡁   Braille Pattern Dots-17
+  10306   2842   ⡂   Braille Pattern Dots-27
+  10307   2843   ⡃   Braille Pattern Dots-127
+  10308   2844   ⡄   Braille Pattern Dots-37
+  10309   2845   ⡅   Braille Pattern Dots-137
+  10310   2846   ⡆   Braille Pattern Dots-237
+  10311   2847   ⡇   Braille Pattern Dots-1237
+  10312   2848   ⡈   Braille Pattern Dots-47
+  10313   2849   ⡉   Braille Pattern Dots-147
+  10314   284A   ⡊   Braille Pattern Dots-247
+  10315   284B   ⡋   Braille Pattern Dots-1247
+  10316   284C   ⡌   Braille Pattern Dots-347
+  10317   284D   ⡍   Braille Pattern Dots-1347
+  10318   284E   ⡎   Braille Pattern Dots-2347
+  10319   284F   ⡏   Braille Pattern Dots-12347
+  10320   2850   ⡐   Braille Pattern Dots-57
+  10321   2851   ⡑   Braille Pattern Dots-157
+  10322   2852   ⡒   Braille Pattern Dots-257
+  10323   2853   ⡓   Braille Pattern Dots-1257
+  10324   2854   ⡔   Braille Pattern Dots-357
+  10325   2855   ⡕   Braille Pattern Dots-1357
+  10326   2856   ⡖   Braille Pattern Dots-2357
+  10327   2857   ⡗   Braille Pattern Dots-12357
+  10328   2858   ⡘   Braille Pattern Dots-457
+  10329   2859   ⡙   Braille Pattern Dots-1457
+  10330   285A   ⡚   Braille Pattern Dots-2457
+  10331   285B   ⡛   Braille Pattern Dots-12457
+  10332   285C   ⡜   Braille Pattern Dots-3457
+  10333   285D   ⡝   Braille Pattern Dots-13457
+  10334   285E   ⡞   Braille Pattern Dots-23457
+  10335   285F   ⡟   Braille Pattern Dots-123457
+  10336   2860   ⡠   Braille Pattern Dots-67
+  10337   2861   ⡡   Braille Pattern Dots-167
+  10338   2862   ⡢   Braille Pattern Dots-267
+  10339   2863   ⡣   Braille Pattern Dots-1267
+  10340   2864   ⡤   Braille Pattern Dots-367
+  10341   2865   ⡥   Braille Pattern Dots-1367
+  10342   2866   ⡦   Braille Pattern Dots-2367
+  10343   2867   ⡧   Braille Pattern Dots-12367
+  10344   2868   ⡨   Braille Pattern Dots-467
+  10345   2869   ⡩   Braille Pattern Dots-1467
+  10346   286A   ⡪   Braille Pattern Dots-2467
+  10347   286B   ⡫   Braille Pattern Dots-12467
+  10348   286C   ⡬   Braille Pattern Dots-3467
+  10349   286D   ⡭   Braille Pattern Dots-13467
+  10350   286E   ⡮   Braille Pattern Dots-23467
+  10351   286F   ⡯   Braille Pattern Dots-123467
+  10352   2870   ⡰   Braille Pattern Dots-567
+  10353   2871   ⡱   Braille Pattern Dots-1567
+  10354   2872   ⡲   Braille Pattern Dots-2567
+  10355   2873   ⡳   Braille Pattern Dots-12567
+  10356   2874   ⡴   Braille Pattern Dots-3567
+  10357   2875   ⡵   Braille Pattern Dots-13567
+  10358   2876   ⡶   Braille Pattern Dots-23567
+  10359   2877   ⡷   Braille Pattern Dots-123567
+  10360   2878   ⡸   Braille Pattern Dots-4567
+  10361   2879   ⡹   Braille Pattern Dots-14567
+  10362   287A   ⡺   Braille Pattern Dots-24567
+  10363   287B   ⡻   Braille Pattern Dots-124567
+  10364   287C   ⡼   Braille Pattern Dots-34567
+  10365   287D   ⡽   Braille Pattern Dots-134567
+  10366   287E   ⡾   Braille Pattern Dots-234567
+  10367   287F   ⡿   Braille Pattern Dots-1234567
+  10368   2880   ⢀   Braille Pattern Dots-8
+  10369   2881   ⢁   Braille Pattern Dots-18
+  10370   2882   ⢂   Braille Pattern Dots-28
+  10371   2883   ⢃   Braille Pattern Dots-128
+  10372   2884   ⢄   Braille Pattern Dots-38
+  10373   2885   ⢅   Braille Pattern Dots-138
+  10374   2886   ⢆   Braille Pattern Dots-238
+  10375   2887   ⢇   Braille Pattern Dots-1238
+  10376   2888   ⢈   Braille Pattern Dots-48
+  10377   2889   ⢉   Braille Pattern Dots-148
+  10378   288A   ⢊   Braille Pattern Dots-248
+  10379   288B   ⢋   Braille Pattern Dots-1248
+  10380   288C   ⢌   Braille Pattern Dots-348
+  10381   288D   ⢍   Braille Pattern Dots-1348
+  10382   288E   ⢎   Braille Pattern Dots-2348
+  10383   288F   ⢏   Braille Pattern Dots-12348
+  10384   2890   ⢐   Braille Pattern Dots-58
+  10385   2891   ⢑   Braille Pattern Dots-158
+  10386   2892   ⢒   Braille Pattern Dots-258
+  10387   2893   ⢓   Braille Pattern Dots-1258
+  10388   2894   ⢔   Braille Pattern Dots-358
+  10389   2895   ⢕   Braille Pattern Dots-1358
+  10390   2896   ⢖   Braille Pattern Dots-2358
+  10391   2897   ⢗   Braille Pattern Dots-12358
+  10392   2898   ⢘   Braille Pattern Dots-458
+  10393   2899   ⢙   Braille Pattern Dots-1458
+  10394   289A   ⢚   Braille Pattern Dots-2458
+  10395   289B   ⢛   Braille Pattern Dots-12458
+  10396   289C   ⢜   Braille Pattern Dots-3458
+  10397   289D   ⢝   Braille Pattern Dots-13458
+  10398   289E   ⢞   Braille Pattern Dots-23458
+  10399   289F   ⢟   Braille Pattern Dots-123458
+  10400   28A0   ⢠   Braille Pattern Dots-68
+  10401   28A1   ⢡   Braille Pattern Dots-168
+  10402   28A2   ⢢   Braille Pattern Dots-268
+  10403   28A3   ⢣   Braille Pattern Dots-1268
+  10404   28A4   ⢤   Braille Pattern Dots-368
+  10405   28A5   ⢥   Braille Pattern Dots-1368
+  10406   28A6   ⢦   Braille Pattern Dots-2368
+  10407   28A7   ⢧   Braille Pattern Dots-12368
+  10408   28A8   ⢨   Braille Pattern Dots-468
+  10409   28A9   ⢩   Braille Pattern Dots-1468
+  10410   28AA   ⢪   Braille Pattern Dots-2468
+  10411   28AB   ⢫   Braille Pattern Dots-12468
+  10412   28AC   ⢬   Braille Pattern Dots-3468
+  10413   28AD   ⢭   Braille Pattern Dots-13468
+  10414   28AE   ⢮   Braille Pattern Dots-23468
+  10415   28AF   ⢯   Braille Pattern Dots-123468
+  10416   28B0   ⢰   Braille Pattern Dots-568
+  10417   28B1   ⢱   Braille Pattern Dots-1568
+  10418   28B2   ⢲   Braille Pattern Dots-2568
+  10419   28B3   ⢳   Braille Pattern Dots-12568
+  10420   28B4   ⢴   Braille Pattern Dots-3568
+  10421   28B5   ⢵   Braille Pattern Dots-13568
+  10422   28B6   ⢶   Braille Pattern Dots-23568
+  10423   28B7   ⢷   Braille Pattern Dots-123568
+  10424   28B8   ⢸   Braille Pattern Dots-4568
+  10425   28B9   ⢹   Braille Pattern Dots-14568
+  10426   28BA   ⢺   Braille Pattern Dots-24568
+  10427   28BB   ⢻   Braille Pattern Dots-124568
+  10428   28BC   ⢼   Braille Pattern Dots-34568
+  10429   28BD   ⢽   Braille Pattern Dots-134568
+  10430   28BE   ⢾   Braille Pattern Dots-234568
+  10431   28BF   ⢿   Braille Pattern Dots-1234568
+  10432   28C0   ⣀   Braille Pattern Dots-78
+  10433   28C1   ⣁   Braille Pattern Dots-178
+  10434   28C2   ⣂   Braille Pattern Dots-278
+  10435   28C3   ⣃   Braille Pattern Dots-1278
+  10436   28C4   ⣄   Braille Pattern Dots-378
+  10437   28C5   ⣅   Braille Pattern Dots-1378
+  10438   28C6   ⣆   Braille Pattern Dots-2378
+  10439   28C7   ⣇   Braille Pattern Dots-12378
+  10440   28C8   ⣈   Braille Pattern Dots-478
+  10441   28C9   ⣉   Braille Pattern Dots-1478
+  10442   28CA   ⣊   Braille Pattern Dots-2478
+  10443   28CB   ⣋   Braille Pattern Dots-12478
+  10444   28CC   ⣌   Braille Pattern Dots-3478
+  10445   28CD   ⣍   Braille Pattern Dots-13478
+  10446   28CE   ⣎   Braille Pattern Dots-23478
+  10447   28CF   ⣏   Braille Pattern Dots-123478
+  10448   28D0   ⣐   Braille Pattern Dots-578
+  10449   28D1   ⣑   Braille Pattern Dots-1578
+  10450   28D2   ⣒   Braille Pattern Dots-2578
+  10451   28D3   ⣓   Braille Pattern Dots-12578
+  10452   28D4   ⣔   Braille Pattern Dots-3578
+  10453   28D5   ⣕   Braille Pattern Dots-13578
+  10454   28D6   ⣖   Braille Pattern Dots-23578
+  10455   28D7   ⣗   Braille Pattern Dots-123578
+  10456   28D8   ⣘   Braille Pattern Dots-4578
+  10457   28D9   ⣙   Braille Pattern Dots-14578
+  10458   28DA   ⣚   Braille Pattern Dots-24578
+  10459   28DB   ⣛   Braille Pattern Dots-124578
+  10460   28DC   ⣜   Braille Pattern Dots-34578
+  10461   28DD   ⣝   Braille Pattern Dots-134578
+  10462   28DE   ⣞   Braille Pattern Dots-234578
+  10463   28DF   ⣟   Braille Pattern Dots-1234578
+  10464   28E0   ⣠   Braille Pattern Dots-678
+  10465   28E1   ⣡   Braille Pattern Dots-1678
+  10466   28E2   ⣢   Braille Pattern Dots-2678
+  10467   28E3   ⣣   Braille Pattern Dots-12678
+  10468   28E4   ⣤   Braille Pattern Dots-3678
+  10469   28E5   ⣥   Braille Pattern Dots-13678
+  10470   28E6   ⣦   Braille Pattern Dots-23678
+  10471   28E7   ⣧   Braille Pattern Dots-123678
+  10472   28E8   ⣨   Braille Pattern Dots-4678
+  10473   28E9   ⣩   Braille Pattern Dots-14678
+  10474   28EA   ⣪   Braille Pattern Dots-24678
+  10475   28EB   ⣫   Braille Pattern Dots-124678
+  10476   28EC   ⣬   Braille Pattern Dots-34678
+  10477   28ED   ⣭   Braille Pattern Dots-134678
+  10478   28EE   ⣮   Braille Pattern Dots-234678
+  10479   28EF   ⣯   Braille Pattern Dots-1234678
+  10480   28F0   ⣰   Braille Pattern Dots-5678
+  10481   28F1   ⣱   Braille Pattern Dots-15678
+  10482   28F2   ⣲   Braille Pattern Dots-25678
+  10483   28F3   ⣳   Braille Pattern Dots-125678
+  10484   28F4   ⣴   Braille Pattern Dots-35678
+  10485   28F5   ⣵   Braille Pattern Dots-135678
+  10486   28F6   ⣶   Braille Pattern Dots-235678
+  10487   28F7   ⣷   Braille Pattern Dots-1235678
+  10488   28F8   ⣸   Braille Pattern Dots-45678
+  10489   28F9   ⣹   Braille Pattern Dots-145678
+  10490   28FA   ⣺   Braille Pattern Dots-245678
+  10491   28FB   ⣻   Braille Pattern Dots-1245678
+  10492   28FC   ⣼   Braille Pattern Dots-345678
+  10493   28FD   ⣽   Braille Pattern Dots-1345678
+  10494   28FE   ⣾   Braille Pattern Dots-2345678
+  10495   28FF   ⣿   Braille Pattern Dots-12345678
+  10752   2A00   ⨀   N-Ary Circled Dot Operator
+  10753   2A01   ⨁   N-Ary Circled Plus Operator
+  10754   2A02   ⨂   N-Ary Circled Times Operator
+  10755   2A03   ⨃   N-Ary Union Operator With Dot
+  10756   2A04   ⨄   N-Ary Union Operator With Plus
+  10757   2A05   ⨅   N-Ary Square Intersection Operator
+  10758   2A06   ⨆   N-Ary Square Union Operator
+  10781   2A1D   ⨝   Join
+  11008   2B00   ⬀   North East White Arrow
+  11009   2B01   ⬁   North West White Arrow
+  11010   2B02   ⬂   South East White Arrow
+  11011   2B03   ⬃   South West White Arrow
+  11012   2B04   ⬄   Left Right White Arrow
+  11013   2B05   ⬅   Leftwards Black Arrow
+  11014   2B06   ⬆   Upwards Black Arrow
+  11015   2B07   ⬇   Downwards Black Arrow
+  11016   2B08   ⬈   North East Black Arrow
+  11017   2B09   ⬉   North West Black Arrow
+  11018   2B0A   ⬊   South East Black Arrow
+  11019   2B0B   ⬋   South West Black Arrow
+  11020   2B0C   ⬌   Left Right Black Arrow
+  11021   2B0D   ⬍   Up Down Black Arrow
+  11026   2B12   ⬒   Square With Top Half Black
+  11027   2B13   ⬓   Square With Bottom Half Black
+  11028   2B14   ⬔   Square With Upper Right Diagonal Half Black
+  11029   2B15   ⬕   Square With Lower Left Diagonal Half Black
+  11030   2B16   ⬖   Diamond With Left Half Black
+  11031   2B17   ⬗   Diamond With Right Half Black
+  11032   2B18   ⬘   Diamond With Top Half Black
+  11033   2B19   ⬙   Diamond With Bottom Half Black
+  11035   2B1B   ⬛   Black Large Square
+  11036   2B1C   ⬜   White Large Square
+  11037   2B1D   ⬝   Black Very Small Square
+  11038   2B1E   ⬞   White Very Small Square
+  11039   2B1F   ⬟   Black Pentagon
+  11040   2B20   ⬠   White Pentagon
+  11041   2B21   ⬡   White Hexagon
+  11042   2B22   ⬢   Black Hexagon
+  11043   2B23   ⬣   Horizontal Black Hexagon
+  11044   2B24   ⬤   Black Large Circle
+  11045   2B25   ⬥   Black Medium Diamond
+  11046   2B26   ⬦   White Medium Diamond
+  11047   2B27   ⬧   Black Medium Lozenge
+  11048   2B28   ⬨   White Medium Lozenge
+  11049   2B29   ⬩   Black Small Diamond
+  11050   2B2A   ⬪   Black Small Lozenge
+  11051   2B2B   ⬫   White Small Lozenge
+  11091   2B53   ⭓   Black Right-Pointing Pentagon
+  11092   2B54   ⭔   White Right-Pointing Pentagon
+  11798   2E16   ⸖   Dotted Right-Pointing Angle
+  11799   2E17   ⸗   Double Oblique Hyphen
+  11800   2E18   ⸘   Inverted Interrobang
+  11802   2E1A   ⸚   Hyphen With Diaeresis
+  11803   2E1B   ⸛   Tilde With Ring Above
+  11806   2E1E   ⸞   Tilde With Dot Above
+  11807   2E1F   ⸟   Tilde With Dot Below
+  11816   2E28   ⸨   Left Double Parenthesis
+  11817   2E29   ⸩   Right Double Parenthesis
+  11818   2E2A   ⸪   Two Dots Over One Dot Punctuation
+  11819   2E2B   ⸫   One Dot Over Two Dots Punctuation
+  11820   2E2C   ⸬   Squared Four Dot Punctuation
+  11821   2E2D   ⸭   Five Dot Mark
+  11824   2E30   ⸰   Ring Point
+  12272   2FF0   ⿰   Ideographic Description Character Left To Right
+  12273   2FF1   ⿱   Ideographic Description Character Above To Below
+  12274   2FF2   ⿲   Ideographic Description Character Left To Middle And Right
+  12275   2FF3   ⿳   Ideographic Description Character Above To Middle And Below
+  12276   2FF4   ⿴   Ideographic Description Character Full Surround
+  12277   2FF5   ⿵   Ideographic Description Character Surround From Above
+  12278   2FF6   ⿶   Ideographic Description Character Surround From Below
+  12279   2FF7   ⿷   Ideographic Description Character Surround From Left
+  12280   2FF8   ⿸   Ideographic Description Character Surround From Upper Left
+  12281   2FF9   ⿹   Ideographic Description Character Surround From Upper Right
+  12282   2FFA   ⿺   Ideographic Description Character Surround From Lower Left
+  12283   2FFB   ⿻   Ideographic Description Character Overlaid
+  12295   3007   〇   Ideographic Number Zero
+  12296   3008   〈   Left Angle Bracket
+  12297   3009   〉   Right Angle Bracket
+  12298   300A   《   Left Double Angle Bracket
+  12299   300B   》   Right Double Angle Bracket
+  12300   300C   「   Left Corner Bracket
+  12301   300D   」   Right Corner Bracket
+  12302   300E   『   Left White Corner Bracket
+  12303   300F   』   Right White Corner Bracket
+  12304   3010   【   Left Black Lenticular Bracket
+  12305   3011   】   Right Black Lenticular Bracket
+  12306   3012   〒   Postal Mark
+  12307   3013   〓   Geta Mark
+  12308   3014   〔   Left Tortoise Shell Bracket
+  12309   3015   〕   Right Tortoise Shell Bracket
+  12310   3016   〖   Left White Lenticular Bracket
+  12311   3017   〗   Right White Lenticular Bracket
+  12312   3018   〘   Left White Tortoise Shell Bracket
+  12313   3019   〙   Right White Tortoise Shell Bracket
+  12314   301A   〚   Left White Square Bracket
+  12315   301B   〛   Right White Square Bracket
+  12316   301C   〜   Wave Dash
+  12350   303E   〾   Ideographic Variation Indicator
+  12881   3251   ㉑   Circled Number Twenty One
+  12882   3252   ㉒   Circled Number Twenty Two
+  12883   3253   ㉓   Circled Number Twenty Three
+  12884   3254   ㉔   Circled Number Twenty Four
+  12885   3255   ㉕   Circled Number Twenty Five
+  12886   3256   ㉖   Circled Number Twenty Six
+  12887   3257   ㉗   Circled Number Twenty Seven
+  12888   3258   ㉘   Circled Number Twenty Eight
+  12889   3259   ㉙   Circled Number Twenty Nine
+  12890   325A   ㉚   Circled Number Thirty
+  12891   325B   ㉛   Circled Number Thirty One
+  12892   325C   ㉜   Circled Number Thirty Two
+  12893   325D   ㉝   Circled Number Thirty Three
+  12894   325E   ㉞   Circled Number Thirty Four
+  12895   325F   ㉟   Circled Number Thirty Five
+  12977   32B1   ㊱   Circled Number Thirty Six
+  12978   32B2   ㊲   Circled Number Thirty Seven
+  12979   32B3   ㊳   Circled Number Thirty Eight
+  12980   32B4   ㊴   Circled Number Thirty Nine
+  12981   32B5   ㊵   Circled Number Forty
+  12982   32B6   ㊶   Circled Number Forty One
+  12983   32B7   ㊷   Circled Number Forty Two
+  12984   32B8   ㊸   Circled Number Forty Three
+  12985   32B9   ㊹   Circled Number Forty Four
+  12986   32BA   ㊺   Circled Number Forty Five
+  12987   32BB   ㊻   Circled Number Forty Six
+  12988   32BC   ㊼   Circled Number Forty Seven
+  12989   32BD   ㊽   Circled Number Forty Eight
+  12990   32BE   ㊾   Circled Number Forty Nine
+  12991   32BF   ㊿   Circled Number Fifty
+  13169   3371   ㍱   Square Hpa
+  13170   3372   ㍲   Square Da
+  13171   3373   ㍳   Square Au
+  13172   3374   ㍴   Square Bar
+  13173   3375   ㍵   Square Ov
+  13174   3376   ㍶   Square Pc
+  13184   3380   ㎀   Square Pa Amps
+  13185   3381   ㎁   Square Na
+  13186   3382   ㎂   Square Mu A
+  13187   3383   ㎃   Square Ma
+  13188   3384   ㎄   Square Ka
+  13189   3385   ㎅   Square Kb
+  13190   3386   ㎆   Square Mb
+  13191   3387   ㎇   Square Gb
+  13192   3388   ㎈   Square Cal
+  13193   3389   ㎉   Square Kcal
+  13194   338A   ㎊   Square Pf
+  13195   338B   ㎋   Square Nf
+  13196   338C   ㎌   Square Mu F
+  13197   338D   ㎍   Square Mu G
+  13198   338E   ㎎   Square Mg
+  13199   338F   ㎏   Square Kg
+  13200   3390   ㎐   Square Hz
+  13201   3391   ㎑   Square Khz
+  13202   3392   ㎒   Square Mhz
+  13203   3393   ㎓   Square Ghz
+  13204   3394   ㎔   Square Thz
+  13205   3395   ㎕   Square Mu L
+  13206   3396   ㎖   Square Ml
+  13207   3397   ㎗   Square Dl
+  13208   3398   ㎘   Square Kl
+  13209   3399   ㎙   Square Fm
+  13210   339A   ㎚   Square Nm
+  13211   339B   ㎛   Square Mu M
+  13212   339C   ㎜   Square Mm
+  13213   339D   ㎝   Square Cm
+  13214   339E   ㎞   Square Km
+  13215   339F   ㎟   Square Mm Squared
+  13216   33A0   ㎠   Square Cm Squared
+  13217   33A1   ㎡   Square M Squared
+  13218   33A2   ㎢   Square Km Squared
+  13219   33A3   ㎣   Square Mm Cubed
+  13220   33A4   ㎤   Square Cm Cubed
+  13221   33A5   ㎥   Square M Cubed
+  13222   33A6   ㎦   Square Km Cubed
+  13223   33A7   ㎧   Square M Over S
+  13224   33A8   ㎨   Square M Over S Squared
+  13225   33A9   ㎩   Square Pa
+  13226   33AA   ㎪   Square Kpa
+  13227   33AB   ㎫   Square Mpa
+  13228   33AC   ㎬   Square Gpa
+  13229   33AD   ㎭   Square Rad
+  13230   33AE   ㎮   Square Rad Over S
+  13231   33AF   ㎯   Square Rad Over S Squared
+  13232   33B0   ㎰   Square Ps
+  13233   33B1   ㎱   Square Ns
+  13234   33B2   ㎲   Square Mu S
+  13235   33B3   ㎳   Square Ms
+  13236   33B4   ㎴   Square Pv
+  13237   33B5   ㎵   Square Nv
+  13238   33B6   ㎶   Square Mu V
+  13239   33B7   ㎷   Square Mv
+  13240   33B8   ㎸   Square Kv
+  13241   33B9   ㎹   Square Mv Mega
+  13242   33BA   ㎺   Square Pw
+  13243   33BB   ㎻   Square Nw
+  13244   33BC   ㎼   Square Mu W
+  13245   33BD   ㎽   Square Mw
+  13246   33BE   ㎾   Square Kw
+  13247   33BF   ㎿   Square Mw Mega
+  13248   33C0   ㏀   Square K Ohm
+  13249   33C1   ㏁   Square M Ohm
+  13250   33C2   ㏂   Square Am
+  13251   33C3   ㏃   Square Bq
+  13252   33C4   ㏄   Square Cc
+  13253   33C5   ㏅   Square Cd
+  13254   33C6   ㏆   Square C Over Kg
+  13255   33C7   ㏇   Square Co
+  13256   33C8   ㏈   Square Db
+  13257   33C9   ㏉   Square Gy
+  13258   33CA   ㏊   Square Ha
+  13259   33CB   ㏋   Square Hp
+  13260   33CC   ㏌   Square In
+  13261   33CD   ㏍   Square Kk
+  13262   33CE   ㏎   Square Km Capital
+  13263   33CF   ㏏   Square Kt
+  13264   33D0   ㏐   Square Lm
+  13265   33D1   ㏑   Square Ln
+  13266   33D2   ㏒   Square Log
+  13267   33D3   ㏓   Square Lx
+  13268   33D4   ㏔   Square Mb Small
+  13269   33D5   ㏕   Square Mil
+  13270   33D6   ㏖   Square Mol
+  13271   33D7   ㏗   Square Ph
+  13272   33D8   ㏘   Square Pm
+  13273   33D9   ㏙   Square Ppm
+  13274   33DA   ㏚   Square Pr
+  13275   33DB   ㏛   Square Sr
+  13276   33DC   ㏜   Square Sv
+  13277   33DD   ㏝   Square Wb
