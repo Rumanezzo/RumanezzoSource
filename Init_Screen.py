@@ -1,13 +1,16 @@
 from os import system, get_terminal_size, environ
 
 from keyboard import read_event, KEY_DOWN
-from cursor import hide
+from cursor import hide, show
 
 
 def non_start_in_ide():
     if 'pycharm_hosted' in environ:
         print('Не надо запускать этот скрипт в Pycharm!')
-        exit()
+        show()
+        r = input('Если тем не менее хотите попробовать запустить нажмите введите ★yes★ на клавиатуре: ')
+        if r != 'yes':
+            exit()
 
 
 def set_mod(columns, lines):

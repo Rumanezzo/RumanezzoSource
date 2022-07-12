@@ -1,7 +1,7 @@
 ﻿import colorama
 from colorama import Fore, Back, Style
 
-from Init_Screen import key_pressed, system
+from Init_Screen import key_pressed, system, hide
 system('title просто играемся с модулем colorama')
 #  Запускаем либо в IDE, либо Start.cmd 'Colorama Demo.py'
 colorama.init()
@@ -17,7 +17,5 @@ print(Fore.WHITE + Back.LIGHTBLACK_EX + 'Белый текст и чернова
 print(Style.RESET_ALL)
 print('Теперь обычный текст на обычном фоне - для сравнения!')
 
-with open('Font.txt') as f:
-    source = f.read().split('\n')
-
+hide()
 key_pressed('Выходим, отработав по Shift', 'shift')

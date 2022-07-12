@@ -1,4 +1,4 @@
-from Init_Screen import system, key_pressed, hide
+from Init_Screen import system, key_pressed, hide, show
 from time import sleep
 from random import randint
 
@@ -6,9 +6,9 @@ game = True  # Пока истина - крутимся в главном цик
 
 system('title Игра - "Королевство Эйфория" - пробная версия!')
 gamer = input('Введите Ваше Имя, сир... -⟶ ')
-n_years = input(f'Сколько лет Вы, {gamer} намереваетесь править? -⟶ ')
-n_start = 1900
-n_current = n_start  # Текущий год - начинаем с 1900
+n_years = int(input(f'Сколько лет Вы, {gamer}, собираетесь править? -⟶ '))
+n_start = 1911
+n_current = n_start  # Текущий год - начинаем с 1911
 n = 1  # Считаем годы правления
 n_before_end = n_years  # Храним сколько лет осталось до заявленного конца
 
@@ -19,39 +19,43 @@ prise_of_land = 2
 def events_of_year():
     events_key = randint(1, 100)
     print(f'Вам выпало {events_key} событие и это пока не о чём...')
+    return events_key
 
 
 while game:
     system('cls')
-    print(f'{n_current}-й год вашего правления')
-    print(f'У Вас в распоряжении {square_land_all} гектаров земли')
+    print(f'На дворе {n_current}-й год')
+    print(f'Великодушный диктатор {gamer} правит {n}-й год')
+    print(f'У Вас в распоряжении {square_land_all} акров (приблизительно {0.4 * square_land_all} га) земли')
     hide()
-    question = f'Не хотите ли сбежать, не на своём {n} году правления? shift - да, ctrl - нет'
-
+    question = f'Хотите сбежать, на своём {n}-м году правления? ★Shift★ - нет, ★Ctrl★ - да'
     key = key_pressed(question, 'shift', 'ctrl')
-    if key == 'shift':
+
+    if key == 'ctrl':
         game = False
         continue
-
-    square_land_used = int(input('Сколько гектаров земли хотите засеять -⟶ '))
-    square_land_sold = int(input('Сколько земли хотите продать? -⟶ '))
+    show()
+    square_land_used = int(input('Сколько акров земли хотите засеять -⟶ '))
+    square_land_sold = int(input('Сколько акров земли хотите продать? -⟶ '))
     square_land_free = square_land_all - square_land_used - square_land_sold
 
     if square_land_free:
-        print(f'У вас осталось незадействованными -⟶ {square_land_free}')
+        print(f'У вас осталось незадействованными акров -⟶ {square_land_free} ')
 
-    print(f'Итак - вы засеяли {square_land_used} гектар, продали {square_land_sold} гектар земли')
+    print(f'Итак - вы засеяли {square_land_used} акров, продали {square_land_sold} акров земли')
 
-    print(f'Осталось незадействованными -⟶ {square_land_free} гектар')
     print('Сейчас у Вас больше нет никаких возможностей, поэтому запускаю цикл обработки событий за год...')
+    event = events_of_year()
+    print(f'Вам прилетело -⟶ {event}')
 
     hide()
     sleep(5)
-    system('cls')
+
     n_current += 1
     n_before_end -= 1
     n += 1
 
     print(f'Наступает следующий {n_current}-й год, Вам осталось править {n_before_end} лет...')
+    key_pressed('Нажмите ★Shift★ для продолжения', 'shift')
 
-key_pressed("Нажмите на ★Enter★ или ★Shift★ для завершения...", 'enter', 'shift')
+key_pressed("Нажмите на ★Enter★ для завершения...", 'enter')
