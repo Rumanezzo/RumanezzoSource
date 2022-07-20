@@ -4,10 +4,13 @@ from random import randint
 
 system('title Игра для двоих - имитация бросания кубика заданное количество раз!')
 w1, w2 = 0, 0
+counter_player1 = [0] * 6
+counter_player2 = [0] * 6
 
 # Ввод имён играющих
 player1 = input('Введите имя 1-го игрока -⟶ ')
 player2 = input('Введите имя 2-го игрока -⟶ ')
+
 n = int(input('Сколько партий играем? -⟶ '))
 hide()
 print('Готовимся к великому противостоянию...')
@@ -19,11 +22,13 @@ while n:
     # Моделирование бросания кубика 1-м игроком
     print('Кубик бросает', player1)
     n1 = randint(1, 6)
+    counter_player1[n1 - 1] += 1
     print('Выпало -⟶', n1)
 
     # Моделирование бросания кубика 2-м игроком
     print('Кубик бросает', player2)
     n2 = randint(1, 6)
+    counter_player2[n2 - 1] += 1
     print('Выпало ⟶', n2)
 
     # Определение результата (3 возможных варианта)
@@ -42,6 +47,9 @@ print('Подводим Итоги...')
 sleep(3)
 system('cls')
 print(f'Итоговый Счёт -⟶ {w1} ÷ {w2}')
+
+print(f'{player1} -⟶ {counter_player1}')
+print(f'{player2} -⟶ {counter_player2}')
 
 result = f'Победил {player1}' if w1 > w2 else f'Победил {player2}'
 if w1 == w2:

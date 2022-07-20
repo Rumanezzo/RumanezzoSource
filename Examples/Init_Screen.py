@@ -7,14 +7,16 @@ from cursor import hide, show
 def non_start_in_ide():
     if 'pycharm_hosted' in environ:
         print('Не надо запускать этот скрипт в Pycharm!')
-        exit()
+        show()
+        r = input('Если тем не менее хотите попробовать запустить нажмите введите ★yes★ на клавиатуре: ')
+        if r != 'yes':
+            exit()
 
 
 def set_mod(columns, lines):
-    cmd = 'mode ' + str(columns) + ',' + str(lines)
-    system(cmd)
-    cmd = 'title Запускаемся с использованием Init_Screen!'
-    system(cmd)
+    system('mode ' + str(columns) + ',' + str(lines))
+    system('title Запускаемся с использованием Init_Screen!')
+    system('cls')
 
 
 def key_pressed(prompt, *key_in):
@@ -82,14 +84,12 @@ def init_screen():
         coord_for_writing = str(x0) + ' ' + str(y0)
         f_scr.write(coord_for_writing)
 
-    f_scr.close()
     return x0, y0
 
 
 def main():
     hide()
     init_screen()
-    show()
     key_pressed('Для продолжения нажмите Shift!', 'shift')
 
 
