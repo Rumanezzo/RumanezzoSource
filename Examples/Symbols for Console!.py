@@ -1,11 +1,11 @@
 from Init_Screen import init_screen, key_pressed, hide, system
 
-width, height = init_screen()
+width0, height0 = init_screen()
 
 
-def demo(symbol_list, width_):
+def demo(symbol_list, width):
     for symbol in symbol_list:
-        print(symbol * width_)
+        print(symbol * width)
     key_pressed('Нажмите enter для продолжения', 'enter')
 
 
@@ -23,5 +23,5 @@ s = (('⎵', '☻', '☺', 'ᛥ', 'ᛰ', 'ᚸ', 'ᛝ', 'ᛟ', '◊', '▧', '▨
 
 hide()
 for symbol_list_ in s:
-    demo(symbol_list_, width)
+    demo(symbol_list_, width0)
     system('cls')
