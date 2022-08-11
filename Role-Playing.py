@@ -91,13 +91,13 @@ def enemy():
     return hp, power
 
 
-def attack(player: Player, enemy_hp, enemy_power):
+def attack(player: Player, enemy_hp, enemy_pw):
     r = randint(0, 3)
     if r == 1 or r == 0:
         enemy_hp -= (player.pw + player.pw * r)
         print("Вы наносите урон врагу!")
     else:
-        player.hp -= (enemy_power + enemy_power * (r - 2))
+        player.hp -= (enemy_pw + enemy_pw * (r - 2))
         print("Враг наносит урон Вам...")
         if player.hp < 0:
             print("Вы проиграли!...Но, возможно, ещё не всё потеряно...")
@@ -119,9 +119,9 @@ def healing(player: Player):
         player.hp = player.max_hp
 
 
-def battle_stage(player: Player, enemy_hp, enemy_power):
+def battle_stage(player: Player, enemy_hp, enemy_pw):
     system('cls')
-    print(f"Враг: Здоровье -> {enemy_hp} Сила -> {enemy_power}")
+    print(f"Враг: Здоровье -> {enemy_hp} Сила -> {enemy_pw}")
     print(f"{player.name}: Здоровье -> {player.hp} Сила -> {player.pw}")
     print()
     print(f"1. Бьём с силой -> {player.pw}")
@@ -130,7 +130,7 @@ def battle_stage(player: Player, enemy_hp, enemy_power):
     answer = input("Ваш выбор: ")
 
     if answer == "1":
-        enemy_hp = attack(player, enemy_hp, enemy_power)
+        enemy_hp = attack(player, enemy_hp, enemy_pw)
     elif answer == "2":
         healing(player)
     elif answer == "3":
@@ -145,10 +145,10 @@ def battle_stage(player: Player, enemy_hp, enemy_power):
 
 
 def menu_fight(player):
-    enemy_hp0, enemy_power0 = enemy()
+    enemy_hp0, enemy_pw0 = enemy()
 
     while enemy_hp0 > 0 and player.hp > 0 and player.status != 2:
-        enemy_hp0 = battle_stage(player, enemy_hp0, enemy_power0)
+        enemy_hp0 = battle_stage(player, enemy_hp0, enemy_pw0)
         system('pause')
         system('cls')
 
