@@ -9,9 +9,8 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-
-names = ('Лева ', 'Влад ', 'Дима ', 'Серж ', 'Настя', 'Дамир', 'Коля ', 'Дана ', 'Эрик ')
-
+version = 'v0.91'
+names = ('Лева⋅', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅')
 
 how_many_names = len(names)
 list_of_number = [str(x) for x in range(1, how_many_names + 1)]
@@ -19,7 +18,7 @@ list_of_number = [str(x) for x in range(1, how_many_names + 1)]
 rate = 1000  # стоимость академического часа
 
 
-class Record:
+class RecordLesson:
     def __init__(self, now_date=None, pupil=None, n_hours=2, cash=2000, was=0, paid=0):
         if now_date:
             self.now_date = now_date
@@ -33,9 +32,14 @@ class Record:
         self.was = was
         self.paid = paid
 
+    def __str__(self):
+        rec_for_writ = str(self.now_date) + ' ' + str(self.pupil) + ' ' + str(self.n_hours) + ' ' + str(
+            self.cash) + ' ' + str(self.was) + ' ' + str(self.paid)
+        return rec_for_writ
+
 
 if __name__ == "__main__":
-    system('title SimpleFinance - Бухгалтерия на Минималках v0.9 - ©Rumanezzo')
+    system(f'title SimpleFinance - Бухгалтерия на Минималках {version} - ©Rumanezzo')
 
     hide()
     file = 'SimpleFinance.txt'
@@ -53,9 +57,9 @@ if __name__ == "__main__":
         was0 = int(key_pressed('Занятие проведено? 1 - Да, 0 - Нет:', '0', '1'))
         paid0 = int(key_pressed('Занятие оплачено? 1 - Да, 0 - Нет:', '0', '1'))
 
-        new_record = Record(pupil=names[number - 1], was=was0, paid=paid0, n_hours=n_hours0, cash=cash0)
+        record = RecordLesson(pupil=names[number - 1], was=was0, paid=paid0, n_hours=n_hours0, cash=cash0)
         profit_counter = 0
-        prev_month = str(int(new_record.month[0]) - 1)
+        prev_month = str(int(record.month[0]) - 1)
         if len(prev_month) == 1:
             prev_month = '0' + prev_month
         try:
@@ -66,7 +70,7 @@ if __name__ == "__main__":
                     if record_list[0][2:4] == prev_month:
                         profit_counter += int(record_list[3])
                 print(f'В предыдущем месяце Вы заработали {profit_counter} р')
-                if record_list[0][2:4] != new_record.month[0]:
+                if record_list[0][2:4] != record.month[0]:
                     print('Начался Новый Месяц!')
                     with open('SimpleMonthFinance.txt', 'a') as fm:
                         fm.write(str(prev_month) + ' ' + str(profit_counter))
@@ -74,20 +78,17 @@ if __name__ == "__main__":
             print('Нет файла с записями об учениках!')
             exit(1)
 
-        record_for_writing = str(new_record.now_date) + ' ' + str(new_record.pupil) + ' ' + str(new_record.n_hours
-                                                                                                ) + ' ' + str(
-            new_record.cash) + ' ' + str(new_record.was) + ' ' + str(new_record.paid) + '\n'
         with open(file, 'a', encoding='utf-8') as f:
-            f.write(record_for_writing)
+            print(record, file=f)
 
         profit_counter = 0
         with open(file, 'r', encoding='utf-8') as f:
             for x in f:
                 record_list = x.split(' ')
-                if record_list[0][2:4] == new_record.month[0]:
+                if record_list[0][2:4] == record.month[0]:
                     profit_counter += int(record_list[3])
 
-        print(f'Накопленная Зарплата за {new_record.month[1]} -> {profit_counter} р')
+        print(f'Накопленная Зарплата за {record.month[1]} -> {profit_counter} р')
         #  print(new_record.__dict__)
         key = key_pressed('Еще один ученик?', '1', '0')
         system('cls')
