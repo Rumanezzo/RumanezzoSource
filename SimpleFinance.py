@@ -9,11 +9,11 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-version = 'v0.91'
-names = ('Лева⋅', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅')
+version = 'v0.92'
+names = ('Лева⋅', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор')
 
 how_many_names = len(names)
-list_of_number = [str(x) for x in range(1, how_many_names + 1)]
+list_of_number = [str(x) for x in range(how_many_names)]
 
 rate = 1000  # стоимость академического часа
 
@@ -33,9 +33,19 @@ class RecordLesson:
         self.paid = paid
 
     def __str__(self):
-        rec_for_writ = str(self.now_date) + ' ' + str(self.pupil) + ' ' + str(self.n_hours) + ' ' + str(
+        rec_for_write = str(self.now_date) + ' ' + str(self.pupil) + ' ' + str(self.n_hours) + ' ' + str(
             self.cash) + ' ' + str(self.was) + ' ' + str(self.paid)
-        return rec_for_writ
+        return rec_for_write
+
+
+class RecordMonth:
+    def __init__(self, year, month, month_profit):
+        self.year = year
+        self.month = month
+        self.month_profit = month_profit
+        print('Начался Новый Месяц!')
+        with open('SimpleMonthFinance.txt', 'a') as fm:
+            print(str(year) + str(month) + ' ' + str(month_profit), file=fm)
 
 
 if __name__ == "__main__":
@@ -45,19 +55,19 @@ if __name__ == "__main__":
     file = 'SimpleFinance.txt'
 
     while True:
-        now = datetime.now().strftime('%B %d-е, %Y год')
-        print(f'Сегодня {now}')
-        [print(f'{i + 1} -> {j}') for i, j in enumerate(names)]
+        now = datetime.now().strftime('%d-е, %B, %Y год')
+        print(f'{now}')
+        [print(f'{name} ⟶ {i}') for i, name in enumerate(names)]
         number = int(key_pressed('Вводите номер ученика:', *list_of_number))
-
-        print(f'●●●● {names[number - 1]} ●●●●')
+        cur_name = names[number]
+        print(f'●●●● {cur_name} ●●●●')
         n_hours0 = int(key_pressed('Сколько часов?', '1', '2'))
         print(f'●●●● {n_hours0} ак. ч. ●●●●')
         cash0 = rate * n_hours0
         was0 = int(key_pressed('Занятие проведено? 1 - Да, 0 - Нет:', '0', '1'))
         paid0 = int(key_pressed('Занятие оплачено? 1 - Да, 0 - Нет:', '0', '1'))
 
-        record = RecordLesson(pupil=names[number - 1], was=was0, paid=paid0, n_hours=n_hours0, cash=cash0)
+        record = RecordLesson(pupil=cur_name, was=was0, paid=paid0, n_hours=n_hours0, cash=cash0)
         profit_counter = 0
         prev_month = str(int(record.month[0]) - 1)
         if len(prev_month) == 1:
@@ -71,9 +81,8 @@ if __name__ == "__main__":
                         profit_counter += int(record_list[3])
                 print(f'В предыдущем месяце Вы заработали {profit_counter} р')
                 if record_list[0][2:4] != record.month[0]:
-                    print('Начался Новый Месяц!')
-                    with open('SimpleMonthFinance.txt', 'a') as fm:
-                        fm.write(str(prev_month) + ' ' + str(profit_counter))
+                    RecordMonth('22', prev_month, profit_counter)
+
         except FileNotFoundError:
             print('Нет файла с записями об учениках!')
             exit(1)
