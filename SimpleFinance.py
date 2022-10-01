@@ -10,10 +10,12 @@ setlocale(
     locale="Russian"
 )
 version = 'v0.92'
-names = ('Лева⋅', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор')
+names0 = ('Лева0', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор')
+names1 = ('Лева1',)
 
-how_many_names = len(names)
-list_of_number = [str(x) for x in range(how_many_names)]
+hm_names = (len(names0), len(names1))
+list_of_num0 = [str(x) for x in range(hm_names[0])]
+list_of_num1 = [str(x) for x in range(hm_names[1])]
 
 rate = 1000  # стоимость академического часа
 
@@ -57,8 +59,17 @@ if __name__ == "__main__":
     while True:
         now = datetime.now().strftime('%d-е, %B, %Y год')
         print(f'{now}')
+
+        names_selector = int(key_pressed('0-й или 1-й список? Вводи 0 или 1', '0', '1'))
+        if names_selector:
+            names = names1
+            list_of_num = list_of_num1
+        else:
+            names = names0
+            list_of_num = list_of_num0
+
         [print(f'{name} ⟶ {i}') for i, name in enumerate(names)]
-        number = int(key_pressed('Вводите номер ученика:', *list_of_number))
+        number = int(key_pressed('Вводите номер ученика:', *list_of_num))
         cur_name = names[number]
         print(f'●●●● {cur_name} ●●●●')
         n_hours0 = int(key_pressed('Сколько часов?', '1', '2'))

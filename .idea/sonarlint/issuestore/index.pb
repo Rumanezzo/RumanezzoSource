@@ -39,11 +39,9 @@ w
 G.idea/sonarlint/issuestore/1/b/1b6478829b1bc6e0d0f9587e4450ef6b123db0b2,1\0\1060138204008f49de2c6f1182b0ffb0071f9d12
 w
 G.idea/sonarlint/issuestore/d/b/db91b173189e826aa0847806c1e6137a387291c6,2\c\2cbf043d93487700c90767e2e7dc2073c0411790
-B
-SimpleFinance0.txt,1\1\11e2882d90a39903671d8699afcf715c4e3bd389
-F
-SimpleMonthFinance.txt,c\6\c6d7617cf7dce45c3dece19f0b588a26740a2642
 w
 G.idea/sonarlint/issuestore/7/7/7716471e0f133490280513617620ec6a25d47cae,8\8\880f4eeb35dafbbefe6edc285c1205f654100c2b
 w
 G.idea/sonarlint/issuestore/8/0/8078bf09110a1a281f23282fde828bd5d3e329d7,5\7\57b55e4a3c1cf58fc21d2cfb0dd3fe0f721b0abb
+B
+SimpleFinance_.txt,6\0\604be59f00d597331220c5b1699380569df35748
