@@ -9,7 +9,7 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-version = 'v0.92'
+version = 'v0.93'
 names0 = ('Лева0', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор')
 names1 = ('Лева1',)
 
