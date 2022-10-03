@@ -45,3 +45,5 @@ w
 G.idea/sonarlint/issuestore/8/0/8078bf09110a1a281f23282fde828bd5d3e329d7,5\7\57b55e4a3c1cf58fc21d2cfb0dd3fe0f721b0abb
 B
 SimpleFinance_.txt,6\0\604be59f00d597331220c5b1699380569df35748
+F
+SimpleMonthFinance.txt,c\6\c6d7617cf7dce45c3dece19f0b588a26740a2642
