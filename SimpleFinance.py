@@ -1,4 +1,4 @@
-# Запускаем в Терминале IDE: .\SimpleFinance.py
+# Для тестирования - запускаем в Терминале IDE: .\SimpleFinance.py
 from datetime import datetime
 from os import system
 from Init_Screen import key_pressed, hide
@@ -10,8 +10,10 @@ setlocale(
     locale="Russian"
 )
 version = 'v0.94'
-names = (('Лева0', 'Влад⋅', 'Дима⋅', 'Серж⋅', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор'),
-         ('Лева1',))
+names_selector = 0  # Флаг переключения между списками имён учеников
+
+names = (('Лева0', 'Влад⋅', 'Дима⋅', 'Серго', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор'),
+         ('Лева1', 'Снежа'))
 
 hm_names = (len(names[0]), len(names[1]))
 list_of_num = ([str(x) for x in range(hm_names[0])], [str(x) for x in range(hm_names[1])])
@@ -59,7 +61,6 @@ if __name__ == "__main__":
         now = datetime.now().strftime('%d-е, %B, %Y год')
         print(f'{now}')
 
-        names_selector = 0
         names_choice = names[names_selector]
 
         [print(f'{name} ⟶ {i}') for i, name in enumerate(names[names_selector])]
