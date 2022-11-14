@@ -9,14 +9,12 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-version = 'v0.94'
-names_selector = 0  # Флаг переключения между списками имён учеников
+version = 'v0.95'
 
-names = (('Лева0', 'Влад⋅', 'Дима⋅', 'Серго', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор'),
-         ('Лева1', 'Снежа', 'Слава'))
+names = ('Лева0', 'Влад⋅', 'Дима⋅', 'Серго', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор', 'Лева1', 'Слава')
 
-hm_names = (len(names[0]), len(names[1]))
-list_of_num = ([str(x) for x in range(hm_names[0])], [str(x) for x in range(hm_names[1])])
+hm_names = len(names)
+labels = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '-', '=', '+', '@', '*', '!', '$', '%', '^')
 
 rate = 1000  # стоимость академического часа
 
@@ -61,11 +59,13 @@ if __name__ == "__main__":
         now = datetime.now().strftime('%d-е, %B, %Y год')
         print(f'{now}')
 
-        names_choice = names[names_selector]
-
-        [print(f'{name} ⟶ {i}') for i, name in enumerate(names[names_selector])]
-        number = int(key_pressed('Вводите номер ученика:', *list_of_num[names_selector]))
-        cur_name = names[names_selector][number]
+        [print(f'{name} ⟶ {labels[i]}') for i, name in enumerate(names)]
+        num_str = key_pressed('Вводите номер ученика:', *labels)
+        if num_str in ('-', '=', '+', '@', '*', '!', '$', '%', '^'):
+            number = 10
+        else:
+            number = int(num_str)
+        cur_name = names[number]
         print(f'●●●● {cur_name} ●●●●')
         n_hours0 = int(key_pressed('Сколько часов?', '1', '2'))
         print(f'●●●● {n_hours0} ак. ч. ●●●●')

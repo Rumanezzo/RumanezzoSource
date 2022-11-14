@@ -1,7 +1,7 @@
 from os import chdir, getcwd, listdir, remove
 # Скрипт удаляет файла из каталога - Внимание!
 shift = 3
-chdir('d:/Programs/ScanKromsator/Tempsk/')
+chdir('d://Temp//1//')
 print(f'Текущая папочка -> {getcwd()}')
 dirs = listdir()
 print(f'Её содержимое -> {dirs}')

@@ -39,13 +39,9 @@ w
 G.idea/sonarlint/issuestore/7/7/7716471e0f133490280513617620ec6a25d47cae,8\8\880f4eeb35dafbbefe6edc285c1205f654100c2b
 w
 G.idea/sonarlint/issuestore/8/0/8078bf09110a1a281f23282fde828bd5d3e329d7,5\7\57b55e4a3c1cf58fc21d2cfb0dd3fe0f721b0abb
-B
-SimpleFinance_.txt,6\0\604be59f00d597331220c5b1699380569df35748
-F
-SimpleMonthFinance.txt,c\6\c6d7617cf7dce45c3dece19f0b588a26740a2642
-C
-Script for Books.py,2\c\2cc9d8da0daa006fc490b348edda69b55f9d1891
+?
+Role-Playing.py,3\7\37e09b7bd47cc657c1d06ee75e3d63a1f6a0a9fa
+>
+Init_Screen.py,5\b\5bf03ba1a48b0f92df9cba83bad0c3b0912bc62c
 G
 Symbols for Console!.py,2\b\2b6366af66187159f12925e0c7196606503c8024
-A
-SimpleFinance.txt,b\b\bb344d55068aacb03cf40a7d590f11856a54b48a
