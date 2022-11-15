@@ -9,9 +9,10 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-version = 'v0.95'
+version = 'v0.96'
 
-names = ('Лева0', 'Влад⋅', 'Дима⋅', 'Серго', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор', 'Лева1', 'Слава')
+names = ('Лева0', 'Влад⋅', 'Дима⋅', 'Серго', 'Настя', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Фёдор', 'Лева1',
+         'Слава', 'Даня⋅')
 
 hm_names = len(names)
 labels = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '-', '=', '+', '@', '*', '!', '$', '%', '^')
@@ -61,10 +62,7 @@ if __name__ == "__main__":
 
         [print(f'{name} ⟶ {labels[i]}') for i, name in enumerate(names)]
         num_str = key_pressed('Вводите номер ученика:', *labels)
-        if num_str in ('-', '=', '+', '@', '*', '!', '$', '%', '^'):
-            number = 10
-        else:
-            number = int(num_str)
+        number = labels.index(num_str)
         cur_name = names[number]
         print(f'●●●● {cur_name} ●●●●')
         n_hours0 = int(key_pressed('Сколько часов?', '1', '2'))
