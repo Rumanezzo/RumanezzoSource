@@ -1,33 +1,135 @@
 
 N
 Lutz - Working with Classes.py,1\b\1b6478829b1bc6e0d0f9587e4450ef6b123db0b2
-w
-G.idea/sonarlint/issuestore/6/b/6b55026baaf2cc3a5467310ca86e712b8ce56d9b,b\6\b6a017d5fff54251429152927561929668b243f9
 W
 '.idea/sonarlint/issuestore/index (2).pb,0\a\0ad79a459b62d32f54ea87f85b36e4869b2cc7b3
 D
 screen[dell+msi].txt,5\d\5db863583acfba9a37d8d3d3c5a95c617c317bc1
-w
-G.idea/sonarlint/issuestore/f/2/f2bbb0a9a6e30d1b6ea72fe9f8d38bcf4924d0f5,3\9\398693589c87eb2bc13c722f3c2dcd399e5e7f58
 B
 screen[lenovo].txt,f\d\fdba2e4fd4e7e54113caaec0e7f54441e7ec25bb
 @
 screen[x230].txt,e\b\eb0119f4800a5a0828a476f77573761cabd7350c
 w
-G.idea/sonarlint/issuestore/1/a/1a20f875779681f47f487583794d846462d37a2f,9\2\928410ff6037e57a84677fdecdb868f331b39dd1
-w
 G.idea/sonarlint/issuestore/1/b/1b6478829b1bc6e0d0f9587e4450ef6b123db0b2,1\0\1060138204008f49de2c6f1182b0ffb0071f9d12
-w
-G.idea/sonarlint/issuestore/d/b/db91b173189e826aa0847806c1e6137a387291c6,2\c\2cbf043d93487700c90767e2e7dc2073c0411790
-w
-G.idea/sonarlint/issuestore/7/7/7716471e0f133490280513617620ec6a25d47cae,8\8\880f4eeb35dafbbefe6edc285c1205f654100c2b
-w
-G.idea/sonarlint/issuestore/8/0/8078bf09110a1a281f23282fde828bd5d3e329d7,5\7\57b55e4a3c1cf58fc21d2cfb0dd3fe0f721b0abb
 G
 Symbols for Console!.py,2\b\2b6366af66187159f12925e0c7196606503c8024
 F
 SimpleMonthFinance.txt,c\6\c6d7617cf7dce45c3dece19f0b588a26740a2642
->
-Init_Screen.py,5\b\5bf03ba1a48b0f92df9cba83bad0c3b0912bc62c
+F
+DearPyGUI - Example.py,3\1\31572cd8935107a2620932487b341519fcf785a9
+<
+PyStart!.cmd,4\2\4252a54690952cefa3d4f73cefaa198419b54a76
+M
+Examples/32QubicGameRandom.py,5\c\5c9cd130355d78f036158e7963835bffbe0a2cd5
+O
+Examples/43Count_of_Maximums.py,a\a\aae5c920636f95e6d059dbc1061d019fe99a1b3f
+Z
+*Examples/55Current_Date_and_Time_output.py,f\8\f880e22877100eb5d33239b421fa6528c0ff9c94
+P
+ Examples/24List_Comprehension.py,0\1\01e8c578a50a91ed819648930fcc57b778ee5ca9
+X
+(Examples/27Odd_or_Even_Random_Numbers.py,0\3\03bc365f6b31cd685e0aad0a6d9bc634209a86ad
+O
+Examples/21DictionariesDemo!.py,b\a\ba441065c4a866ff7c26ad4347da7704dfce08a3
+R
+"Examples/05Hanoi_Tower_function.py,f\4\f41868e1ede7ea4ae8ecf5a6d4d1d8f34c0db9be
+a
+1Examples/19Shuffle_and_Concat_Lists_with_Words.py,c\3\c3585550dbcc4fff586b166f24d63e9f3bfba47b
+P
+ Examples/36GreatCommonDivisor.py,d\1\d12bf0a9579cea69c8caea0614355ce8074cc0ef
+Q
+!Examples/23Functions-and-Lists.py,b\2\b28dcaeeffeebdebd52e95da1a6069a286b57fcf
+O
+Examples/34Prime-number_Test.py,c\5\c561f69ca6ec5018b2b9e8d1b7f246446cf9d457
+R
+"Examples/48Array_Filling_3_ways.py,2\0\204f6b8234df376a8c88cdac45cdff3c4494c780
+b
+2Examples/47Addresses_Local_and_Global_Variables.py,b\d\bd08a80a9cf8c080dd6c499e3f667e2b00c7cd12
+N
+Examples/10Table_of_Product.py,2\8\281cc4d74caea20ee3964dcf00d23c82ae2ce187
+d
+4Examples/18Operations_with_Lists_with_Generators!.py,8\d\8d4c28455388586277ea562511673bb408986d6d
+R
+"Examples/16Function-in-Function.py,f\f\ff54bf3ea480525f7ccf3ca261fdcfe444209c9a
+e
+5Examples/44Three_simple_equal_executes_with_String.py,3\2\32afbe1fc0f84274bd303a72f9734aa43f57a716
+u
+EExamples/49Input_of_List_of_Numbers_and_Sorted_in_Functional_Style.py,3\3\33f947cedc4a20dba140b65b8edca55f68c42769
+[
++Examples/03First-Script_with_System_Data.py,d\9\d9158b6b7037eda098357826b74cc2af84d3775f
+W
+'Examples/29Print-Input-slicesStrings.py,8\5\854f069b4cbc71a8247ae3e1fe52ae240a9021ad
+K
+Examples/06Sum-Recursion.py,5\6\56e8c3c8c812adca6829e20c55221bd096de7e58
+N
+Examples/42Square_of_Circle.py,5\8\5847e87ce64e175b2f7affb26e02e37310938e4d
+h
+8Examples/54String_of_'Number_in_Round'_Symbols2_ways!.py,6\f\6f9de8e5d3c10044f953c61c4b217b1e14209cf1
+R
+"Examples/11Function_as_Argument.py,f\5\f57aa2945b8e816ab770e5641b2bfa76e1cd9b42
+K
+Examples/09Roman_Numbers.py,7\a\7a2925709e64f4ce026295ee53c0ca4b910391f8
+W
+'Examples/38RangesPrompts_and_Random!.py,6\b\6b07612def4118417f249403312712fcfb37a167
+P
+ Examples/22DictionariesOthers.py,c\7\c7fc4a8db033c6847860a1d1b813551499957a7f
+\
+,Examples/41GreatCommonDevisor_Python-like.py,1\d\1d4cefa837f2daa1bb364b7742564a9773346407
+N
+Examples/50Codes_of_Symbols.py,9\9\993381f0be788773d0700c7729dc02ba5847f5e7
+_
+/Examples/35Functional_Programming_Double_for.py,2\1\216725617100c707b27896c7191c60da597a7569
+X
+(Examples/53Function_returns_Function!.py,3\5\353e7bca1129c618f550234332001d3ff1fafb9e
+c
+3Examples/52Verify_dividing_of_products_of_digits.py,4\5\45189201935d381f6a8d45702c6aa79c2ac27e63
+O
+Examples/13Slices_of_Strings.py,8\e\8e5db4739f91d38a1363ac334e20a6160e922012
+N
+Examples/45Dictionary_Using.py,0\4\048c30a5cc2a00349e510a82ee978f41a9ca1e5b
+R
+"Examples/08Files_Read_and_Write.py,f\9\f9bd639ddf730049504bb878457d31a6920b81b5
+P
+ Examples/30Sum_with_F-strings.py,1\d\1dd4affb34518a19e75673f6cd912add4e05f9db
+U
+%Examples/46Args_and_Kwargs_Example.py,7\1\7129c6b87e479560d457decffa83ee3d63f116d1
+K
+Examples/33Figure-number.py,0\5\05432a661382e71a52a18d0e83db70f6157d1cf4
+S
+#Examples/12Differential-Equition.py,a\a\aa5df2c4b73f44799d5491fbb6b26e46bf67889e
+H
+Examples/40Decorators.py,f\4\f4f16fac5490e775502e8426966a4dc8151bd550
+Q
+!Examples/28Regular_Expressions.py,b\f\bf2eac478e4591f98688e0045a8426a9609a0007
+W
+'Examples/00Zen_of_Python_on_Russian!.py,e\4\e49039e75a08df52996507d4db0fb8415d2a6ca1
+S
+#Examples/25Input_with_Try-Except.py,c\1\c150173fc211e46eedd7250995d40915279cbde4
+W
+'Examples/14Recursion-EquitionSolving.py,7\2\72819ef50fb88159725a45eae91aebb6db44482c
+Q
+!Examples/07Two-Dimension_Lists.py,b\e\be8ea7f70d25c51275cac95eb92d4fba527a9364
+H
+Examples/20Sets-Using.py,0\9\09beca6d700b87c51764cf512c839c1377f07233
+C
+Examples/15Lotto.py,2\b\2b8fdf2815a0f7d8d2b35c0eb73956ab9bb5f3a6
+U
+%Examples/31Files-as-Working_Object.py,c\1\c1269d7ab8779425340351863034db65c65db3ed
+E
+Examples/PyStart!.cmd,5\f\5f238ee28273463b830551c61cd72ca7a4ee4fe3
+P
+ Examples/01Format_Experiments.py,2\2\22db0a8edc337374bb7cd4c9f32a36ff13a76260
+S
+#Examples/17Operations_with_Lists.py,e\0\e08e87daaac05aa3ea37b3fe84ac2a9db881b03b
+H
+Examples/04Forexample.py,1\2\12302db7ddb5b012a0adaf5496848e26ec8735a9
+Q
+!Examples/02All_and_Any_Methods.py,1\0\10fd140ca50bc4612cebc522f8ba3d30ab2f2a60
+J
+Examples/26Miscellenies.py,6\1\61d4b38ad6179592a2994e6b9649d78102f7beb5
+a
+1Examples/37Visualization_of_Quadratic_Equition.py,9\e\9e4f0ca34bc54d9e41d31e8ebfb3f62b557b0399
+?
+Script_Books.py,1\d\1d91d50c015dad42ea19a17cafb68d2778fb028d
 ?
 Role-Playing.py,3\7\37e09b7bd47cc657c1d06ee75e3d63a1f6a0a9fa
