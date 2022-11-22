@@ -128,10 +128,10 @@ J
 a
 1Examples/37Visualization_of_Quadratic_Equition.py,9\e\9e4f0ca34bc54d9e41d31e8ebfb3f62b557b0399
 ?
-Script_Books.py,1\d\1d91d50c015dad42ea19a17cafb68d2778fb028d
-?
 Role-Playing.py,3\7\37e09b7bd47cc657c1d06ee75e3d63a1f6a0a9fa
-F
-DearPyGUI - Example.py,3\1\31572cd8935107a2620932487b341519fcf785a9
 >
 Init_Screen.py,5\b\5bf03ba1a48b0f92df9cba83bad0c3b0912bc62c
+A
+SimpleFinance.txt,b\b\bb344d55068aacb03cf40a7d590f11856a54b48a
+F
+DearPyGUI - Example.py,3\1\31572cd8935107a2620932487b341519fcf785a9
