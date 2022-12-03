@@ -13,8 +13,6 @@ w
 G.idea/sonarlint/issuestore/1/b/1b6478829b1bc6e0d0f9587e4450ef6b123db0b2,1\0\1060138204008f49de2c6f1182b0ffb0071f9d12
 G
 Symbols for Console!.py,2\b\2b6366af66187159f12925e0c7196606503c8024
-F
-SimpleMonthFinance.txt,c\6\c6d7617cf7dce45c3dece19f0b588a26740a2642
 <
 PyStart!.cmd,4\2\4252a54690952cefa3d4f73cefaa198419b54a76
 M
@@ -99,8 +97,6 @@ H
 Examples/40Decorators.py,f\4\f4f16fac5490e775502e8426966a4dc8151bd550
 Q
 !Examples/28Regular_Expressions.py,b\f\bf2eac478e4591f98688e0045a8426a9609a0007
-W
-'Examples/00Zen_of_Python_on_Russian!.py,e\4\e49039e75a08df52996507d4db0fb8415d2a6ca1
 S
 #Examples/25Input_with_Try-Except.py,c\1\c150173fc211e46eedd7250995d40915279cbde4
 W
@@ -129,9 +125,5 @@ a
 1Examples/37Visualization_of_Quadratic_Equition.py,9\e\9e4f0ca34bc54d9e41d31e8ebfb3f62b557b0399
 ?
 Role-Playing.py,3\7\37e09b7bd47cc657c1d06ee75e3d63a1f6a0a9fa
->
-Init_Screen.py,5\b\5bf03ba1a48b0f92df9cba83bad0c3b0912bc62c
-A
-SimpleFinance.txt,b\b\bb344d55068aacb03cf40a7d590f11856a54b48a
-F
-DearPyGUI - Example.py,3\1\31572cd8935107a2620932487b341519fcf785a9
+?
+Script_Books.py,1\d\1d91d50c015dad42ea19a17cafb68d2778fb028d
