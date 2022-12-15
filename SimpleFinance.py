@@ -1,7 +1,7 @@
 # Для тестирования - запускаем в Терминале IDE: .\SimpleFinance.py
 from datetime import datetime
 from os import system
-from Init_Screen import key_pressed, hide
+from InitScreen import key_pressed, hide
 
 from locale import setlocale, LC_ALL
 

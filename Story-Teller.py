@@ -1,6 +1,6 @@
 import random
 from rich import print
-from Init_Screen import system, init_screen, hide, key_pressed
+from InitScreen import system, init_screen, hide, key_pressed
 
 system('title Составитель историй...')
 
