@@ -1,4 +1,4 @@
-from Init_Screen import hide, init_screen, key_pressed, system
+from InitScreen import hide, init_screen, key_pressed, system
 
 width0, height0 = init_screen()
 

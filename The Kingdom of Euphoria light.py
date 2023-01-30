@@ -1,4 +1,4 @@
-from Init_Screen import system, key_pressed, hide, show
+from InitScreen import system, key_pressed, hide, show
 from time import sleep
 from random import randint
 
