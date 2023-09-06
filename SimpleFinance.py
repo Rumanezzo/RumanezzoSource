@@ -11,9 +11,9 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-version = 'v0.991'
+version = 'v0.992'
 
-names = ('Лёва⋅', 'Влад⋅', 'Дима⋅', 'Серго', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Лёвик', 'Даня⋅', 'Алина')
+names = ('Лёва⋅', 'Влад⋅', 'Дима⋅', 'Серго', 'Дамир', 'Коля⋅', 'Дана⋅', 'Эрик⋅', 'Лёвик', 'Даня⋅', 'Алина', 'Свят⋅')
 
 hm_names = len(names)
 labels = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', '!', '@', '#', '$', '%', '^', '&', '*', '+',)
@@ -22,7 +22,7 @@ rate = 250  # стоимость тика - 7.5 минут реального в
 
 
 class RecordLesson:
-    def __init__(self, now_date=None, pupil=None, n_hours=2, cash=2000, was=0, paid=0):
+    def __init__(self, now_date=None, pupil=None, n_ticks=9, cash=2250, was=0, paid=0):
         if now_date:
             self.now_date = now_date
         else:
@@ -30,13 +30,13 @@ class RecordLesson:
 
         self.month = datetime.now().strftime('%m %B').split(' ')  # Список: Номер месяца - Название месяца
         self.pupil = pupil
-        self.n_hours = n_hours
+        self.n_ticks = n_ticks
         self.cash = cash
         self.was = was
         self.paid = paid
 
     def __str__(self):
-        rec_for_write = str(self.now_date) + ' ' + str(self.pupil) + ' ' + str(self.n_hours) + ' ' + str(
+        rec_for_write = str(self.now_date) + ' ' + str(self.pupil) + ' ' + str(self.n_ticks) + ' ' + str(
             self.cash) + ' ' + str(self.was) + ' ' + str(self.paid)
         return rec_for_write
 
@@ -65,13 +65,16 @@ if __name__ == "__main__":
         number = labels.index(num_str)
         cur_name = names[number]
         print(f'●●●● {cur_name} ●●●●')
-        n_hours0 = int(key_pressed('Сколько тиков?', '4', '6', '8', '9', '10'))
-        print(f'●●●● {n_hours0} тиков ●●●●')
-        cash0 = rate * n_hours0
+        n_ticks0 = int(key_pressed('Сколько тиков?', '4', '5', '6', '8', '9', '0'))
+        if n_ticks0 == 0:
+            n_ticks0 = 10
+        print(f'●●●● {n_ticks0} тиков ●●●●')
+        cash0 = rate * n_ticks0
         was0 = int(key_pressed('Занятие проведено? 1 - Да, 0 - Нет:', '0', '1'))
         paid0 = int(key_pressed('Занятие оплачено? 1 - Да, 0 - Нет:', '0', '1'))
-
-        record = RecordLesson(pupil=cur_name, was=was0, paid=paid0, n_hours=n_hours0, cash=cash0)
+        if n_ticks0 == 10:
+            n_ticks0 = 0
+        record = RecordLesson(pupil=cur_name, was=was0, paid=paid0, n_ticks=n_ticks0, cash=cash0)
         print(record)
         profit_counter = 0
         n_month = int(record.month[0])
@@ -105,7 +108,19 @@ if __name__ == "__main__":
 
         print(f'Накопленная Зарплата за {record.month[1]} -> {profit_counter} р')
         #  print(new_record.__dict__)
-        key = key_pressed('Еще один ученик?', '1', '0')
+        key = key_pressed('Еще один ученик?', '2', '1', '0')
         system('cls')
-        if key == '0':
+
+        if key == '2':
+            profit_counter = 0
+            with open(file, 'r', encoding='utf-8') as f:
+                for x in f:
+                    record_list = x.split(' ')
+                    profit_counter += int(record_list[3])
+            print(f'Накопленная Зарплата за весь год -> {profit_counter} р')
+            key = key_pressed('Выходим?', '2', '1', '0')
+            if key == '1':
+                exit()
+
+        elif key == '0':
             exit()
