@@ -11,12 +11,12 @@ setlocale(
     category=LC_ALL,
     locale="Russian"
 )
-version = 'v0.992'
+version = 'v0.993'
 
-names = ('Влад⋅', 'Коля⋅', 'Дана⋅', 'Даня⋅', 'Свят⋅', 'Ника⋅', 'Альфа')
+names = ('Влад⋅', 'Коля⋅', 'Дана⋅', 'Даня⋅', 'Свят⋅', 'Ника⋅')
 
 hm_names = len(names)
-labels = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', '!', '@', '#', '$', '%', '^', '&', '*', '+',)
+labels = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '-', '=', '!', '@', '#', '$', '%', '^', '&', '*', '+',)
 
 rate = 250  # Стоимость "тика" (7.5 минут реального времени - 6 тиков = 1 ак.ч.) 5 тиков - 1250р, 9 тиков - 2250р
 
@@ -54,14 +54,15 @@ class RecordMonth:
 if __name__ == "__main__":
 
     hide()
+    start = True
     file = 'SimpleFinance.txt'
+    [print(f'{name} ⟶ {labels[i]}') for i, name in enumerate(names)]
+    num_str = key_pressed('Вводите номер ученика:', *labels)
 
-    while True:
+    while start:
         now = datetime.now().strftime('%d-е, %B, %Y год')
         system(f'title {now} - SimpleFinance - Бухгалтерия на Минималках {version} - ©Rumanezzo')
 
-        [print(f'{name} ⟶ {labels[i]}') for i, name in enumerate(names)]
-        num_str = key_pressed('Вводите номер ученика:', *labels)
         number = labels.index(num_str)
         cur_name = names[number]
         print(f'●●●● {cur_name} ●●●●')
@@ -108,19 +109,19 @@ if __name__ == "__main__":
 
         print(f'Накопленная Зарплата за {record.month[1]} -> {profit_counter} р')
         #  print(new_record.__dict__)
-        key = key_pressed('Еще один ученик?', '2', '1', '0')
-        system('cls')
+        num_str = key_pressed('Еще один ученик? номер или 0 для выхода', 'r', *labels, '0')
+        #  system('cls')
 
-        if key == '2':
+        if num_str == 'r':
             profit_counter = 0
             with open(file, 'r', encoding='utf-8') as f:
                 for x in f:
                     record_list = x.split(' ')
                     profit_counter += int(record_list[3])
             print(f'Накопленная Зарплата за весь год -> {profit_counter} р')
-            key = key_pressed('Выходим?', '2', '1', '0')
+            key = key_pressed('Выходим?', '1', '0')
             if key == '1':
                 exit()
 
-        elif key == '0':
+        elif num_str == '0':
             exit()
