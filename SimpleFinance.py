@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
         print(f'Накопленная Зарплата за {record.month[1]} -> {profit_counter} р')
         #  print(new_record.__dict__)
-        num_str = key_pressed('Еще один ученик? номер или 0 для выхода', 'r', *labels, '0')
+        num_str = key_pressed('Еще один ученик? ... или 0 для выхода', 'r', *labels, '0')
         #  system('cls')
 
         if num_str == 'r':
