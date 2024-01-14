@@ -43,7 +43,11 @@ while True:
     print("Он ответил:", choice(mSays))
     print("В итоге -", choice(consequence))
     print("Таинственный голос произнёс:", choice(worldSaid))
-    prompt = "♦Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста!!!♦"
+    prompt = (
+"""
+Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста!!!
+------------------------------------------------------------------------------------
+""")
     key = key_pressed(prompt, 'shift', 'enter')
     if key == 'shift':
         break

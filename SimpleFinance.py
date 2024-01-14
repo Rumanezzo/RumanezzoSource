@@ -52,7 +52,8 @@ class RecordMonth:
 
 
 if __name__ == "__main__":
-
+    now = datetime.now().strftime('%d-е, %B, %Y год')
+    system(f'title {now} - SimpleFinance - Бухгалтерия на Минималках {version} - ©Rumanezzo')
     hide()
     start = True
     file = 'SimpleFinance.txt'
@@ -60,9 +61,6 @@ if __name__ == "__main__":
     num_str = key_pressed('Вводите номер ученика:', *labels)
 
     while start:
-        now = datetime.now().strftime('%d-е, %B, %Y год')
-        system(f'title {now} - SimpleFinance - Бухгалтерия на Минималках {version} - ©Rumanezzo')
-
         number = labels.index(num_str)
         cur_name = names[number]
         print(f'●●●● {cur_name} ●●●●')
@@ -79,7 +77,7 @@ if __name__ == "__main__":
         print(record)
         profit_counter = 0
         n_month = int(record.month[0])
-        prev_month = str(n_month - 1) if n_month > 1 else 12
+        prev_month = str(n_month - 1) if n_month > 1 else '12'
         if len(prev_month) == 1:
             prev_month = '0' + prev_month
         try:
