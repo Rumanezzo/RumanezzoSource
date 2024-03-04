@@ -37,14 +37,13 @@ hide()
 
 while True:
     print(choice(emo1), choice(woman), "встретила", choice(emo2), choice(man), choice(place))
-    print("На ней было что-то одето, кажется ↣", choice(sheWore))
+    print("На ней было что-то одето, кажется -", choice(sheWore))
     print("На нём же -", choice(heWore))
     print("Она сказала:", choice(wSays))
     print("Он ответил:", choice(mSays))
     print("В итоге -", choice(consequence))
     print("Таинственный голос произнёс:", choice(worldSaid))
-    prompt = (
-"""
+    prompt = ("""
 Нажмите на Enter, чтобы попробовать снова! или Shift чтобы закончить пробы текста!!!
 ------------------------------------------------------------------------------------
 """)
