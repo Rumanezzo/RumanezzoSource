@@ -15,8 +15,6 @@ F
 Role-Playing.py,3\7\37e09b7bd47cc657c1d06ee75e3d63a1f6a0a9fa
 @
 Pseudo-Fermat.py,5\4\54223c29dc5eec0c0b95261d0e6cfdb5a7eed17f
-<
-PyStart!.cmd,4\2\4252a54690952cefa3d4f73cefaa198419b54a76
 C
 CountUniqueNames.py,a\b\abdf1f3661aad4a3188333381c1b7b42d1090add
 E
@@ -36,8 +34,6 @@ A
 SimpleFinance.txt,b\b\bb344d55068aacb03cf40a7d590f11856a54b48a
 <
 Factorial.py,5\8\584a60fc54c45b84a508b483b25504490fae2f9b
-<
-PyStart!.txt,b\5\b59cd38fd4db070d154114c74f54b4c19a47d719
 N
 Lutz - Working with Classes.py,1\b\1b6478829b1bc6e0d0f9587e4450ef6b123db0b2
 ?
@@ -73,8 +69,6 @@ G.idea/sonarlint/issuestore/b/a/ba2f10b669d5273355fc24d8fd6757a3d22f1a33,f\2\f2
 
 Q.idea/sonarlint/securityhotspotstore/5/8/58a535e79b70b7ec4ee5b78b460e0c9841af05b9,8\b\8bc3baccbc9e346af9f8cc26d6e7f739c0c5dd81
 
-Q.idea/sonarlint/securityhotspotstore/9/1/91f31dcb4cccd9a86a50a166b080157bbfad07bd,3\3\33019442631eb172c44677b39e8bc4573fee4cd8
-
 Q.idea/sonarlint/securityhotspotstore/0/5/05fe093c689fae9c31a114067f9bfb362b096412,0\0\0026ff4e81aa94b96eaf5ed82aad08767923374c
 w
 G.idea/sonarlint/issuestore/8/c/8cad6ed924a37ca8cb12624c2616d209b2558eed,7\1\71f0bb962b3d582cc484fb9f13a98ae0daf6d79a
@@ -92,8 +86,6 @@ Q.idea/sonarlint/securityhotspotstore/8/c/8cad6ed924a37ca8cb12624c2616d209b2558e
 Q.idea/sonarlint/securityhotspotstore/4/d/4dab3cdc6857f7461cc5a1a8b3f95c1eeda2e3cf,d\8\d80d7f391f58e26b696500bddae81feb1469f774
 
 Q.idea/sonarlint/securityhotspotstore/4/9/496a238a6afa168dbaf6efd37bb459331589579c,b\0\b0bb0a26d88d16d2e82502fe47e034e248a527a2
-w
-G.idea/sonarlint/issuestore/9/1/91f31dcb4cccd9a86a50a166b080157bbfad07bd,f\7\f7b86677c05a8ed7f4d4d66c84c5a463017b2468
 8
 Gamer.py,9\4\948dc20fd419984d3ec2fa122a06709d093c72e6
 w
@@ -111,10 +103,6 @@ G.idea/sonarlint/issuestore/e/0/e0e2794188bbeff11ced07ca385267f5c4d09671,6\7\67
 :
 
 Minibot.py,8\0\800b1cfe35d7fd18face29aea7f062070da7ff91
-4
-3.py,3\b\3b60e8123b41304e13aeaf23fb12724d3c636a45
-4
-4.py,7\7\7706313649e84fa963aed7f297db26d6c93b1198
 
 Q.idea/sonarlint/securityhotspotstore/e/0/e0e2794188bbeff11ced07ca385267f5c4d09671,2\2\22da3837b6a407551daaa5e6404e9a84cfc1b2c6
 ;
@@ -139,8 +127,6 @@ G.idea/sonarlint/issuestore/c/f/cf5da225470cbfa63fd97a8c0df7d0b000308a5f,4\1\41
 Q.idea/sonarlint/securityhotspotstore/f/2/f276f18141f6fa0b2254169a24bccfd184ffaa56,a\6\a6f25c59b986f7f491e039625433fe0bbd58d506
 w
 G.idea/sonarlint/issuestore/9/d/9de0257025f6af727539baaf3d7b715306d62966,8\a\8ad8f0635497af81d6b3ae1f42b4f5d277a8a8ea
-
-Q.idea/sonarlint/securityhotspotstore/f/7/f7b86677c05a8ed7f4d4d66c84c5a463017b2468,c\7\c7e2d21a3ade195681ccfc128085e67282bfc269
 w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f\0\f0e0f9cec86fe4b939ae22be5264c758801eb28f
 
@@ -181,8 +167,6 @@ G.idea/sonarlint/issuestore/a/b/abdf1f3661aad4a3188333381c1b7b42d1090add,6\2\62
 Q.idea/sonarlint/securityhotspotstore/8/b/8bc3baccbc9e346af9f8cc26d6e7f739c0c5dd81,b\c\bc4e4a1bfbf5cb65749f6f675ed719ff2f173797
 w
 G.idea/sonarlint/issuestore/6/f/6fabb52060a2791a669b0fb48165725d3a5cce42,f\7\f78864f0c8f510c28608e059310898f061e63af3
-
-Q.idea/sonarlint/securityhotspotstore/3/3/33019442631eb172c44677b39e8bc4573fee4cd8,c\f\cf74efc3275c62497adb5a2f38da188df1fd9964
 w
 G.idea/sonarlint/issuestore/d/8/d80d7f391f58e26b696500bddae81feb1469f774,e\8\e8ac54065b8fa65b63e87766836797da4460b53e
 
@@ -211,8 +195,6 @@ w
 G.idea/sonarlint/issuestore/f/2/f276f18141f6fa0b2254169a24bccfd184ffaa56,c\2\c253ec86d168b95d5dceaec4c2e704f0f6399921
 w
 G.idea/sonarlint/issuestore/f/3/f3e6eb0c37ff046345f9d17769c72be3a79f46ae,8\c\8c31162bd2a0470112dec8da074ac771b5e86ef8
-w
-G.idea/sonarlint/issuestore/f/7/f7b86677c05a8ed7f4d4d66c84c5a463017b2468,8\e\8e2edd26ffbc0e78b67d8be54165931b8d7dbf41
 
 Q.idea/sonarlint/securityhotspotstore/5/4/54223c29dc5eec0c0b95261d0e6cfdb5a7eed17f,3\c\3ceea15ab6101738a1be8bf83e0bded4c1c6ab34
 
@@ -240,8 +222,6 @@ Q.idea/sonarlint/securityhotspotstore/6/0/60f64d50c4b777dc055d9f97574bdbb97d3de7
 
 Q.idea/sonarlint/securityhotspotstore/6/2/624b9705e3f4ddcfac30068090c45b686bbc9993,c\4\c4cd19c14fa4a7988d0e68b31a5078515ea3b56e
 w
-G.idea/sonarlint/issuestore/3/3/33019442631eb172c44677b39e8bc4573fee4cd8,9\1\91ffd7d183cb2ab6de19faeccad50cdf235a766e
-w
 G.idea/sonarlint/issuestore/0/0/0026ff4e81aa94b96eaf5ed82aad08767923374c,3\a\3af8416d0d3469d6ec88a02e824624cf8f962f9a
 w
 G.idea/sonarlint/issuestore/3/7/37e09b7bd47cc657c1d06ee75e3d63a1f6a0a9fa,d\f\dfa3b13ddbf1559cb01fcc8165fa81c14374b1ab
@@ -258,3 +238,30 @@ Q.idea/sonarlint/securityhotspotstore/c/6/c6d7617cf7dce45c3dece19f0b588a26740a26
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+:
+
+TextRPG.py,c\7\c72d82797f7438df975e391d61cd05d4440efd56
+@
+ProductVisual.py,2\d\2da3aabad33fbe899487e1a55bb1487b3b7b1c40
+C
+QuadraticTesting.py,d\c\dcd48ca25c9b2645cf2af791c4ef4dc1b9dc31ed
+V
+&.ipynb_checkpoints/Gamer-checkpoint.py,d\6\d6f61edb31b2b659ef1caaaa4cdb9b1fb3d1580e
+
+Q.idea/sonarlint/securityhotspotstore/d/6/d6f61edb31b2b659ef1caaaa4cdb9b1fb3d1580e,b\8\b82cbeaff1b2bba2bf4a8f1ef11cd05a8f722066
+
+Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3\0\30205a209c6ce77c4cfc19a09e6f57c588b7fb88
+
+Q.idea/sonarlint/securityhotspotstore/2/d/2da3aabad33fbe899487e1a55bb1487b3b7b1c40,9\a\9a2eb7e07394397ce7a5841444e3a5d01f0c5f5b
+w
+G.idea/sonarlint/issuestore/d/c/dcd48ca25c9b2645cf2af791c4ef4dc1b9dc31ed,8\b\8bd4333116e6e211514ba9e27d9e1ca588c457c7
+w
+G.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,e\d\ed67eb178d523a4b3f117dcbe0eda5196367ceec
+
+Q.idea/sonarlint/securityhotspotstore/d/c/dcd48ca25c9b2645cf2af791c4ef4dc1b9dc31ed,6\d\6d91e5964e39bd53aba4bea12320ee0ecc8b1c1c
+w
+G.idea/sonarlint/issuestore/c/7/c72d82797f7438df975e391d61cd05d4440efd56,4\4\44714d5c7796e307f9035936a7d76a46d75653f0
+
+Q.idea/sonarlint/securityhotspotstore/c/7/c72d82797f7438df975e391d61cd05d4440efd56,3\2\32feae7f47d1bdf15aa4b40b918d92c2cde8a11f
+w
+G.idea/sonarlint/issuestore/d/6/d6f61edb31b2b659ef1caaaa4cdb9b1fb3d1580e,4\b\4b25f4e60728459749eafda11046b8abad7f098c
