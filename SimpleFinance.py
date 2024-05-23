@@ -2,10 +2,10 @@
 
 
 from datetime import datetime
-from os import system
-from InitScreen import key_pressed, hide
-
 from locale import setlocale, LC_ALL
+from os import system
+
+from InitScreen import key_pressed, hide
 
 setlocale(
     category=LC_ALL,
@@ -13,7 +13,7 @@ setlocale(
 )
 version = 'v0.993'
 
-names = ('Влад⋅', 'Коля⋅', 'Дана⋅', 'Даня⋅', 'Свят⋅', 'Ника⋅', 'Макс⋅', 'Серж⋅')
+names = ('Влад⋅', 'Коля⋅', 'Дана⋅', 'Даня⋅', 'Свят⋅', 'Ника⋅', 'Макс⋅', 'Серж⋅', 'Тоня⋅')
 
 hm_names = len(names)
 labels = ('1', '2', '3', '4', '5', '6', '7', '8', '9', '-', '=', '!', '@', '#', '$', '%', '^', '&', '*', '+',)
